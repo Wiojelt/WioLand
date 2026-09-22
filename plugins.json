@@ -1,0 +1,23 @@
+[
+  {
+    "name": "MegaWio",
+    "internalName": "MegaWio",
+    "pluginClassName": "wioland.WioLandPlugin",
+    "version": 1,
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/MegaWio.cs3",
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/icon.png",
+    "authors": [
+      "Wiojelt"
+    ],
+    "description": "WioLand Toplu Eklenti Yöneticisi: TurkSinema, TurkSpor, WioSinema, WioSpor ve PltStream depolarını CloudStream'e otomatik olarak ekler ve güncel tutar.",
+    "status": 1,
+    "language": "tr",
+    "tvTypes": [
+      "Others"
+    ],
+    "apiVersion": 1,
+    "fileSize": 8942,
+    "fileHash": "sha256-deca23ee22dbafe8a7c08175c8e76dbbaddac8678832ec5c1ed7f5cd4c5efee6",
+    "repositoryUrl": "https://github.com/Wiojelt/WioLand"
+  }
+]
