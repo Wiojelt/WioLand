@@ -28,6 +28,7 @@ Depoyu ekleyip içindeki **MegaWio** eklentisini kurduğunuzda aşağıdaki depo
 - **WioAnime** — Anime sağlayıcıları ve seçilebilir birleşik WioAnime
 - **WioAsya** — Asya dizileri ve seçilebilir birleşik WioAsya
 - **WioDrama** — DramaDizilerim ve NetShort
+- **WioCinema** — Yabancı film ve dizi sağlayıcıları
 - **PltStream** — Stabil seçkin yayın sağlayıcıları
 
 ---
