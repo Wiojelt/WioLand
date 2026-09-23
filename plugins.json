@@ -3,7 +3,7 @@
     "name": "MegaWio",
     "internalName": "MegaWio",
     "pluginClassName": "wioland.WioLandPlugin",
-    "version": 3,
+    "version": 4,
     "url": "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/MegaWio.cs3",
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/icon.png",
     "authors": [
@@ -16,8 +16,8 @@
       "Others"
     ],
     "apiVersion": 1,
-    "fileSize": 3623,
-    "fileHash": "sha256-517624bb5cdcc58c51bfcc0546c5d7ab92f6e957be9c19c8d826759ecd4c0a95",
+    "fileSize": 3771,
+    "fileHash": "sha256-338d748df46c5200d70f2082e8321ff1c82f34d71190386d1eb07ece00627c67",
     "repositoryUrl": "https://github.com/Wiojelt/WioLand"
   }
 ]

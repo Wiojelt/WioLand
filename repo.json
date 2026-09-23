@@ -4,6 +4,6 @@
   "manifestVersion": 1,
   "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/icon.png",
   "pluginLists": [
-    "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/plugins.json?v=3"
+    "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/plugins.json?v=4"
   ]
 }
