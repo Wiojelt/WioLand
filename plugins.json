@@ -3,21 +3,21 @@
     "name": "MegaWio",
     "internalName": "MegaWio",
     "pluginClassName": "wioland.WioLandPlugin",
-    "version": 2,
+    "version": 3,
     "url": "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/MegaWio.cs3",
     "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/icon.png",
     "authors": [
       "Wiojelt"
     ],
-    "description": "Bu eklenti kurulduğunda TurkSinema, TurkSpor, WioSinema, WioSpor ve PltStream depolarını CloudStream ayarlarınıza otomatik ekler.",
+    "description": "Adds the TurkSinema, TurkSpor, WioSinema, WioSpor and PltStream repositories without recurring notices.",
     "status": 1,
-    "language": "tr",
+    "language": "en",
     "tvTypes": [
       "Others"
     ],
     "apiVersion": 1,
-    "fileSize": 1048,
-    "fileHash": "sha256-ac1ca7c7f2d858c97747108e61b43e98837b8d502f5d2f3395d59524dbe32f4a",
+    "fileSize": 3623,
+    "fileHash": "sha256-517624bb5cdcc58c51bfcc0546c5d7ab92f6e957be9c19c8d826759ecd4c0a95",
     "repositoryUrl": "https://github.com/Wiojelt/WioLand"
   }
 ]
