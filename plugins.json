@@ -9,15 +9,15 @@
     "authors": [
       "Wiojelt"
     ],
-    "description": "Bu eklenti kurulduğunda TurkSinema, TurkSpor, WioSinema, WioSpor ve PltStream depolarını CloudStream ayarlarınıza otomatik ekler.",
+    "description": "Bu eklenti kurulduğunda TurkSinema, TurkSpor, WioSinema, WioSpor, PltStream ve CloudStream Live Hub depolarını CloudStream ayarlarınıza otomatik ekler.",
     "status": 1,
     "language": "tr",
     "tvTypes": [
       "Others"
     ],
     "apiVersion": 1,
-    "fileSize": 13216,
-    "fileHash": "sha256-d2f713d78060462d8b279ad5d9540b13cd914479f06f991661eb24bc19bd49b1",
+    "fileSize": 13278,
+    "fileHash": "sha256-3e872ba381cbcb4b9bc256d9186557832be29cc70bcb3bf6b66a52b239432f77",
     "repositoryUrl": "https://github.com/Wiojelt/WioLand"
   }
 ]

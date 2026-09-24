@@ -26,6 +26,7 @@ Depoyu ekleyip içindeki **MegaWio** eklentisini kurduğunuzda aşağıdaki depo
 - **WioSinema** — TMDB destekli birleşik sinema/dizi sağlayıcısı
 - **WioSpor** — Düzenlenmiş canlı TV & spor kanalları
 - **PltStream** — Stabil seçkin yayın sağlayıcıları
+- **CloudStream Live Hub** (sika200581) — Twitch, Kick, YouTube Live & Rumble canlı yayınları
 
 ---
 
