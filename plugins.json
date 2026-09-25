@@ -9,7 +9,7 @@
     "authors": [
       "Wiojelt"
     ],
-    "description": "Bu eklenti kurulduğunda TurkSinema, TurkSpor, WioSinema, WioSpor, WioCinema, WioAnime, WioAsya, WioDrama, PltStream ve CloudStream Live Hub depolarını CloudStream ayarlarınıza otomatik ekler.",
+    "description": "Bu eklenti kurulduğunda WioSinema, WioSpor, WioCinema, WioAnime, WioAsya, WioDrama, PltStream ve CloudStream Live Hub depolarını CloudStream ayarlarınıza otomatik ekler.",
     "status": 1,
     "language": "tr",
     "tvTypes": [

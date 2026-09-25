@@ -21,8 +21,6 @@ CloudStream için toplu depo yöneticisi.
 ### 📦 Otomatik Yüklenen Depolar
 Depoyu ekleyip içindeki **MegaWio** eklentisini kurduğunuzda aşağıdaki depolar otomatik yüklenir:
 
-- **TurkSinema** — Film, dizi ve belgesel sağlayıcıları
-- **TurkSpor** — Canlı spor ve TV yayınları
 - **WioSinema** — TMDB destekli birleşik sinema/dizi sağlayıcısı
 - **WioSpor** — Düzenlenmiş canlı TV & spor kanalları
 - **WioAnime** — Anime sağlayıcıları ve seçilebilir birleşik WioAnime
