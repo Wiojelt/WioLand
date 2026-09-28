@@ -5,11 +5,11 @@
     "pluginClassName": "wioland.WioLandPlugin",
     "version": 2,
     "url": "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/MegaWio.cs3",
-    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/icon.png",
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/logo.png",
     "authors": [
       "Wiojelt"
     ],
-    "description": "Bu eklenti kurulduğunda WioSinema, WioSpor, WioCinema, WioAnime, WioAsya, WioDrama, PltStream ve CloudStream Live Hub depolarını CloudStream ayarlarınıza otomatik ekler.",
+    "description": "Bu eklenti kurulduğunda WioSinema, WioSpor, WioCinema, WioKids, WioAnime, WioAsya, WioDrama, PltStream ve CloudStream Live Hub depolarını CloudStream ayarlarınıza otomatik ekler.",
     "status": 1,
     "language": "tr",
     "tvTypes": [

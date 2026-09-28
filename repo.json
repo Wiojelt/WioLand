@@ -1,8 +1,8 @@
 {
-  "name": "WioLand",
-  "description": "WioLand - Toplu Depo Yükleyici",
+  "name": "MegaWio",
+  "description": "MegaWio - Toplu Depo Yükleyici",
   "manifestVersion": 1,
-  "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/icon.png",
+  "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/logo.png",
   "pluginLists": [
     "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/plugins.json?v=4"
   ]

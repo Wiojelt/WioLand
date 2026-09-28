@@ -1,10 +1,10 @@
 <div align="center">
 
-# 🌌 WioLand
+# MEGAWIO
 
 CloudStream için toplu depo yöneticisi.
 
-<img src="assets/icon.png" width="150" height="150" alt="WioLand Logo">
+<img src="assets/logo.png" width="220" alt="MEGAWIO logosu">
 
 ### ⚡ Kurulum Kodu
 ```text
@@ -27,6 +27,7 @@ Depoyu ekleyip içindeki **MegaWio** eklentisini kurduğunuzda aşağıdaki depo
 - **WioAsya** — Asya dizileri ve seçilebilir birleşik WioAsya
 - **WioDrama** — DramaDizilerim ve NetShort
 - **WioCinema** — Yabancı film ve dizi sağlayıcıları
+- **WioKids** — Çocuk ve çizgi film sağlayıcıları
 - **PltStream** — Stabil seçkin yayın sağlayıcıları
 - **CloudStream Live Hub** (sika200581) — Twitch, Kick, YouTube Live & Rumble canlı yayınları
 
