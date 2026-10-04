@@ -28,7 +28,7 @@ Depoyu ekleyip içindeki **MegaWio** eklentisini kurduğunuzda aşağıdaki depo
 - **WioDrama** — DramaDizilerim ve NetShort
 - **WioCinema** — Yabancı film ve dizi sağlayıcıları
 - **WioKids** — Çocuk ve çizgi film sağlayıcıları
-- **PltStream** — Stabil seçkin yayın sağlayıcıları
+- **PltStream** — Kaynak deposu kapanmıştır; kendi açıklamasına göre PltSync, PltParty ve PltTV kullanılabilir. WioLand listesinde arşiv kaydı olarak bulunur.
 - **CloudStream Live Hub** (sika200581) — Twitch, Kick, YouTube Live & Rumble canlı yayınları
 
 ---
