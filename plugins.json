@@ -5,7 +5,7 @@
     "pluginClassName": "wioland.WioLandPlugin",
     "version": 2,
     "url": "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/MegaWio.cs3",
-    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/logo-20261004.png",
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/logo-20261004.png?rev=2",
     "authors": [
       "Wiojelt"
     ],
