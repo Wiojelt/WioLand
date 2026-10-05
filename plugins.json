@@ -4,8 +4,8 @@
     "internalName": "MegaWio",
     "pluginClassName": "wioland.WioLandPlugin",
     "version": 3,
-    "url": "https://github.com/Wiojelt/WioLand/releases/download/megawio-2026-10-03-v3/MegaWio.cs3",
-    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/logo.png",
+    "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/megawio/MegaWio.cs3?v=81deaaad458f",
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/logo-20261004.png?rev=2",
     "authors": [
       "Wiojelt"
     ],
