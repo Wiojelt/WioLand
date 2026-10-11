@@ -1,25 +1,12 @@
 {
-  "timestamp": 1791736635,
+  "timestamp": 1791752033,
   "repos": [
     {
       "name": "WioSinema",
       "total": 37,
-      "healthy": 25,
-      "mismatches": 12,
-      "errors": [
-        "BelgeselX: Hash/Boyut farkı (Katalog: 137625B / Gerçek: 139173B)",
-        "DDizi: Hash/Boyut farkı (Katalog: 111525B / Gerçek: 113110B)",
-        "DiziBox: Hash/Boyut farkı (Katalog: 117986B / Gerçek: 119488B)",
-        "Dizilla: Hash/Boyut farkı (Katalog: 129862B / Gerçek: 131693B)",
-        "DiziBol: Hash/Boyut farkı (Katalog: 135421B / Gerçek: 137125B)",
-        "DiziPalHub: Hash/Boyut farkı (Katalog: 205974B / Gerçek: 207437B)",
-        "DiziRella: Hash/Boyut farkı (Katalog: 135438B / Gerçek: 137139B)",
-        "HDFilmDelisi: Hash/Boyut farkı (Katalog: 152478B / Gerçek: 154304B)",
-        "LiderFilmIzle: Hash/Boyut farkı (Katalog: 135445B / Gerçek: 137142B)",
-        "SelcukFlix: Hash/Boyut farkı (Katalog: 123495B / Gerçek: 125208B)",
-        "SezonlukDizi: Hash/Boyut farkı (Katalog: 114593B / Gerçek: 116060B)",
-        "TrDiziIzle: Hash/Boyut farkı (Katalog: 135416B / Gerçek: 137065B)"
-      ],
+      "healthy": 37,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
