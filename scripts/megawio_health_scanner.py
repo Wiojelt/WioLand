@@ -86,6 +86,13 @@ REPOS = [
         "branch": "builds",
     },
     {
+        "name": "WioSpor",
+        "local_path": BASE_LOCAL_DIR / "WioSpor",
+        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioSpor/builds/plugins.json",
+        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioSpor/main/repo.json",
+        "branch": "builds",
+    },
+    {
         "name": "test",
         "local_path": BASE_LOCAL_DIR / "test",
         "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/test/builds/plugins.json",
@@ -291,9 +298,8 @@ def audit_domains() -> list[dict]:
 
 def audit_workers() -> list[dict]:
     worker_endpoints = [
-        "https://wispor.wiojelt.workers.dev/ping",
-        "https://wispor.wiojelt.workers.dev/health",
-        "https://wispor.wiojelt.workers.dev/api/proxy",
+        "https://wiojelt-auth.hdf-worker.workers.dev/",
+        "https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3",
     ]
     results = []
     for ep in worker_endpoints:
