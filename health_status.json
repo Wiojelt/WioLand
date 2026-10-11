@@ -1,5 +1,5 @@
 {
-  "timestamp": 1791715335,
+  "timestamp": 1791716152,
   "repos": [
     {
       "name": "WioSinema",
@@ -60,9 +60,11 @@
     {
       "name": "TurkSpor",
       "total": 46,
-      "healthy": 46,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 45,
+      "mismatches": 1,
+      "errors": [
+        "BeyazElma: Hash/Boyut farkı (Katalog: 219121B / Gerçek: 212868B)"
+      ],
       "icon_status": "Eksik"
     },
     {
@@ -166,9 +168,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 523,
-      "state": "Uyarı",
-      "detail": "Beklenmeyen yanıt (HTTP 523)",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
