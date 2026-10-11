@@ -1,6 +1,6 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `11.10.2026 13:38:50 (TSİ)`  
+**Son Güncelleme:** `11.10.2026 13:42:15 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
 **Toplam Eklenti:** `203` | **Sağlıklı:** `203` | **Uyuşmazlık:** `0`
 
@@ -49,9 +49,8 @@
 
 | Endpoint | Kota Durumu | Detay |
 | :--- | :---: | :--- |
-| `https://wispor.wiojelt.workers.dev/ping` | 🟢 Normal | HTTP 0 (Kota serbest) |
-| `https://wispor.wiojelt.workers.dev/health` | 🟢 Normal | HTTP 0 (Kota serbest) |
-| `https://wispor.wiojelt.workers.dev/api/proxy` | 🟢 Normal | HTTP 0 (Kota serbest) |
+| `https://wiojelt-auth.hdf-worker.workers.dev/` | 🟢 Normal | HTTP 200 (Kota serbest) |
+| `https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3` | 🟢 Normal | HTTP 200 (Kota serbest) |
 
 ---
 

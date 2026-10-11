@@ -1,5 +1,5 @@
 {
-  "timestamp": 1791715130,
+  "timestamp": 1791715335,
   "repos": [
     {
       "name": "WioSinema",
@@ -206,19 +206,14 @@
   ],
   "workers": [
     {
-      "url": "https://wispor.wiojelt.workers.dev/ping",
+      "url": "https://wiojelt-auth.hdf-worker.workers.dev/",
       "state": "Normal",
-      "detail": "HTTP 0 (Kota serbest)"
+      "detail": "HTTP 200 (Kota serbest)"
     },
     {
-      "url": "https://wispor.wiojelt.workers.dev/health",
+      "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3",
       "state": "Normal",
-      "detail": "HTTP 0 (Kota serbest)"
-    },
-    {
-      "url": "https://wispor.wiojelt.workers.dev/api/proxy",
-      "state": "Normal",
-      "detail": "HTTP 0 (Kota serbest)"
+      "detail": "HTTP 200 (Kota serbest)"
     }
   ]
 }
