@@ -1,0 +1,224 @@
+{
+  "timestamp": 1791715130,
+  "repos": [
+    {
+      "name": "WioSinema",
+      "total": 37,
+      "healthy": 37,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioAnime",
+      "total": 11,
+      "healthy": 11,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioDrama",
+      "total": 4,
+      "healthy": 4,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioKids",
+      "total": 10,
+      "healthy": 10,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioCinema",
+      "total": 11,
+      "healthy": 11,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioAsya",
+      "total": 7,
+      "healthy": 7,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "TurkSinema",
+      "total": 71,
+      "healthy": 71,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "TurkSpor",
+      "total": 46,
+      "healthy": 46,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Eksik"
+    },
+    {
+      "name": "test",
+      "total": 6,
+      "healthy": 6,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    }
+  ],
+  "domains": [
+    {
+      "key": "betmatiktv",
+      "url": "https://betmatiktv155.com/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    },
+    {
+      "key": "ntvs",
+      "url": "https://www.ntvs.cx/matches/kobra/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "daddylive",
+      "url": "https://dlive.sx/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "streameast",
+      "url": "https://v2.streameast.ga/",
+      "status_code": 403,
+      "state": "Korumada (Turnstile 403)",
+      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
+      "cf_challenge": true
+    },
+    {
+      "key": "papazsports",
+      "url": "https://www.papazsports1023.pro/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    },
+    {
+      "key": "ardaspor",
+      "url": "https://ardaspor31.top/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "mahsunsports",
+      "url": "https://mahsunsports80.xyz/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    },
+    {
+      "key": "crex",
+      "url": "https://crex.com/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "inattv",
+      "url": "https://www.inattvizle489.top/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    },
+    {
+      "key": "taraftarium24",
+      "url": "https://inattv1322.xyz/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    },
+    {
+      "key": "selcuksports",
+      "url": "https://www.selcuksportshdbd813bd00f.xyz/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    },
+    {
+      "key": "mackeyfi",
+      "url": "https://www.mackeyfi605.sbs/",
+      "status_code": 523,
+      "state": "Uyarı",
+      "detail": "Beklenmeyen yanıt (HTTP 523)",
+      "cf_challenge": false
+    },
+    {
+      "key": "zbahistv",
+      "url": "https://99baywintv.live/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    },
+    {
+      "key": "intersportv",
+      "url": "https://intersportv1.live/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "beyazelma",
+      "url": "https://beyazelma78.com/",
+      "status_code": 403,
+      "state": "Korumada (Turnstile 403)",
+      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
+      "cf_challenge": true
+    },
+    {
+      "key": "kralsportshd",
+      "url": "https://kralsportshd6.xyz/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    }
+  ],
+  "workers": [
+    {
+      "url": "https://wispor.wiojelt.workers.dev/ping",
+      "state": "Normal",
+      "detail": "HTTP 0 (Kota serbest)"
+    },
+    {
+      "url": "https://wispor.wiojelt.workers.dev/health",
+      "state": "Normal",
+      "detail": "HTTP 0 (Kota serbest)"
+    },
+    {
+      "url": "https://wispor.wiojelt.workers.dev/api/proxy",
+      "state": "Normal",
+      "detail": "HTTP 0 (Kota serbest)"
+    }
+  ]
+}
