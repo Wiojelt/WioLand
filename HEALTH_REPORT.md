@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `12.10.2026 07:12:50 (TSİ)`  
+**Son Güncelleme:** `12.10.2026 17:43:07 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
-**Toplam Eklenti:** `230` | **Sağlıklı:** `230` | **Uyuşmazlık:** `0`
+**Toplam Eklenti:** `231` | **Sağlıklı:** `231` | **Uyuşmazlık:** `0`
 
 ---
 
@@ -19,7 +19,7 @@
 | **TurkSinema** | 71 | %100 (71/71) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **TurkSpor** | 46 | %100 (46/46) | ⚠️ Eksik | 🟢 %100 Sağlıklı |
 | **WioSpor** | 27 | %100 (27/27) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **test** | 6 | %100 (6/6) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **test** | 7 | %100 (7/7) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 
 ---
 
@@ -42,7 +42,7 @@
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **kralsportshd** | `https://kralsportshd.com/` | 🔴 Korumada (Turnstile 403) | Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz |
+| **kralsportshd** | `https://kralsportshd.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 
 ---
 
@@ -52,9 +52,3 @@
 | :--- | :---: | :--- |
 | `https://wiojelt-auth.hdf-worker.workers.dev/` | 🟢 Normal | HTTP 200 (Kota serbest) |
 | `https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3` | 🟢 Normal | HTTP 200 (Kota serbest) |
-
----
-
-## 🚨 Aktif Uyarılar & Çözüm Önerileri
-
-- **KRALSPORTSHD Cloudflare Korumasında:** `https://kralsportshd.com/` adresinde Cloudflare Managed Challenge (Turnstile 403) aktif. İstemciler doğrudan kanal listesi çekemez. **Çözüm:** Kanal listesi `/domains.json` veya GitHub Raw önbellek yansısından beslenmeli.

@@ -1,5 +1,5 @@
 {
-  "timestamp": 1791789170,
+  "timestamp": 1791826987,
   "repos": [
     {
       "name": "WioSinema",
@@ -75,8 +75,8 @@
     },
     {
       "name": "test",
-      "total": 6,
-      "healthy": 6,
+      "total": 7,
+      "healthy": 7,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -206,10 +206,10 @@
     {
       "key": "kralsportshd",
       "url": "https://kralsportshd.com/",
-      "status_code": 403,
-      "state": "Korumada (Turnstile 403)",
-      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
-      "cf_challenge": true
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
     }
   ],
   "workers": [
