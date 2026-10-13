@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `13.10.2026 07:36:31 (TSİ)`  
-**Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
-**Toplam Eklenti:** `227` | **Sağlıklı:** `226` | **Uyuşmazlık:** `1`
+**Son Güncelleme:** `13.10.2026 15:51:31 (TSİ)`  
+**Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
+**Toplam Eklenti:** `227` | **Sağlıklı:** `227` | **Uyuşmazlık:** `0`
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Depo Adı | Eklenti Sayısı | İndirme Sağlığı | Logo / Icon | Durum |
 | :--- | :---: | :---: | :---: | :---: |
-| **WioSinema** | 37 | %97 (36/37) | ✅ Aktif (200) | 🔴 1 Hata |
+| **WioSinema** | 37 | %100 (37/37) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAnime** | 11 | %100 (11/11) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioDrama** | 4 | %100 (4/4) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioKids** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
@@ -38,7 +38,7 @@
 | **inattv** | `https://inattvizle486.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **taraftarium24** | `https://inattv1325.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **selcuksports** | `https://www.selcuksportshdfe44b96fcb.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟡 Uyarı | Beklenmeyen yanıt (HTTP 523) |
+| **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟡 Ulaşılamıyor | DNS / Bağlantı zaman aşımı |
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
@@ -52,9 +52,3 @@
 | :--- | :---: | :--- |
 | `https://wiojelt-auth.hdf-worker.workers.dev/` | 🟢 Normal | HTTP 200 (Kota serbest) |
 | `https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3` | 🟢 Normal | HTTP 200 (Kota serbest) |
-
----
-
-## 🚨 Aktif Uyarılar & Çözüm Önerileri
-
-- **Paket Hash Uyuşmazlığı:** `1` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
