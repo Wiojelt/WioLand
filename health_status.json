@@ -1,12 +1,14 @@
 {
-  "timestamp": 1791826987,
+  "timestamp": 1791851436,
   "repos": [
     {
       "name": "WioSinema",
       "total": 37,
-      "healthy": 37,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 36,
+      "mismatches": 1,
+      "errors": [
+        "SezonlukDizi: Hash/Boyut farkı (Katalog: 116060B / Gerçek: 122853B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -75,8 +77,8 @@
     },
     {
       "name": "test",
-      "total": 7,
-      "healthy": 7,
+      "total": 3,
+      "healthy": 3,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
