@@ -1,6 +1,6 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `13.10.2026 15:51:31 (TSİ)`  
+**Son Güncelleme:** `13.10.2026 21:09:23 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
 **Toplam Eklenti:** `227` | **Sağlıklı:** `227` | **Uyuşmazlık:** `0`
 
@@ -17,7 +17,7 @@
 | **WioCinema** | 11 | %100 (11/11) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAsya** | 7 | %100 (7/7) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **TurkSinema** | 71 | %100 (71/71) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **TurkSpor** | 46 | %100 (46/46) | ⚠️ Eksik | 🟢 %100 Sağlıklı |
+| **TurkSpor** | 46 | %100 (46/46) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioSpor** | 27 | %100 (27/27) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **test** | 3 | %100 (3/3) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 

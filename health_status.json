@@ -1,5 +1,5 @@
 {
-  "timestamp": 1791906691,
+  "timestamp": 1791925763,
   "repos": [
     {
       "name": "WioSinema",
@@ -63,7 +63,7 @@
       "healthy": 46,
       "mismatches": 0,
       "errors": [],
-      "icon_status": "Eksik"
+      "icon_status": "Aktif (200)"
     },
     {
       "name": "WioSpor",
