@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792002575,
+  "timestamp": 1792015965,
   "repos": [
     {
       "name": "WioSinema",
@@ -25,24 +25,16 @@
       "healthy": 3,
       "mismatches": 1,
       "errors": [
-        "DramaDizilerim: Hash/Boyut farkı (Katalog: 113260B / Gerçek: 19119B)"
+        "DramaDizilerim: Hash/Boyut farkı (Katalog: 19119B / Gerçek: 113260B)"
       ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioKids",
       "total": 10,
-      "healthy": 3,
-      "mismatches": 7,
-      "errors": [
-        "CizgiMax: Hash/Boyut farkı (Katalog: 142291B / Gerçek: 138947B)",
-        "CizgiVeDizi: Hash/Boyut farkı (Katalog: 134882B / Gerçek: 134888B)",
-        "CizgiPortal: Hash/Boyut farkı (Katalog: 108572B / Gerçek: 106851B)",
-        "CizgiFilmIzleInfo: Hash/Boyut farkı (Katalog: 108218B / Gerçek: 106472B)",
-        "IzleOyna: Hash/Boyut farkı (Katalog: 103804B / Gerçek: 101913B)",
-        "CizgiFilmTv: Hash/Boyut farkı (Katalog: 107818B / Gerçek: 106111B)",
-        "CizgiSite: Hash/Boyut farkı (Katalog: 106602B / Gerçek: 104935B)"
-      ],
+      "healthy": 10,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -80,18 +72,21 @@
     {
       "name": "WioSpor",
       "total": 27,
-      "healthy": 25,
-      "mismatches": 2,
+      "healthy": 22,
+      "mismatches": 5,
       "errors": [
-        "MahsunSports: Hash/Boyut farkı (Katalog: 178911B / Gerçek: 178911B)",
-        "TRGoals: Hash/Boyut farkı (Katalog: 232722B / Gerçek: 232719B)"
+        "InatTV: Hash/Boyut farkı (Katalog: 175521B / Gerçek: 175518B)",
+        "PapazSports: Hash/Boyut farkı (Katalog: 229658B / Gerçek: 229652B)",
+        "Taraftarium24: Hash/Boyut farkı (Katalog: 175625B / Gerçek: 175626B)",
+        "TRGoals: Hash/Boyut farkı (Katalog: 232719B / Gerçek: 232722B)",
+        "AtomSpor: Hash/Boyut farkı (Katalog: 155297B / Gerçek: 155303B)"
       ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "test",
-      "total": 3,
-      "healthy": 3,
+      "total": 4,
+      "healthy": 4,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -189,9 +184,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 523,
-      "state": "Uyarı",
-      "detail": "Beklenmeyen yanıt (HTTP 523)",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
@@ -213,10 +208,10 @@
     {
       "key": "beyazelma",
       "url": "https://beyazelma78.com/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
-      "cf_challenge": false
+      "status_code": 403,
+      "state": "Korumada (Turnstile 403)",
+      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
+      "cf_challenge": true
     },
     {
       "key": "kralsportshd",
