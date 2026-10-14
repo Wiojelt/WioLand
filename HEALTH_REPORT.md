@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `14.10.2026 13:35:33 (TSİ)`  
-**Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
-**Toplam Eklenti:** `227` | **Sağlıklı:** `227` | **Uyuşmazlık:** `0`
+**Son Güncelleme:** `14.10.2026 18:29:35 (TSİ)`  
+**Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
+**Toplam Eklenti:** `227` | **Sağlıklı:** `216` | **Uyuşmazlık:** `11`
 
 ---
 
@@ -11,14 +11,14 @@
 | Depo Adı | Eklenti Sayısı | İndirme Sağlığı | Logo / Icon | Durum |
 | :--- | :---: | :---: | :---: | :---: |
 | **WioSinema** | 37 | %100 (37/37) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioAnime** | 11 | %100 (11/11) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioDrama** | 4 | %100 (4/4) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioKids** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **WioAnime** | 11 | %91 (10/11) | ✅ Aktif (200) | 🔴 1 Hata |
+| **WioDrama** | 4 | %75 (3/4) | ✅ Aktif (200) | 🔴 1 Hata |
+| **WioKids** | 10 | %30 (3/10) | ✅ Aktif (200) | 🔴 7 Hata |
 | **WioCinema** | 11 | %100 (11/11) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAsya** | 7 | %100 (7/7) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **TurkSinema** | 71 | %100 (71/71) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **TurkSpor** | 46 | %100 (46/46) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioSpor** | 27 | %100 (27/27) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **WioSpor** | 27 | %93 (25/27) | ✅ Aktif (200) | 🔴 2 Hata |
 | **test** | 3 | %100 (3/3) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 
 ---
@@ -52,3 +52,9 @@
 | :--- | :---: | :--- |
 | `https://wiojelt-auth.hdf-worker.workers.dev/` | 🟢 Normal | HTTP 200 (Kota serbest) |
 | `https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3` | 🟢 Normal | HTTP 200 (Kota serbest) |
+
+---
+
+## 🚨 Aktif Uyarılar & Çözüm Önerileri
+
+- **Paket Hash Uyuşmazlığı:** `11` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.

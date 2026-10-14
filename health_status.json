@@ -1,5 +1,5 @@
 {
-  "timestamp": 1791984933,
+  "timestamp": 1792002575,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,25 +12,37 @@
     {
       "name": "WioAnime",
       "total": 11,
-      "healthy": 11,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 10,
+      "mismatches": 1,
+      "errors": [
+        "Anizm: Hash/Boyut farkı (Katalog: 113819B / Gerçek: 113496B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioDrama",
       "total": 4,
-      "healthy": 4,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 3,
+      "mismatches": 1,
+      "errors": [
+        "DramaDizilerim: Hash/Boyut farkı (Katalog: 113260B / Gerçek: 19119B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioKids",
       "total": 10,
-      "healthy": 10,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 3,
+      "mismatches": 7,
+      "errors": [
+        "CizgiMax: Hash/Boyut farkı (Katalog: 142291B / Gerçek: 138947B)",
+        "CizgiVeDizi: Hash/Boyut farkı (Katalog: 134882B / Gerçek: 134888B)",
+        "CizgiPortal: Hash/Boyut farkı (Katalog: 108572B / Gerçek: 106851B)",
+        "CizgiFilmIzleInfo: Hash/Boyut farkı (Katalog: 108218B / Gerçek: 106472B)",
+        "IzleOyna: Hash/Boyut farkı (Katalog: 103804B / Gerçek: 101913B)",
+        "CizgiFilmTv: Hash/Boyut farkı (Katalog: 107818B / Gerçek: 106111B)",
+        "CizgiSite: Hash/Boyut farkı (Katalog: 106602B / Gerçek: 104935B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -68,9 +80,12 @@
     {
       "name": "WioSpor",
       "total": 27,
-      "healthy": 27,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 25,
+      "mismatches": 2,
+      "errors": [
+        "MahsunSports: Hash/Boyut farkı (Katalog: 178911B / Gerçek: 178911B)",
+        "TRGoals: Hash/Boyut farkı (Katalog: 232722B / Gerçek: 232719B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
