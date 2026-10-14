@@ -1,6 +1,6 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `13.10.2026 21:09:23 (TSİ)`  
+**Son Güncelleme:** `14.10.2026 01:04:52 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
 **Toplam Eklenti:** `227` | **Sağlıklı:** `227` | **Uyuşmazlık:** `0`
 
@@ -32,7 +32,7 @@
 | **daddylive** | `https://dlive.sx/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **streameast** | `https://v2.gostreameast.is/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **papazsports** | `https://www.papazsports1023.pro/` | 🟡 Ulaşılamıyor | DNS / Bağlantı zaman aşımı |
-| **ardaspor** | `https://ardaspor31.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **ardaspor** | `https://ardaspor32.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **mahsunsports** | `https://mahsunsports.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **crex** | `https://crex.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **inattv** | `https://inattvizle486.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
