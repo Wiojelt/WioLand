@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792015965,
+  "timestamp": 1792027402,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,21 +12,17 @@
     {
       "name": "WioAnime",
       "total": 11,
-      "healthy": 10,
-      "mismatches": 1,
-      "errors": [
-        "Anizm: Hash/Boyut farkı (Katalog: 113819B / Gerçek: 113496B)"
-      ],
+      "healthy": 11,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioDrama",
-      "total": 4,
-      "healthy": 3,
-      "mismatches": 1,
-      "errors": [
-        "DramaDizilerim: Hash/Boyut farkı (Katalog: 19119B / Gerçek: 113260B)"
-      ],
+      "total": 5,
+      "healthy": 5,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -63,8 +59,8 @@
     },
     {
       "name": "TurkSpor",
-      "total": 46,
-      "healthy": 46,
+      "total": 47,
+      "healthy": 47,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -72,21 +68,15 @@
     {
       "name": "WioSpor",
       "total": 27,
-      "healthy": 22,
-      "mismatches": 5,
-      "errors": [
-        "InatTV: Hash/Boyut farkı (Katalog: 175521B / Gerçek: 175518B)",
-        "PapazSports: Hash/Boyut farkı (Katalog: 229658B / Gerçek: 229652B)",
-        "Taraftarium24: Hash/Boyut farkı (Katalog: 175625B / Gerçek: 175626B)",
-        "TRGoals: Hash/Boyut farkı (Katalog: 232719B / Gerçek: 232722B)",
-        "AtomSpor: Hash/Boyut farkı (Katalog: 155297B / Gerçek: 155303B)"
-      ],
+      "healthy": 27,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "test",
-      "total": 4,
-      "healthy": 4,
+      "total": 12,
+      "healthy": 12,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -184,9 +174,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 523,
+      "state": "Uyarı",
+      "detail": "Beklenmeyen yanıt (HTTP 523)",
       "cf_challenge": false
     },
     {
@@ -208,10 +198,10 @@
     {
       "key": "beyazelma",
       "url": "https://beyazelma78.com/",
-      "status_code": 403,
-      "state": "Korumada (Turnstile 403)",
-      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
-      "cf_challenge": true
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
     },
     {
       "key": "kralsportshd",
