@@ -1,6 +1,6 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `15.10.2026 18:11:48 (TSİ)`  
+**Son Güncelleme:** `15.10.2026 22:07:23 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
 **Toplam Eklenti:** `242` | **Sağlıklı:** `241` | **Uyuşmazlık:** `1`
 
@@ -36,12 +36,12 @@
 | **mahsunsports** | `https://mahsunsports.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **crex** | `https://crex.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **inattv** | `https://inattvizle486.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **taraftarium24** | `https://inattv1325.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **taraftarium24** | `https://inattv1326.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **selcuksports** | `https://www.selcuksportshdfe44b96fcb.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟡 Uyarı | Beklenmeyen yanıt (HTTP 523) |
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **beyazelma** | `https://beyazelma78.com/` | 🟡 Ulaşılamıyor | DNS / Bağlantı zaman aşımı |
 | **kralsportshd** | `https://kralsportshd.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 
 ---
