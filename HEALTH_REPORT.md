@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `15.10.2026 07:17:41 (TSİ)`  
+**Son Güncelleme:** `15.10.2026 13:18:38 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
-**Toplam Eklenti:** `238` | **Sağlıklı:** `238` | **Uyuşmazlık:** `0`
+**Toplam Eklenti:** `242` | **Sağlıklı:** `242` | **Uyuşmazlık:** `0`
 
 ---
 
@@ -19,7 +19,7 @@
 | **TurkSinema** | 71 | %100 (71/71) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **TurkSpor** | 47 | %100 (47/47) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioSpor** | 27 | %100 (27/27) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **test** | 12 | %100 (12/12) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **test** | 16 | %100 (16/16) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 
 ---
 
@@ -38,7 +38,7 @@
 | **inattv** | `https://inattvizle486.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **taraftarium24** | `https://inattv1325.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **selcuksports** | `https://www.selcuksportshdfe44b96fcb.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟡 Uyarı | Beklenmeyen yanıt (HTTP 523) |
+| **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟡 Ulaşılamıyor | DNS / Bağlantı zaman aşımı |
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
