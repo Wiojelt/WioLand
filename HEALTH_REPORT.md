@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `16.10.2026 07:00:38 (TSİ)`  
+**Son Güncelleme:** `16.10.2026 12:19:51 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
-**Toplam Eklenti:** `242` | **Sağlıklı:** `241` | **Uyuşmazlık:** `1`
+**Toplam Eklenti:** `243` | **Sağlıklı:** `242` | **Uyuşmazlık:** `1`
 
 ---
 
@@ -12,14 +12,14 @@
 | :--- | :---: | :---: | :---: | :---: |
 | **WioSinema** | 37 | %100 (37/37) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAnime** | 11 | %100 (11/11) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioDrama** | 5 | %100 (5/5) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **WioDrama** | 7 | %100 (7/7) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioKids** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioCinema** | 11 | %100 (11/11) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAsya** | 7 | %86 (6/7) | ✅ Aktif (200) | 🔴 1 Hata |
 | **TurkSinema** | 71 | %100 (71/71) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **TurkSpor** | 47 | %100 (47/47) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioSpor** | 27 | %100 (27/27) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **test** | 16 | %100 (16/16) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **test** | 15 | %100 (15/15) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 
 ---
 
