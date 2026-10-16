@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792184034,
+  "timestamp": 1792193187,
   "repos": [
     {
       "name": "WioSinema",
@@ -54,11 +54,9 @@
     {
       "name": "TurkSinema",
       "total": 71,
-      "healthy": 70,
-      "mismatches": 1,
-      "errors": [
-        "WioCinema: Paket indirilemedi (HTTP 0)"
-      ],
+      "healthy": 71,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -79,8 +77,8 @@
     },
     {
       "name": "test",
-      "total": 13,
-      "healthy": 13,
+      "total": 12,
+      "healthy": 12,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
