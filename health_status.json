@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792228206,
+  "timestamp": 1792244152,
   "repos": [
     {
       "name": "WioSinema",
@@ -44,11 +44,9 @@
     {
       "name": "WioAsya",
       "total": 7,
-      "healthy": 6,
-      "mismatches": 1,
-      "errors": [
-        "AsyaAnimeleri: Hash/Boyut farkı (Katalog: 109139B / Gerçek: 118915B)"
-      ],
+      "healthy": 7,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -77,8 +75,8 @@
     },
     {
       "name": "test",
-      "total": 13,
-      "healthy": 13,
+      "total": 14,
+      "healthy": 14,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -176,9 +174,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 523,
-      "state": "Uyarı",
-      "detail": "Beklenmeyen yanıt (HTTP 523)",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
