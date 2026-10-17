@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792244152,
+  "timestamp": 1792256348,
   "repos": [
     {
       "name": "WioSinema",
@@ -198,9 +198,9 @@
     {
       "key": "beyazelma",
       "url": "https://beyazelma78.com/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
