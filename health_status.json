@@ -1,10 +1,10 @@
 {
-  "timestamp": 1792264497,
+  "timestamp": 1792274958,
   "repos": [
     {
       "name": "WioSinema",
-      "total": 37,
-      "healthy": 37,
+      "total": 35,
+      "healthy": 35,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -51,24 +51,24 @@
     },
     {
       "name": "TurkSinema",
-      "total": 71,
-      "healthy": 71,
+      "total": 68,
+      "healthy": 68,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "TurkSpor",
-      "total": 47,
-      "healthy": 47,
+      "total": 45,
+      "healthy": 45,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioSpor",
-      "total": 27,
-      "healthy": 27,
+      "total": 24,
+      "healthy": 24,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
