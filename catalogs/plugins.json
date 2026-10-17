@@ -1,0 +1,23 @@
+[
+  {
+    "name": "MegaWio",
+    "internalName": "MegaWio",
+    "pluginClassName": "wioland.WioLandPlugin",
+    "version": 3,
+    "url": "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/MegaWio.cs3?v=81deaaad458f",
+    "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/logo-20261004.png?rev=2",
+    "authors": [
+      "Wiojelt"
+    ],
+    "description": "WioSinema, WioSpor, WioCinema, WioKids, WioAnime, WioAsya, WioDrama, PltStream ve CloudStream Live Hub depolarını ekler.",
+    "status": 1,
+    "language": "tr",
+    "tvTypes": [
+      "Others"
+    ],
+    "apiVersion": 1,
+    "fileSize": 12581,
+    "fileHash": "sha256-81deaaad458fbd5f681bb1056eb3be018977193a7fd4dfd96b900d2dd4bad846",
+    "repositoryUrl": "https://github.com/Wiojelt/WioLand"
+  }
+]

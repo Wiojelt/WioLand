@@ -1,0 +1,41 @@
+name: MegaWio Hourly Health & Catalog Sync
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: megawio-health-sync
+  cancel-in-progress: false
+
+jobs:
+  audit-and-report:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout MegaWio Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Run MegaWio Health Scanner
+        run: |
+          python scripts/megawio_health_scanner.py
+
+      - name: Commit & Push Health Report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add HEALTH_REPORT.md health_status.json
+          if ! git diff --cached --quiet; then
+            git commit -m "chore(health): hourly repository and domain health report [skip ci]"
+            git push origin main
+          fi

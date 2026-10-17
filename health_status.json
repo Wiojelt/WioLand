@@ -1,0 +1,227 @@
+{
+  "timestamp": 1792264497,
+  "repos": [
+    {
+      "name": "WioSinema",
+      "total": 37,
+      "healthy": 37,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioAnime",
+      "total": 10,
+      "healthy": 10,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioDrama",
+      "total": 9,
+      "healthy": 9,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioKids",
+      "total": 10,
+      "healthy": 10,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioCinema",
+      "total": 11,
+      "healthy": 11,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioAsya",
+      "total": 7,
+      "healthy": 7,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "TurkSinema",
+      "total": 71,
+      "healthy": 71,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "TurkSpor",
+      "total": 47,
+      "healthy": 47,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioSpor",
+      "total": 27,
+      "healthy": 27,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "test",
+      "total": 14,
+      "healthy": 14,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    }
+  ],
+  "domains": [
+    {
+      "key": "betmatiktv",
+      "url": "https://betmatiktv156.com/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "ntvs",
+      "url": "https://www.ntvs.cx/matches/kobra/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "daddylive",
+      "url": "https://dlive.sx/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "streameast",
+      "url": "https://v2.gostreameast.is/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "papazsports",
+      "url": "https://www.papazsports1023.pro/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    },
+    {
+      "key": "ardaspor",
+      "url": "https://ardaspor32.top/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "mahsunsports",
+      "url": "https://mahsunsports.xyz/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "crex",
+      "url": "https://crex.com/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "inattv",
+      "url": "https://inattvizle486.top/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "taraftarium24",
+      "url": "https://inattv1326.xyz/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "selcuksports",
+      "url": "https://www.selcuksportshdfe44b96fcb.xyz/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "mackeyfi",
+      "url": "https://www.mackeyfi605.sbs/",
+      "status_code": 523,
+      "state": "Uyarı",
+      "detail": "Beklenmeyen yanıt (HTTP 523)",
+      "cf_challenge": false
+    },
+    {
+      "key": "zbahistv",
+      "url": "https://101baywintv.live/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "intersportv",
+      "url": "https://intersportv1.live/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "beyazelma",
+      "url": "https://beyazelma78.com/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "kralsportshd",
+      "url": "https://kralsportshd.com/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    }
+  ],
+  "workers": [
+    {
+      "url": "https://wiojelt-auth.hdf-worker.workers.dev/",
+      "state": "Normal",
+      "detail": "HTTP 200 (Kota serbest)"
+    },
+    {
+      "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3",
+      "state": "Normal",
+      "detail": "HTTP 200 (Kota serbest)"
+    }
+  ]
+}
