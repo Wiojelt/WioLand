@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792302104,
+  "timestamp": 1792320621,
   "repos": [
     {
       "name": "WioSinema",
@@ -36,9 +36,11 @@
     {
       "name": "WioCinema",
       "total": 11,
-      "healthy": 11,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 10,
+      "mismatches": 1,
+      "errors": [
+        "BingeBang: Hash/Boyut farkı (Katalog: 125509B / Gerçek: 125514B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -174,9 +176,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 523,
+      "state": "Uyarı",
+      "detail": "Beklenmeyen yanıt (HTTP 523)",
       "cf_challenge": false
     },
     {
