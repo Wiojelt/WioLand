@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792355618,
+  "timestamp": 1792364359,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,11 +12,9 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 9,
-      "mismatches": 1,
-      "errors": [
-        "Anizm: Hash/Boyut farkı (Katalog: 113496B / Gerçek: 113819B)"
-      ],
+      "healthy": 10,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -38,11 +36,9 @@
     {
       "name": "WioCinema",
       "total": 11,
-      "healthy": 10,
-      "mismatches": 1,
-      "errors": [
-        "BingeBang: Hash/Boyut farkı (Katalog: 125509B / Gerçek: 125514B)"
-      ],
+      "healthy": 11,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -154,9 +150,9 @@
     {
       "key": "inattv",
       "url": "https://inattvizle486.top/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
