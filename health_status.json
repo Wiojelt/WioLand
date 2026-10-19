@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792364359,
+  "timestamp": 1792371988,
   "repos": [
     {
       "name": "WioSinema",
@@ -150,9 +150,9 @@
     {
       "key": "inattv",
       "url": "https://inattvizle486.top/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
