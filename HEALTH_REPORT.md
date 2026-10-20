@@ -1,6 +1,6 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `20.10.2026 16:46:23 (TSİ)`  
+**Son Güncelleme:** `20.10.2026 20:25:48 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
 **Toplam Eklenti:** `244` | **Sağlıklı:** `244` | **Uyuşmazlık:** `0`
 
@@ -31,18 +31,19 @@
 | **ntvs** | `https://www.ntvs.cx/matches/kobra/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **daddylive** | `https://dlive.sx/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **streameast** | `https://v2.gostreameast.is/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **papazsports** | `https://www.papazsports1023.pro/` | 🟡 Ulaşılamıyor | DNS / Bağlantı zaman aşımı |
+| **papazsports** | `https://www.papazsports1031.pro/` | 🔴 Korumada (Turnstile 403) | Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz |
 | **ardaspor** | `https://ardaspor33.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **mahsunsports** | `https://mahsunsports.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **mahsunsports** | `https://mahsunsports55.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **crex** | `https://crex.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **inattv** | `https://inattvizle486.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **taraftarium24** | `https://inattv1326.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **inattv** | `https://inattv1326.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **taraftarium24** | `https://taraftarium24.io/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **selcuksports** | `https://www.selcuksportshdfe44b96fcb.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟡 Uyarı | Beklenmeyen yanıt (HTTP 523) |
+| **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟡 Ulaşılamıyor | DNS / Bağlantı zaman aşımı |
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **kralsportshd** | `https://kralsportshd.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **atomspor** | `https://atomsportv519.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 
 ---
 
@@ -52,3 +53,9 @@
 | :--- | :---: | :--- |
 | `https://wiojelt-auth.hdf-worker.workers.dev/` | 🟢 Normal | HTTP 200 (Kota serbest) |
 | `https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3` | 🟢 Normal | HTTP 200 (Kota serbest) |
+
+---
+
+## 🚨 Aktif Uyarılar & Çözüm Önerileri
+
+- **PAPAZSPORTS Cloudflare Korumasında:** `https://www.papazsports1031.pro/` adresinde Cloudflare Managed Challenge (Turnstile 403) aktif. İstemciler doğrudan kanal listesi çekemez. **Çözüm:** Kanal listesi `/domains.json` veya GitHub Raw önbellek yansısından beslenmeli.

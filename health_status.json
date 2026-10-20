@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792514783,
+  "timestamp": 1792527948,
   "repos": [
     {
       "name": "WioSinema",
@@ -117,11 +117,11 @@
     },
     {
       "key": "papazsports",
-      "url": "https://www.papazsports1023.pro/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
-      "cf_challenge": false
+      "url": "https://www.papazsports1031.pro/",
+      "status_code": 403,
+      "state": "Korumada (Turnstile 403)",
+      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
+      "cf_challenge": true
     },
     {
       "key": "ardaspor",
@@ -133,7 +133,7 @@
     },
     {
       "key": "mahsunsports",
-      "url": "https://mahsunsports.xyz/",
+      "url": "https://mahsunsports55.xyz/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -149,7 +149,7 @@
     },
     {
       "key": "inattv",
-      "url": "https://inattvizle486.top/",
+      "url": "https://inattv1326.xyz/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -157,7 +157,7 @@
     },
     {
       "key": "taraftarium24",
-      "url": "https://inattv1326.xyz/",
+      "url": "https://taraftarium24.io/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -174,9 +174,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 523,
-      "state": "Uyarı",
-      "detail": "Beklenmeyen yanıt (HTTP 523)",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
@@ -206,6 +206,14 @@
     {
       "key": "kralsportshd",
       "url": "https://kralsportshd.com/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
+    },
+    {
+      "key": "atomspor",
+      "url": "https://atomsportv519.top/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
