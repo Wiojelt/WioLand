@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792749259,
+  "timestamp": 1792767182,
   "repos": [
     {
       "name": "WioSinema",
@@ -44,11 +44,9 @@
     {
       "name": "WioAsya",
       "total": 7,
-      "healthy": 6,
-      "mismatches": 1,
-      "errors": [
-        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 130917B)"
-      ],
+      "healthy": 7,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
