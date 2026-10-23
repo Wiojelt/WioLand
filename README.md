@@ -4,25 +4,27 @@
 
 Lossless and Hi-Res music sources in one addon.
 
-**[Open addon page](https://wiojelt-bitchord-addon.hdf-worker.workers.dev/)** · **[Manifest URL](https://wiojelt-bitchord-addon.hdf-worker.workers.dev/manifest.json)**
+**[Open addon page](https://wiojelt.github.io/wiojelt-bitchord-addon/)** · **[Manifest URL](https://raw.githubusercontent.com/Wiojelt/wiojelt-bitchord-addon/main/manifest.json)**
 
 </div>
 
 ## Installation
 
-1. Open the [addon page](https://wiojelt-bitchord-addon.hdf-worker.workers.dev/) and select **Copy link**.
-2. In BitChord, go to **Settings → Sources → Add an addon**.
-3. Paste the link and save.
+1. Remove the old WioJelt Workers source, if installed.
+2. In BitChord, open **Settings → Sources → Add an addon**.
+3. Paste the manifest URL below and save. BitChord detects it as a module index.
 
 ```text
-https://wiojelt-bitchord-addon.hdf-worker.workers.dev/manifest.json
+https://raw.githubusercontent.com/Wiojelt/wiojelt-bitchord-addon/main/manifest.json
 ```
 
 ## Sources
 
-Monochrome · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · Tido · gglos · Qobuz
+Monochrome · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · Tido · gglos · Qobuz · LastBabe · Internet Archive
 
 Source availability depends on the upstream services.
+
+Modules run inside BitChord and connect directly to providers. No WioJelt Worker or headphone requirement.
 
 ---
 

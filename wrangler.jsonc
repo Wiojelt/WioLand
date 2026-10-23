@@ -1,8 +1,0 @@
-{
-  "name": "wiojelt-bitchord-addon",
-  "main": "worker.mjs",
-  "compatibility_date": "2026-10-23",
-  "compatibility_flags": ["nodejs_compat"],
-  "workers_dev": true,
-  "rules": [{ "type": "Text", "globs": ["**/*.html"], "fallthrough": true }]
-}

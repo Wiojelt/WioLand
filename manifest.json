@@ -1,0 +1,109 @@
+{
+  "id": "art.wiojelt.bitchord.modules",
+  "name": "WioJelt Hi-Res",
+  "version": "0.2.0",
+  "checkValidLossless": 0,
+  "allowDownloads": 1,
+  "category:music": [
+    {
+      "id": "bitchord-tidal-flac",
+      "name": "Monochrome FLAC",
+      "author": "community",
+      "version": "0.4.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "https://raw.githubusercontent.com/OreoMuncher45/bitchord-streaming-modules/df97c0ca349fbf63007ad48199bf389004b3e1a9/modules/bitchord-tidal-flac.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-juanjob",
+      "name": "juanjob Hi-Res",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/juanjob.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-losslessbridge",
+      "name": "Lossless Bridge",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/losslessbridge.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-eljohn-mono",
+      "name": "Eljohnzc Monochrome",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/eljohn-mono.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-qqdl",
+      "name": "QQDL / Lucida",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/qqdl.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-tido",
+      "name": "Tido",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/tido.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-gglos",
+      "name": "gglos",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/gglos.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-qobuz-addon",
+      "name": "Qobuz Addon",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/qobuz-addon.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-lastbabe",
+      "name": "LastBabe",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/lastbabe.js",
+      "trusted": false
+    },
+    {
+      "id": "archive-flac",
+      "name": "Internet Archive FLAC",
+      "author": "community",
+      "version": "1.0.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "https://raw.githubusercontent.com/OreoMuncher45/bitchord-streaming-modules/df97c0ca349fbf63007ad48199bf389004b3e1a9/modules/archive-flac.js",
+      "trusted": false
+    }
+  ]
+}
