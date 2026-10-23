@@ -1,5 +1,0 @@
-.env
-sources.local.json
-node_modules/
-work/
-.wrangler/

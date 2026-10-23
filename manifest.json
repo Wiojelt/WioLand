@@ -22,7 +22,7 @@
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/juanjob.js",
+      "download": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/modules/juanjob.js",
       "trusted": false
     },
     {
@@ -32,7 +32,7 @@
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/losslessbridge.js",
+      "download": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/modules/losslessbridge.js",
       "trusted": false
     },
     {
@@ -42,7 +42,7 @@
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/eljohn-mono.js",
+      "download": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/modules/eljohn-mono.js",
       "trusted": false
     },
     {
@@ -52,7 +52,7 @@
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/qqdl.js",
+      "download": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/modules/qqdl.js",
       "trusted": false
     },
     {
@@ -62,7 +62,7 @@
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/tido.js",
+      "download": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/modules/tido.js",
       "trusted": false
     },
     {
@@ -72,7 +72,7 @@
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/gglos.js",
+      "download": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/modules/gglos.js",
       "trusted": false
     },
     {
@@ -82,7 +82,7 @@
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/qobuz-addon.js",
+      "download": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/modules/qobuz-addon.js",
       "trusted": false
     },
     {
@@ -92,7 +92,7 @@
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/lastbabe.js",
+      "download": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/modules/lastbabe.js",
       "trusted": false
     },
     {
