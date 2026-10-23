@@ -1,6 +1,6 @@
 <div align="center">
 
-# WioJelt · BitChord
+# Wioland
 
 Lossless and Hi-Res music sources in one addon.
 
@@ -24,7 +24,7 @@ Monochrome · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · 
 
 Source availability depends on the upstream services.
 
-Modules run inside BitChord and connect directly to providers. No WioJelt Worker or headphone requirement.
+Modules run inside BitChord and connect directly to providers.
 
 ---
 
