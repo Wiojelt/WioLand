@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="tr">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>WioJelt · BitChord</title>
+<style>
+  :root{font:16px system-ui;color-scheme:light dark}body{margin:0;min-height:100svh;display:grid;place-items:center}main{width:min(90%,420px);text-align:center}a{color:inherit}#addon{display:block;overflow-wrap:anywhere;font-size:14px;line-height:1.7;margin-bottom:24px}button,.open{display:inline-block;font:inherit;padding:10px 16px;border:1px solid GrayText;border-radius:6px;background:transparent;color:inherit;text-decoration:none;cursor:pointer}footer{margin-top:48px;font-size:14px}
+</style>
+<main>
+  <a id="addon" href="/manifest.json">Addon</a>
+  <button id="copy" type="button">Linki kopyala</button>
+  <a class="open" href="intent:#Intent;action=android.intent.action.MAIN;category=android.intent.category.LAUNCHER;component=com.music.bitchord/.MainActivity;end">BitChord'u aç</a>
+  <footer><a href="https://kreosus.com/wiojelt" target="_blank" rel="noopener">Destek ol</a></footer>
+</main>
+<script>
+  const addon=document.querySelector('#addon');addon.textContent=new URL('/manifest.json',location.href).href;
+  document.querySelector('#copy').onclick=async function(){try{await navigator.clipboard.writeText(addon.textContent);this.textContent='Kopyalandı';}catch{const range=document.createRange();range.selectNodeContents(addon);const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range);}};
+</script>
+</html>

@@ -1,0 +1,12 @@
+[
+  {"id":"juanjob","name":"juanjob Hi-Res","type":"addon","url":"https://bitchord-hires-addon.vercel.app"},
+  {"id":"losslessbridge","name":"Lossless Bridge","type":"addon","url":"https://losslessbridge.de.deplexo.com"},
+  {"id":"eljohn-mono","name":"Eljohnzc Monochrome","type":"addon","url":"https://eljohnzc-mono.de.deplexo.com"},
+  {"id":"monochrome","name":"Monochrome","type":"monochrome","url":"https://tracks.monochrome.st"},
+  {"id":"qqdl","name":"QQDL / Lucida","type":"hifi","urls":["https://wolf.qqdl.site","https://maus.qqdl.site","https://vogel.qqdl.site","https://katze.qqdl.site","https://hund.qqdl.site"]},
+  {"id":"tido","name":"Tido","type":"addon","url":"https://tido.tido.tido.dpdns.org","urlEnv":"TIDO_URL"},
+  {"id":"gglos","name":"gglos","type":"addon","url":"https://gglos.ahusaktk.workers.dev","urlEnv":"GGLOS_URL"},
+  {"id":"qobuz-addon","name":"Qobuz Addon","type":"addon","url":"https://qobuz-addon.vercel.app"},
+  {"id":"lastbabe","name":"LastBabe","type":"addon","urlEnv":"LASTBABE_URL"},
+  {"id":"qobuz-account","name":"Qobuz","type":"qobuz","url":"https://www.qobuz.com/api.json/0.2"}
+]
