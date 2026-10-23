@@ -4,7 +4,7 @@
 
 Lossless and Hi-Res music sources in one addon.
 
-**[Open addon page](https://wiojelt.github.io/wiojelt-bitchord-addon/)** · **[Manifest URL](https://raw.githubusercontent.com/Wiojelt/wiojelt-bitchord-addon/main/manifest.json)**
+**[Manifest URL](https://raw.githubusercontent.com/Wiojelt/wioland/music/manifest.json)**
 
 </div>
 
@@ -15,7 +15,7 @@ Lossless and Hi-Res music sources in one addon.
 3. Paste the manifest URL below and save. BitChord detects it as a module index.
 
 ```text
-https://raw.githubusercontent.com/Wiojelt/wiojelt-bitchord-addon/main/manifest.json
+https://raw.githubusercontent.com/Wiojelt/wioland/music/manifest.json
 ```
 
 ## Sources
