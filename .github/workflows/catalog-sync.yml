@@ -36,6 +36,6 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add HEALTH_REPORT.md health_status.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore(health): hourly repository and domain health report [skip ci]"
+            git commit --allow-empty-message -m ""
             git push origin main
           fi
