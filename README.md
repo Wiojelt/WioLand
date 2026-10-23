@@ -2,32 +2,32 @@
 
 # WioJelt · BitChord
 
-Lossless ve Hi-Res müzik kaynakları tek eklentide.
+Lossless and Hi-Res music sources in one addon.
 
-**[Eklenti sayfası](https://wiojelt-bitchord-addon.hdf-worker.workers.dev/)** · **[Manifest bağlantısı](https://wiojelt-bitchord-addon.hdf-worker.workers.dev/manifest.json)**
+**[Open addon page](https://wiojelt-bitchord-addon.hdf-worker.workers.dev/)** · **[Manifest URL](https://wiojelt-bitchord-addon.hdf-worker.workers.dev/manifest.json)**
 
 </div>
 
-## Kurulum
+## Installation
 
-1. [Eklenti sayfasını](https://wiojelt-bitchord-addon.hdf-worker.workers.dev/) açıp **Linki kopyala** düğmesine bas.
-2. BitChord'da **Ayarlar → Kaynaklar → Eklenti ekle** bölümünü aç.
-3. Bağlantıyı yapıştırıp kaydet.
+1. Open the [addon page](https://wiojelt-bitchord-addon.hdf-worker.workers.dev/) and select **Copy link**.
+2. In BitChord, go to **Settings → Sources → Add an addon**.
+3. Paste the link and save.
 
 ```text
 https://wiojelt-bitchord-addon.hdf-worker.workers.dev/manifest.json
 ```
 
-## Kaynaklar
+## Sources
 
 Monochrome · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · Tido · gglos · Qobuz
 
-Kaynakların erişilebilirliği kendi servislerine bağlıdır.
+Source availability depends on the upstream services.
 
 ---
 
 <div align="center">
 
-**[Kreosus üzerinden destek ol](https://kreosus.com/wiojelt)**
+**[Support on Kreosus](https://kreosus.com/wiojelt)**
 
 </div>
