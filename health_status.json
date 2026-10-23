@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792767182,
+  "timestamp": 1792782206,
   "repos": [
     {
       "name": "WioSinema",
@@ -101,7 +101,7 @@
     },
     {
       "key": "daddylive",
-      "url": "https://dlive.sx/",
+      "url": "https://thedaddy.pk/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -174,9 +174,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 523,
-      "state": "Uyarı",
-      "detail": "Beklenmeyen yanıt (HTTP 523)",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
