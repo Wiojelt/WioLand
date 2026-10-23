@@ -26,6 +26,12 @@ Source availability depends on the upstream services.
 
 Modules run inside BitChord and connect directly to providers.
 
+### Eljohnzc Addon
+
+**[Manifest URL](https://eljohnzcaddon.velixir.run/c57e7b0ef2031b2f1fcd/manifest.json)**
+
+Add this manifest separately in BitChord. Streaming only; downloads are disabled by the provider.
+
 ---
 
 <div align="center">
