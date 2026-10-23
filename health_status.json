@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792782206,
+  "timestamp": 1792796509,
   "repos": [
     {
       "name": "WioSinema",
@@ -44,9 +44,11 @@
     {
       "name": "WioAsya",
       "total": 7,
-      "healthy": 7,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 6,
+      "mismatches": 1,
+      "errors": [
+        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -67,16 +69,16 @@
     },
     {
       "name": "WioSpor",
-      "total": 28,
-      "healthy": 28,
+      "total": 27,
+      "healthy": 27,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "test",
-      "total": 13,
-      "healthy": 13,
+      "total": 14,
+      "healthy": 14,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -126,10 +128,10 @@
     {
       "key": "ardaspor",
       "url": "https://ardaspor33.top/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
-      "cf_challenge": false
+      "status_code": 403,
+      "state": "Korumada (Turnstile 403)",
+      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
+      "cf_challenge": true
     },
     {
       "key": "mahsunsports",
@@ -165,7 +167,7 @@
     },
     {
       "key": "selcuksports",
-      "url": "https://www.selcuksportshdfe44b96fcb.xyz/",
+      "url": "https://www.selcuksportshd14e17ba2ad.xyz/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -174,9 +176,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 523,
+      "state": "Uyarı",
+      "detail": "Beklenmeyen yanıt (HTTP 523)",
       "cf_challenge": false
     },
     {
