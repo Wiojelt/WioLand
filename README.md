@@ -4,7 +4,7 @@
 
 Lossless and Hi-Res music sources in one addon.
 
-**[Manifest URL](https://raw.githubusercontent.com/Wiojelt/wioland/music/manifest.json)**
+**[Manifest URL](https://raw.githubusercontent.com/Wiojelt/wioland/music/manifest.json)** · **[BitChord](https://github.com/kushagrasinghx/BitChord)**
 
 </div>
 
