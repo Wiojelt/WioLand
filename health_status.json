@@ -1,5 +1,5 @@
 {
-  "timestamp": 1792796509,
+  "timestamp": 1792815370,
   "repos": [
     {
       "name": "WioSinema",
@@ -127,11 +127,11 @@
     },
     {
       "key": "ardaspor",
-      "url": "https://ardaspor33.top/",
-      "status_code": 403,
-      "state": "Korumada (Turnstile 403)",
-      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
-      "cf_challenge": true
+      "url": "https://ardaspor34.top/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
     },
     {
       "key": "mahsunsports",
