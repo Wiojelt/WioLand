@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793018806,
+  "timestamp": 1793041735,
   "repos": [
     {
       "name": "WioSinema",
@@ -70,9 +70,11 @@
     {
       "name": "WioSpor",
       "total": 27,
-      "healthy": 27,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 26,
+      "mismatches": 1,
+      "errors": [
+        "SelcukSports: Hash/Boyut farkı (Katalog: 174361B / Gerçek: 174357B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -176,9 +178,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 523,
-      "state": "Uyarı",
-      "detail": "Beklenmeyen yanıt (HTTP 523)",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
