@@ -1,9 +1,9 @@
 {
-  "name": "MegaWio",
-  "description": "MegaWio - Toplu Depo Yükleyici",
+  "name": "WioLand",
+  "description": "CloudStream toplu depo kataloğu ve meta-yönetici.",
   "manifestVersion": 1,
   "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/logo-20261004.png?rev=2",
   "pluginLists": [
-    "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/catalogs/plugins.json?t=1792444523"
+    "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/catalogs/plugins.json"
   ]
 }
