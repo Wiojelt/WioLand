@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793041735,
+  "timestamp": 1793058227,
   "repos": [
     {
       "name": "WioSinema",
@@ -70,17 +70,15 @@
     {
       "name": "WioSpor",
       "total": 27,
-      "healthy": 26,
-      "mismatches": 1,
-      "errors": [
-        "SelcukSports: Hash/Boyut farkı (Katalog: 174361B / Gerçek: 174357B)"
-      ],
+      "healthy": 27,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "test",
-      "total": 14,
-      "healthy": 14,
+      "total": 13,
+      "healthy": 13,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -209,7 +207,7 @@
     },
     {
       "key": "kralsportshd",
-      "url": "https://kralsportshd.com/",
+      "url": "https://kralsportshd.com/kral/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
