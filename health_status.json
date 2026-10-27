@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793096466,
+  "timestamp": 1793118199,
   "repos": [
     {
       "name": "WioSinema",
@@ -95,7 +95,7 @@
     },
     {
       "key": "ntvs",
-      "url": "https://www.ntvs.cx/matches/kobra/",
+      "url": "https://www.ntvs.cx/matches/raptor/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -176,9 +176,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
