@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793135520,
+  "timestamp": 1793149668,
   "repos": [
     {
       "name": "WioSinema",
@@ -19,10 +19,13 @@
     },
     {
       "name": "WioDrama",
-      "total": 15,
-      "healthy": 15,
-      "mismatches": 0,
-      "errors": [],
+      "total": 18,
+      "healthy": 16,
+      "mismatches": 2,
+      "errors": [
+        "DramaDizilerim: Hash/Boyut farkı (Katalog: 113260B / Gerçek: 113326B)",
+        "bingbongDRAMA: Paket indirilemedi (HTTP 404)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -77,10 +80,16 @@
     },
     {
       "name": "test",
-      "total": 13,
-      "healthy": 13,
-      "mismatches": 0,
-      "errors": [],
+      "total": 15,
+      "healthy": 10,
+      "mismatches": 5,
+      "errors": [
+        "freeDRAMA: Paket indirilemedi (HTTP 404)",
+        "loveDRAMA: Paket indirilemedi (HTTP 404)",
+        "mcDRAMA: Paket indirilemedi (HTTP 404)",
+        "bingbongDRAMA: Paket indirilemedi (HTTP 404)",
+        "asidbRAMA: Paket indirilemedi (HTTP 404)"
+      ],
       "icon_status": "Aktif (200)"
     }
   ],
