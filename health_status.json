@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793202877,
+  "timestamp": 1793221058,
   "repos": [
     {
       "name": "WioSinema",
@@ -19,12 +19,10 @@
     },
     {
       "name": "WioDrama",
-      "total": 18,
-      "healthy": 17,
-      "mismatches": 1,
-      "errors": [
-        "bingbongDRAMA: Paket indirilemedi (HTTP 404)"
-      ],
+      "total": 14,
+      "healthy": 14,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
