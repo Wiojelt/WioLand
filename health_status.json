@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793175268,
+  "timestamp": 1793202877,
   "repos": [
     {
       "name": "WioSinema",
@@ -20,10 +20,9 @@
     {
       "name": "WioDrama",
       "total": 18,
-      "healthy": 16,
-      "mismatches": 2,
+      "healthy": 17,
+      "mismatches": 1,
       "errors": [
-        "DramaDizilerim: Hash/Boyut farkı (Katalog: 113260B / Gerçek: 113326B)",
         "bingbongDRAMA: Paket indirilemedi (HTTP 404)"
       ],
       "icon_status": "Aktif (200)"
