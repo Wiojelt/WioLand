@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793282744,
+  "timestamp": 1793304615,
   "repos": [
     {
       "name": "WioSinema",
@@ -176,9 +176,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "status_code": 401,
+      "state": "Uyarı",
+      "detail": "Beklenmeyen yanıt (HTTP 401)",
       "cf_challenge": false
     },
     {
