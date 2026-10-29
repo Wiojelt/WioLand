@@ -1,10 +1,10 @@
 {
-  "timestamp": 1793221058,
+  "timestamp": 1793234808,
   "repos": [
     {
       "name": "WioSinema",
-      "total": 36,
-      "healthy": 36,
+      "total": 37,
+      "healthy": 37,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -69,24 +69,18 @@
     },
     {
       "name": "WioSpor",
-      "total": 27,
-      "healthy": 27,
+      "total": 29,
+      "healthy": 29,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "test",
-      "total": 15,
-      "healthy": 10,
-      "mismatches": 5,
-      "errors": [
-        "freeDRAMA: Paket indirilemedi (HTTP 404)",
-        "loveDRAMA: Paket indirilemedi (HTTP 404)",
-        "mcDRAMA: Paket indirilemedi (HTTP 404)",
-        "bingbongDRAMA: Paket indirilemedi (HTTP 404)",
-        "asidbRAMA: Paket indirilemedi (HTTP 404)"
-      ],
+      "total": 3,
+      "healthy": 3,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     }
   ],
