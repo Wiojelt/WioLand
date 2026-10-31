@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `31.10.2026 05:12:13 (TSİ)`  
+**Son Güncelleme:** `31.10.2026 12:05:45 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
-**Toplam Eklenti:** `238` | **Sağlıklı:** `237` | **Uyuşmazlık:** `1`
+**Toplam Eklenti:** `239` | **Sağlıklı:** `238` | **Uyuşmazlık:** `1`
 
 ---
 
@@ -19,7 +19,7 @@
 | **TurkSinema** | 68 | %100 (68/68) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **TurkSpor** | 45 | %100 (45/45) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioSpor** | 29 | %100 (29/29) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **test** | 4 | %100 (4/4) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **test** | 5 | %100 (5/5) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 
 ---
 
@@ -42,7 +42,7 @@
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **kralsportshd** | `https://kralsportshd.com/kral/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **kralsportshd** | `https://kralsportshd.com/izle/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **atomspor** | `https://atomsportv519.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 
 ---

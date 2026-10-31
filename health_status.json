@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793423533,
+  "timestamp": 1793448345,
   "repos": [
     {
       "name": "WioSinema",
@@ -77,8 +77,8 @@
     },
     {
       "name": "test",
-      "total": 4,
-      "healthy": 4,
+      "total": 5,
+      "healthy": 5,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -207,7 +207,7 @@
     },
     {
       "key": "kralsportshd",
-      "url": "https://kralsportshd.com/kral/",
+      "url": "https://kralsportshd.com/izle/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
