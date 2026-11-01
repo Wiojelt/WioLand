@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793544973,
+  "timestamp": 1793561347,
   "repos": [
     {
       "name": "WioSinema",
@@ -207,7 +207,7 @@
     },
     {
       "key": "kralsportshd",
-      "url": "https://kralsportshd.com/izle/",
+      "url": "https://kralsportshd.com/giris/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
