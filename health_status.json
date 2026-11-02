@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793575771,
+  "timestamp": 1793598053,
   "repos": [
     {
       "name": "WioSinema",
@@ -130,9 +130,9 @@
     {
       "key": "ardaspor",
       "url": "https://ardaspor.live/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
@@ -178,9 +178,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.canlimaclar615.sbs/",
-      "status_code": 521,
-      "state": "Uyarı",
-      "detail": "Beklenmeyen yanıt (HTTP 521)",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
@@ -218,9 +218,9 @@
     {
       "key": "atomspor",
       "url": "https://atomsportv519.top/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     }
   ],
