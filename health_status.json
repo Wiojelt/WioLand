@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793717918,
+  "timestamp": 1793739330,
   "repos": [
     {
       "name": "WioSinema",
@@ -20,13 +20,9 @@
     {
       "name": "WioDrama",
       "total": 18,
-      "healthy": 15,
-      "mismatches": 3,
-      "errors": [
-        "DramaDizilerim: Hash/Boyut farkı (Katalog: 34511B / Gerçek: 240316B)",
-        "DramaBox: Hash/Boyut farkı (Katalog: 106017B / Gerçek: 108248B)",
-        "oiDRAMA: Hash/Boyut farkı (Katalog: 112423B / Gerçek: 112423B)"
-      ],
+      "healthy": 18,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -134,10 +130,10 @@
     {
       "key": "ardaspor",
       "url": "https://ardaspor.live/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
-      "cf_challenge": false
+      "status_code": 403,
+      "state": "Korumada (Turnstile 403)",
+      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
+      "cf_challenge": true
     },
     {
       "key": "mahsunsports",
