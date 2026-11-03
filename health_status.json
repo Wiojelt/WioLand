@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793661890,
+  "timestamp": 1793686827,
   "repos": [
     {
       "name": "WioSinema",
@@ -222,9 +222,9 @@
     {
       "key": "atomspor",
       "url": "https://atomsportv519.top/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     }
   ],
