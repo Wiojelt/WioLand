@@ -1,6 +1,6 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `04.11.2026 08:56:40 (TSİ)`  
+**Son Güncelleme:** `04.11.2026 17:02:18 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
 **Toplam Eklenti:** `289` | **Sağlıklı:** `287` | **Uyuşmazlık:** `2`
 
@@ -42,7 +42,7 @@
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **kralsportshd** | `https://kralsportshd.com/giris/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **kralsportshd** | `https://kralsportshd.com/giris1/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **atomspor** | `https://atomsportv519.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 
 ---

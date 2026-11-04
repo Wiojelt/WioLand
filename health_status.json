@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793782600,
+  "timestamp": 1793811738,
   "repos": [
     {
       "name": "WioSinema",
@@ -49,7 +49,7 @@
       "healthy": 6,
       "mismatches": 1,
       "errors": [
-        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)"
+        "DiziAsya: Paket indirilemedi (HTTP 0)"
       ],
       "icon_status": "Aktif (200)"
     },
@@ -209,7 +209,7 @@
     },
     {
       "key": "kralsportshd",
-      "url": "https://kralsportshd.com/giris/",
+      "url": "https://kralsportshd.com/giris1/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
