@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793739330,
+  "timestamp": 1793754711,
   "repos": [
     {
       "name": "WioSinema",
@@ -79,8 +79,8 @@
     },
     {
       "name": "test",
-      "total": 13,
-      "healthy": 13,
+      "total": 12,
+      "healthy": 12,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -130,10 +130,10 @@
     {
       "key": "ardaspor",
       "url": "https://ardaspor.live/",
-      "status_code": 403,
-      "state": "Korumada (Turnstile 403)",
-      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
-      "cf_challenge": true
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
+      "cf_challenge": false
     },
     {
       "key": "mahsunsports",
@@ -153,7 +153,7 @@
     },
     {
       "key": "inattv",
-      "url": "https://inattv1327.xyz/",
+      "url": "https://inattv1329.xyz/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
