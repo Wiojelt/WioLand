@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793811738,
+  "timestamp": 1793835306,
   "repos": [
     {
       "name": "WioSinema",
@@ -23,7 +23,7 @@
       "healthy": 18,
       "mismatches": 0,
       "errors": [],
-      "icon_status": "Aktif (200)"
+      "icon_status": "Hata (0)"
     },
     {
       "name": "WioKids",
@@ -49,24 +49,29 @@
       "healthy": 6,
       "mismatches": 1,
       "errors": [
-        "DiziAsya: Paket indirilemedi (HTTP 0)"
+        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)"
       ],
-      "icon_status": "Aktif (200)"
+      "icon_status": "Hata (0)"
     },
     {
       "name": "TurkSinema",
       "total": 107,
-      "healthy": 107,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 106,
+      "mismatches": 1,
+      "errors": [
+        "ClipBox: Paket indirilemedi (HTTP 0)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "TurkSpor",
       "total": 45,
-      "healthy": 45,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 43,
+      "mismatches": 2,
+      "errors": [
+        "BetmatikTV: Paket indirilemedi (HTTP 0)",
+        "StbTV: Paket indirilemedi (HTTP 0)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -75,7 +80,7 @@
       "healthy": 29,
       "mismatches": 0,
       "errors": [],
-      "icon_status": "Aktif (200)"
+      "icon_status": "Hata (0)"
     },
     {
       "name": "test",
@@ -153,7 +158,7 @@
     },
     {
       "key": "inattv",
-      "url": "https://inattv1329.xyz/",
+      "url": "https://inattv1328.xyz/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -177,7 +182,7 @@
     },
     {
       "key": "mackeyfi",
-      "url": "https://www.canlimaclar615.sbs/",
+      "url": "https://www.mackeyfi605.sbs/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
