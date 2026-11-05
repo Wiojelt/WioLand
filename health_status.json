@@ -1,5 +1,5 @@
 {
-  "timestamp": 1793892040,
+  "timestamp": 1793915669,
   "repos": [
     {
       "name": "WioSinema",
@@ -36,11 +36,9 @@
     {
       "name": "WioCinema",
       "total": 14,
-      "healthy": 13,
-      "mismatches": 1,
-      "errors": [
-        "0 WioCinema: Hash/Boyut farkı (Katalog: 2370239B / Gerçek: 2469563B)"
-      ],
+      "healthy": 14,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -105,7 +103,7 @@
     },
     {
       "key": "daddylive",
-      "url": "https://thedaddy.pk/",
+      "url": "https://thedaddy.li/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -217,7 +215,7 @@
     },
     {
       "key": "atomspor",
-      "url": "https://atomsportv519.top/",
+      "url": "https://www.atomsportv520.top/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",

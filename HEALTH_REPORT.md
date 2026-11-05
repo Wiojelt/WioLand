@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `05.11.2026 15:20:40 (TSİ)`  
+**Son Güncelleme:** `05.11.2026 21:54:29 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
-**Toplam Eklenti:** `289` | **Sağlıklı:** `287` | **Uyuşmazlık:** `2`
+**Toplam Eklenti:** `289` | **Sağlıklı:** `288` | **Uyuşmazlık:** `1`
 
 ---
 
@@ -14,7 +14,7 @@
 | **WioAnime** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioDrama** | 18 | %100 (18/18) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioKids** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioCinema** | 14 | %93 (13/14) | ✅ Aktif (200) | 🔴 1 Hata |
+| **WioCinema** | 14 | %100 (14/14) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAsya** | 7 | %86 (6/7) | ✅ Aktif (200) | 🔴 1 Hata |
 | **TurkSinema** | 107 | %100 (107/107) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **TurkSpor** | 45 | %100 (45/45) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
@@ -29,7 +29,7 @@
 | :--- | :--- | :---: | :--- |
 | **betmatiktv** | `https://betmatiktv156.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **ntvs** | `https://www.ntvs.cx/matches/raptor/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **daddylive** | `https://thedaddy.pk/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **daddylive** | `https://thedaddy.li/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **streameast** | `https://v2.gostreameast.is/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **papazsports** | `https://www.papazsports1031.pro/` | 🔴 Korumada (Turnstile 403) | Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz |
 | **ardaspor** | `https://ardaspor.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
@@ -43,7 +43,7 @@
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **kralsportshd** | `https://kralsportshd.com/giris1/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **atomspor** | `https://atomsportv519.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **atomspor** | `https://www.atomsportv520.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 
 ---
 
@@ -59,4 +59,4 @@
 ## 🚨 Aktif Uyarılar & Çözüm Önerileri
 
 - **PAPAZSPORTS Cloudflare Korumasında:** `https://www.papazsports1031.pro/` adresinde Cloudflare Managed Challenge (Turnstile 403) aktif. İstemciler doğrudan kanal listesi çekemez. **Çözüm:** Kanal listesi `/domains.json` veya GitHub Raw önbellek yansısından beslenmeli.
-- **Paket Hash Uyuşmazlığı:** `2` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
+- **Paket Hash Uyuşmazlığı:** `1` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
