@@ -1,6 +1,6 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `05.11.2026 21:54:29 (TSİ)`  
+**Son Güncelleme:** `06.11.2026 02:11:52 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
 **Toplam Eklenti:** `289` | **Sağlıklı:** `288` | **Uyuşmazlık:** `1`
 
@@ -38,7 +38,7 @@
 | **inattv** | `https://inattv1328.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **taraftarium24** | `https://taraftarium24.io/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **selcuksports** | `https://www.selcuksportshd14e17ba2ad.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **mackeyfi** | `https://www.canlimaclar615.sbs/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
