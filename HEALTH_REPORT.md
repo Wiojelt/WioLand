@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `07.11.2026 16:16:18 (TSİ)`  
+**Son Güncelleme:** `07.11.2026 20:47:17 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
-**Toplam Eklenti:** `290` | **Sağlıklı:** `289` | **Uyuşmazlık:** `1`
+**Toplam Eklenti:** `291` | **Sağlıklı:** `290` | **Uyuşmazlık:** `1`
 
 ---
 
@@ -10,7 +10,7 @@
 
 | Depo Adı | Eklenti Sayısı | İndirme Sağlığı | Logo / Icon | Durum |
 | :--- | :---: | :---: | :---: | :---: |
-| **WioSinema** | 37 | %100 (37/37) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **WioSinema** | 38 | %100 (38/38) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAnime** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioDrama** | 18 | %100 (18/18) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioKids** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
@@ -41,7 +41,7 @@
 | **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **beyazelma** | `https://beyazelma78.com/` | 🔴 Korumada (Turnstile 403) | Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz |
 | **kralsportshd** | `https://kralsportshd.com/giris1/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **atomspor** | `https://www.atomsportv520.top/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 
@@ -59,4 +59,5 @@
 ## 🚨 Aktif Uyarılar & Çözüm Önerileri
 
 - **PAPAZSPORTS Cloudflare Korumasında:** `https://www.papazsports1031.pro/` adresinde Cloudflare Managed Challenge (Turnstile 403) aktif. İstemciler doğrudan kanal listesi çekemez. **Çözüm:** Kanal listesi `/domains.json` veya GitHub Raw önbellek yansısından beslenmeli.
+- **BEYAZELMA Cloudflare Korumasında:** `https://beyazelma78.com/` adresinde Cloudflare Managed Challenge (Turnstile 403) aktif. İstemciler doğrudan kanal listesi çekemez. **Çözüm:** Kanal listesi `/domains.json` veya GitHub Raw önbellek yansısından beslenmeli.
 - **Paket Hash Uyuşmazlığı:** `1` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.

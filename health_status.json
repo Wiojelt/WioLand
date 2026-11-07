@@ -1,10 +1,10 @@
 {
-  "timestamp": 1794068178,
+  "timestamp": 1794084437,
   "repos": [
     {
       "name": "WioSinema",
-      "total": 37,
-      "healthy": 37,
+      "total": 38,
+      "healthy": 38,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -200,10 +200,10 @@
     {
       "key": "beyazelma",
       "url": "https://beyazelma78.com/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
-      "cf_challenge": false
+      "status_code": 403,
+      "state": "Korumada (Turnstile 403)",
+      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
+      "cf_challenge": true
     },
     {
       "key": "kralsportshd",
