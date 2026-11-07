@@ -13,7 +13,17 @@ function query(path, values) {
   });
   return path + (path.indexOf('?') < 0 ? '?' : '&') + pairs.join('&');
 }
+function assertSafeUrl(url) {
+  var parsed;
+  try { parsed = new URL(url); } catch (_) { throw new Error('Invalid URL'); }
+  if (parsed.protocol !== 'https:') throw new Error('Blocked protocol');
+  var host = parsed.hostname.toLowerCase();
+  if (host === 'localhost' || host === '0.0.0.0' || host === '::1' || host === 'metadata.google.internal') throw new Error('Blocked host');
+  if (/^(127\.|10\.|192\.168\.|169\.254\.|100\.(6[4-9]|[7-9]\d|1[01]\d|12[0-7])\.|172\.(1[6-9]|2\d|3[01])\.)/.test(host)) throw new Error('Blocked host');
+  return parsed;
+}
 async function json(url) {
+  assertSafeUrl(url);
   var response = await fetch(url, { headers: { Accept: 'application/json', 'User-Agent': 'BitChord/v1.8.1 WioJelt/0.2' } });
   if (!response.ok) throw new Error('HTTP ' + response.status);
   return await response.json();
