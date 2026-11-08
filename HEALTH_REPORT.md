@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `08.11.2026 14:58:50 (TSİ)`  
+**Son Güncelleme:** `08.11.2026 19:31:11 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
-**Toplam Eklenti:** `327` | **Sağlıklı:** `326` | **Uyuşmazlık:** `1`
+**Toplam Eklenti:** `327` | **Sağlıklı:** `321` | **Uyuşmazlık:** `6`
 
 ---
 
@@ -11,11 +11,11 @@
 | Depo Adı | Eklenti Sayısı | İndirme Sağlığı | Logo / Icon | Durum |
 | :--- | :---: | :---: | :---: | :---: |
 | **WioSinema** | 43 | %100 (43/43) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioAnime** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **WioAnime** | 10 | %80 (8/10) | ✅ Aktif (200) | 🔴 2 Hata |
 | **WioDrama** | 18 | %100 (18/18) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioKids** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioCinema** | 14 | %100 (14/14) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioAsya** | 7 | %86 (6/7) | ✅ Aktif (200) | 🔴 1 Hata |
+| **WioCinema** | 14 | %93 (13/14) | ✅ Aktif (200) | 🔴 1 Hata |
+| **WioAsya** | 7 | %57 (4/7) | ✅ Aktif (200) | 🔴 3 Hata |
 | **TurkSinema** | 119 | %100 (119/119) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **TurkSpor** | 45 | %100 (45/45) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioSpor** | 29 | %100 (29/29) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
@@ -28,7 +28,7 @@
 | Sağlayıcı | Güncel URL | Durum | Açıklama |
 | :--- | :--- | :---: | :--- |
 | **betmatiktv** | `https://betmatiktv156.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **ntvs** | `https://www.ntvs.cx/` | 🟡 Ulaşılamıyor | DNS / Bağlantı zaman aşımı |
+| **ntvs** | `https://www.ntvs.cx/matches/raptor/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **daddylive** | `https://thedaddy.li/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **streameast** | `https://v2.gostreameast.is/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **papazsports** | `https://www.papazsports1031.pro/` | 🔴 Korumada (Turnstile 403) | Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz |
@@ -59,4 +59,4 @@
 ## 🚨 Aktif Uyarılar & Çözüm Önerileri
 
 - **PAPAZSPORTS Cloudflare Korumasında:** `https://www.papazsports1031.pro/` adresinde Cloudflare Managed Challenge (Turnstile 403) aktif. İstemciler doğrudan kanal listesi çekemez. **Çözüm:** Kanal listesi `/domains.json` veya GitHub Raw önbellek yansısından beslenmeli.
-- **Paket Hash Uyuşmazlığı:** `1` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
+- **Paket Hash Uyuşmazlığı:** `6` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
