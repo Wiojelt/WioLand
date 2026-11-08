@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794097359,
+  "timestamp": 1794121688,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,10 +12,11 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 9,
-      "mismatches": 1,
+      "healthy": 8,
+      "mismatches": 2,
       "errors": [
-        "TRanimaci: Hash/Boyut farkı (Katalog: 75555B / Gerçek: 111442B)"
+        "Deokwave: Hash/Boyut farkı (Katalog: 132083B / Gerçek: 132083B)",
+        "TRanimaci: Hash/Boyut farkı (Katalog: 75555B / Gerçek: 111650B)"
       ],
       "icon_status": "Aktif (200)"
     },
@@ -53,26 +54,16 @@
       "errors": [
         "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)",
         "AsyaWatch: Hash/Boyut farkı (Katalog: 92239B / Gerçek: 121700B)",
-        "WebDramaTurkey: Hash/Boyut farkı (Katalog: 109598B / Gerçek: 140522B)"
+        "WebDramaTurkey: Hash/Boyut farkı (Katalog: 109598B / Gerçek: 140524B)"
       ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "TurkSinema",
-      "total": 112,
-      "healthy": 103,
-      "mismatches": 9,
-      "errors": [
-        "Dizilla: Hash/Boyut farkı (Katalog: 268846B / Gerçek: 268818B)",
-        "DiziRella: Hash/Boyut farkı (Katalog: 139197B / Gerçek: 139193B)",
-        "DiziYou: Hash/Boyut farkı (Katalog: 110761B / Gerçek: 110664B)",
-        "FullHDFilm: Hash/Boyut farkı (Katalog: 119659B / Gerçek: 119679B)",
-        "HDFilmIzleInk: Hash/Boyut farkı (Katalog: 132138B / Gerçek: 132138B)",
-        "HDFilmIzleVip: Hash/Boyut farkı (Katalog: 132161B / Gerçek: 132156B)",
-        "LiderFilmIzle: Hash/Boyut farkı (Katalog: 139237B / Gerçek: 139233B)",
-        "SelcukFlix: Hash/Boyut farkı (Katalog: 290110B / Gerçek: 294744B)",
-        "SetFilmIzle: Hash/Boyut farkı (Katalog: 119285B / Gerçek: 119285B)"
-      ],
+      "total": 119,
+      "healthy": 119,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -93,8 +84,8 @@
     },
     {
       "name": "test",
-      "total": 19,
-      "healthy": 19,
+      "total": 32,
+      "healthy": 32,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -216,10 +207,10 @@
     {
       "key": "beyazelma",
       "url": "https://beyazelma78.com/",
-      "status_code": 403,
-      "state": "Korumada (Turnstile 403)",
-      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
-      "cf_challenge": true
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
     },
     {
       "key": "kralsportshd",
