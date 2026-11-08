@@ -1,10 +1,10 @@
 {
-  "timestamp": 1794084437,
+  "timestamp": 1794097359,
   "repos": [
     {
       "name": "WioSinema",
-      "total": 38,
-      "healthy": 38,
+      "total": 43,
+      "healthy": 43,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -12,9 +12,11 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 10,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 9,
+      "mismatches": 1,
+      "errors": [
+        "TRanimaci: Hash/Boyut farkı (Katalog: 75555B / Gerçek: 111442B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -36,27 +38,41 @@
     {
       "name": "WioCinema",
       "total": 14,
-      "healthy": 14,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 13,
+      "mismatches": 1,
+      "errors": [
+        "TurkishCineStream: Hash/Boyut farkı (Katalog: 840939B / Gerçek: 2317568B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioAsya",
       "total": 7,
-      "healthy": 6,
-      "mismatches": 1,
+      "healthy": 4,
+      "mismatches": 3,
       "errors": [
-        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)"
+        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)",
+        "AsyaWatch: Hash/Boyut farkı (Katalog: 92239B / Gerçek: 121700B)",
+        "WebDramaTurkey: Hash/Boyut farkı (Katalog: 109598B / Gerçek: 140522B)"
       ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "TurkSinema",
-      "total": 107,
-      "healthy": 107,
-      "mismatches": 0,
-      "errors": [],
+      "total": 112,
+      "healthy": 103,
+      "mismatches": 9,
+      "errors": [
+        "Dizilla: Hash/Boyut farkı (Katalog: 268846B / Gerçek: 268818B)",
+        "DiziRella: Hash/Boyut farkı (Katalog: 139197B / Gerçek: 139193B)",
+        "DiziYou: Hash/Boyut farkı (Katalog: 110761B / Gerçek: 110664B)",
+        "FullHDFilm: Hash/Boyut farkı (Katalog: 119659B / Gerçek: 119679B)",
+        "HDFilmIzleInk: Hash/Boyut farkı (Katalog: 132138B / Gerçek: 132138B)",
+        "HDFilmIzleVip: Hash/Boyut farkı (Katalog: 132161B / Gerçek: 132156B)",
+        "LiderFilmIzle: Hash/Boyut farkı (Katalog: 139237B / Gerçek: 139233B)",
+        "SelcukFlix: Hash/Boyut farkı (Katalog: 290110B / Gerçek: 294744B)",
+        "SetFilmIzle: Hash/Boyut farkı (Katalog: 119285B / Gerçek: 119285B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -77,8 +93,8 @@
     },
     {
       "name": "test",
-      "total": 13,
-      "healthy": 13,
+      "total": 19,
+      "healthy": 19,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
