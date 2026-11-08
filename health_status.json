@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794121688,
+  "timestamp": 1794149930,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,12 +12,9 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 8,
-      "mismatches": 2,
-      "errors": [
-        "Deokwave: Hash/Boyut farkı (Katalog: 132083B / Gerçek: 132083B)",
-        "TRanimaci: Hash/Boyut farkı (Katalog: 75555B / Gerçek: 111650B)"
-      ],
+      "healthy": 10,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -39,22 +36,18 @@
     {
       "name": "WioCinema",
       "total": 14,
-      "healthy": 13,
-      "mismatches": 1,
-      "errors": [
-        "TurkishCineStream: Hash/Boyut farkı (Katalog: 840939B / Gerçek: 2317568B)"
-      ],
+      "healthy": 14,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioAsya",
       "total": 7,
-      "healthy": 4,
-      "mismatches": 3,
+      "healthy": 6,
+      "mismatches": 1,
       "errors": [
-        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)",
-        "AsyaWatch: Hash/Boyut farkı (Katalog: 92239B / Gerçek: 121700B)",
-        "WebDramaTurkey: Hash/Boyut farkı (Katalog: 109598B / Gerçek: 140524B)"
+        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)"
       ],
       "icon_status": "Aktif (200)"
     },
@@ -102,10 +95,10 @@
     },
     {
       "key": "ntvs",
-      "url": "https://www.ntvs.cx/matches/raptor/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "url": "https://www.ntvs.cx/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
@@ -207,9 +200,9 @@
     {
       "key": "beyazelma",
       "url": "https://beyazelma78.com/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
