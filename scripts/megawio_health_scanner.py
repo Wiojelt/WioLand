@@ -305,6 +305,7 @@ def audit_domains() -> list[dict]:
 def audit_workers() -> list[dict]:
     worker_endpoints = [
         "https://wiojelt-auth.hdf-worker.workers.dev/",
+        "https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3",
     ]
     results = []
     for ep in worker_endpoints:
