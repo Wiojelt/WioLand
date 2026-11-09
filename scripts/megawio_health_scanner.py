@@ -165,15 +165,21 @@ def audit_package_integrity(repo_conf: dict, fix: bool = False) -> dict:
             errors.append(f"{name}: URL boş")
             continue
 
-        status, headers, body = fetch_url(url, timeout=12)
+        body = None
+        status = 0
+        if use_local:
+            cand_names = [f"{name}.cs3", f"{entry.get('internalName', '')}.cs3", Path(url).name.split('?')[0]]
+            for c in cand_names:
+                if c and (local_p / c).is_file():
+                    body = (local_p / c).read_bytes()
+                    status = 200
+                    break
+        if not body:
+            status, headers, body = fetch_url(url, timeout=12)
         if status != 200 or not body:
-            if use_local and (local_p / f"{name}.cs3").is_file():
-                body = (local_p / f"{name}.cs3").read_bytes()
-                status = 200
-            else:
-                mismatches += 1
-                errors.append(f"{name}: Paket indirilemedi (HTTP {status})")
-                continue
+            mismatches += 1
+            errors.append(f"{name}: Paket indirilemedi (HTTP {status})")
+            continue
 
         actual_size = len(body)
         actual_hash = f"sha256-{hashlib.sha256(body).hexdigest()}"
