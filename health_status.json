@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794266047,
+  "timestamp": 1794266149,
   "repos": [
     {
       "name": "WioSinema",
@@ -87,7 +87,7 @@
       "healthy": 6,
       "mismatches": 0,
       "errors": [],
-      "icon_status": "Eksik"
+      "icon_status": "Aktif (200)"
     }
   ],
   "domains": [
