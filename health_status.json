@@ -1,14 +1,12 @@
 {
-  "timestamp": 1794255978,
+  "timestamp": 1794256158,
   "repos": [
     {
       "name": "WioSinema",
       "total": 43,
-      "healthy": 42,
-      "mismatches": 1,
-      "errors": [
-        "fragileTV: Hash/Boyut farkı (Katalog: 144816B / Gerçek: 144821B)"
-      ],
+      "healthy": 43,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -54,11 +52,9 @@
     {
       "name": "TurkSinema",
       "total": 120,
-      "healthy": 119,
-      "mismatches": 1,
-      "errors": [
-        "fragileTV: Hash/Boyut farkı (Katalog: 144816B / Gerçek: 144821B)"
-      ],
+      "healthy": 120,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
