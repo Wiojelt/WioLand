@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794259631,
+  "timestamp": 1794264620,
   "repos": [
     {
       "name": "WioSinema",
@@ -59,8 +59,8 @@
     },
     {
       "name": "TurkSpor",
-      "total": 45,
-      "healthy": 45,
+      "total": 46,
+      "healthy": 46,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -80,6 +80,14 @@
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioKitap",
+      "total": 4,
+      "healthy": 4,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Eksik"
     }
   ],
   "domains": [
