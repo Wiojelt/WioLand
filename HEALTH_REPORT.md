@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `09.11.2026 22:45:44 (TSİ)`  
-**Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
-**Toplam Eklenti:** `329` | **Sağlıklı:** `329` | **Uyuşmazlık:** `0`
+**Son Güncelleme:** `09.11.2026 23:26:18 (TSİ)`  
+**Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
+**Toplam Eklenti:** `329` | **Sağlıklı:** `327` | **Uyuşmazlık:** `2`
 
 ---
 
@@ -10,13 +10,13 @@
 
 | Depo Adı | Eklenti Sayısı | İndirme Sağlığı | Logo / Icon | Durum |
 | :--- | :---: | :---: | :---: | :---: |
-| **WioSinema** | 43 | %100 (43/43) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **WioSinema** | 43 | %98 (42/43) | ✅ Aktif (200) | 🔴 1 Hata |
 | **WioAnime** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioDrama** | 18 | %100 (18/18) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioKids** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioCinema** | 14 | %100 (14/14) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAsya** | 7 | %100 (7/7) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **TurkSinema** | 120 | %100 (120/120) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **TurkSinema** | 120 | %99 (119/120) | ✅ Aktif (200) | 🔴 1 Hata |
 | **TurkSpor** | 45 | %100 (45/45) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioSpor** | 29 | %100 (29/29) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **test** | 33 | %100 (33/33) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
@@ -54,3 +54,9 @@
 | :--- | :---: | :--- |
 | `https://wiojelt-auth.hdf-worker.workers.dev/` | 🟢 Normal | HTTP 200 (Kota serbest) |
 | `https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3` | 🟢 Normal | HTTP 200 (Kota serbest) |
+
+---
+
+## 🚨 Aktif Uyarılar & Çözüm Önerileri
+
+- **Paket Hash Uyuşmazlığı:** `2` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
