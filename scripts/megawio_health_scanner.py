@@ -99,6 +99,13 @@ REPOS = [
         "raw_repo": "https://raw.githubusercontent.com/Wiojelt/test/builds/repo.json",
         "branch": "builds",
     },
+    {
+        "name": "WioKitap",
+        "local_path": BASE_LOCAL_DIR / "WioKitap",
+        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioKitap/main/plugins.json",
+        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioKitap/main/repo.json",
+        "branch": "main",
+    },
 ]
 
 DOMAINS_URL = "https://raw.githubusercontent.com/Wiojelt/TurkSpor/main/domains.json"
