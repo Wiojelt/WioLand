@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794253252,
+  "timestamp": 1794253544,
   "repos": [
     {
       "name": "WioSinema",
@@ -52,11 +52,9 @@
     {
       "name": "TurkSinema",
       "total": 120,
-      "healthy": 119,
-      "mismatches": 1,
-      "errors": [
-        "DiziPalHub: Hash/Boyut farkı (Katalog: 234477B / Gerçek: 234497B)"
-      ],
+      "healthy": 120,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
