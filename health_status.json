@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794258127,
+  "timestamp": 1794259631,
   "repos": [
     {
       "name": "WioSinema",
@@ -231,6 +231,11 @@
   "workers": [
     {
       "url": "https://wiojelt-auth.hdf-worker.workers.dev/",
+      "state": "Normal",
+      "detail": "HTTP 200 (Kota serbest)"
+    },
+    {
+      "url": "https://wiojelt-auth.hdf-worker.workers.dev/dl/spor/BeyazElma.cs3",
       "state": "Normal",
       "detail": "HTTP 200 (Kota serbest)"
     }
