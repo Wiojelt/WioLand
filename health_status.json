@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794269223,
+  "timestamp": 1794298476,
   "repos": [
     {
       "name": "WioSinema",
@@ -44,11 +44,9 @@
     {
       "name": "WioCinema",
       "total": 14,
-      "healthy": 13,
-      "mismatches": 1,
-      "errors": [
-        "CineStream: Hash/Boyut farkı (Katalog: 795759B / Gerçek: 786242B)"
-      ],
+      "healthy": 14,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -84,8 +82,8 @@
     },
     {
       "name": "WioSpor",
-      "total": 30,
-      "healthy": 30,
+      "total": 29,
+      "healthy": 29,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -230,7 +228,7 @@
     },
     {
       "key": "kralsportshd",
-      "url": "https://kralsportshd.com/giris1/",
+      "url": "https://kralsportshd.com/giris2/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
