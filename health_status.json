@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794267968,
+  "timestamp": 1794269223,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,9 +12,11 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 10,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 9,
+      "mismatches": 1,
+      "errors": [
+        "TRanimaci: Hash/Boyut farkı (Katalog: 111650B / Gerçek: 111632B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -28,25 +30,40 @@
     {
       "name": "WioKids",
       "total": 10,
-      "healthy": 10,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 5,
+      "mismatches": 5,
+      "errors": [
+        "CizgiVeDizi: Hash/Boyut farkı (Katalog: 134882B / Gerçek: 133521B)",
+        "CizgiPortal: Hash/Boyut farkı (Katalog: 108572B / Gerçek: 107088B)",
+        "CizgiFilmIzleInfo: Hash/Boyut farkı (Katalog: 108218B / Gerçek: 108219B)",
+        "CizgiDiziNet: Hash/Boyut farkı (Katalog: 113843B / Gerçek: 113835B)",
+        "CizgiSite: Hash/Boyut farkı (Katalog: 106602B / Gerçek: 106616B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioCinema",
       "total": 14,
-      "healthy": 14,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 13,
+      "mismatches": 1,
+      "errors": [
+        "CineStream: Hash/Boyut farkı (Katalog: 795759B / Gerçek: 786242B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioAsya",
       "total": 7,
-      "healthy": 7,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 1,
+      "mismatches": 6,
+      "errors": [
+        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)",
+        "DiziKorea: Hash/Boyut farkı (Katalog: 119855B / Gerçek: 121186B)",
+        "TRasyalog: Hash/Boyut farkı (Katalog: 107434B / Gerçek: 109206B)",
+        "AsyaWatch: Hash/Boyut farkı (Katalog: 92239B / Gerçek: 121700B)",
+        "WebDramaTurkey: Hash/Boyut farkı (Katalog: 109598B / Gerçek: 140524B)",
+        "HintFilmİzle: Hash/Boyut farkı (Katalog: 163198B / Gerçek: 166127B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -67,8 +84,8 @@
     },
     {
       "name": "WioSpor",
-      "total": 29,
-      "healthy": 29,
+      "total": 30,
+      "healthy": 30,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -125,15 +142,15 @@
     },
     {
       "key": "papazsports",
-      "url": "https://www.papazsports1033.pro/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
-      "cf_challenge": false
+      "url": "https://www.papazsports1031.pro/",
+      "status_code": 403,
+      "state": "Korumada (Turnstile 403)",
+      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
+      "cf_challenge": true
     },
     {
       "key": "ardaspor",
-      "url": "https://ardaspor39.top/",
+      "url": "https://ardaspor.live/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -165,7 +182,7 @@
     },
     {
       "key": "taraftarium24",
-      "url": "https://inattv1328.xyz/",
+      "url": "https://taraftarium24.io/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -221,15 +238,7 @@
     },
     {
       "key": "atomspor",
-      "url": "https://atomsportv519.top/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
-      "cf_challenge": false
-    },
-    {
-      "key": "leotv",
-      "url": "https://leograndtv11.com/",
+      "url": "https://www.atomsportv520.top/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
