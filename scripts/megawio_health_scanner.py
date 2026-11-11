@@ -78,13 +78,7 @@ REPOS = [
         "raw_repo": "https://raw.githubusercontent.com/Wiojelt/TurkSinema/builds/repo.json",
         "branch": "builds",
     },
-    {
-        "name": "TurkSpor",
-        "local_path": BASE_LOCAL_DIR / "TurkSpor",
-        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/TurkSpor/builds/plugins.json",
-        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/TurkSpor/builds/repo.json",
-        "branch": "builds",
-    },
+
     {
         "name": "WioSpor",
         "local_path": BASE_LOCAL_DIR / "WioSpor",
