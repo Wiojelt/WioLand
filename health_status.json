@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794476381,
+  "timestamp": 1794506815,
   "repos": [
     {
       "name": "WioSinema",
@@ -44,9 +44,10 @@
     {
       "name": "WioCinema",
       "total": 14,
-      "healthy": 13,
-      "mismatches": 1,
+      "healthy": 12,
+      "mismatches": 2,
       "errors": [
+        "0 WioCinema: Paket indirilemedi (HTTP 0)",
         "CineStream: Hash/Boyut farkı (Katalog: 795759B / Gerçek: 786242B)"
       ],
       "icon_status": "Aktif (200)"
