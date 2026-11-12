@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794422043,
+  "timestamp": 1794446842,
   "repos": [
     {
       "name": "WioSinema",
@@ -70,14 +70,6 @@
       "name": "TurkSinema",
       "total": 121,
       "healthy": 121,
-      "mismatches": 0,
-      "errors": [],
-      "icon_status": "Aktif (200)"
-    },
-    {
-      "name": "TurkSpor",
-      "total": 46,
-      "healthy": 46,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
