@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794506815,
+  "timestamp": 1794528330,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,11 +12,9 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 9,
-      "mismatches": 1,
-      "errors": [
-        "TRanimaci: Hash/Boyut farkı (Katalog: 111650B / Gerçek: 111632B)"
-      ],
+      "healthy": 10,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -44,12 +42,9 @@
     {
       "name": "WioCinema",
       "total": 14,
-      "healthy": 12,
-      "mismatches": 2,
-      "errors": [
-        "0 WioCinema: Paket indirilemedi (HTTP 0)",
-        "CineStream: Hash/Boyut farkı (Katalog: 795759B / Gerçek: 786242B)"
-      ],
+      "healthy": 14,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
