@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `14.11.2026 16:57:03 (TSİ)`  
+**Son Güncelleme:** `14.11.2026 21:19:55 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
-**Toplam Eklenti:** `294` | **Sağlıklı:** `280` | **Uyuşmazlık:** `14`
+**Toplam Eklenti:** `260` | **Sağlıklı:** `246` | **Uyuşmazlık:** `14`
 
 ---
 
@@ -10,15 +10,15 @@
 
 | Depo Adı | Eklenti Sayısı | İndirme Sağlığı | Logo / Icon | Durum |
 | :--- | :---: | :---: | :---: | :---: |
-| **WioSinema** | 43 | %100 (43/43) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **WioSinema** | 42 | %100 (42/42) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAnime** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioDrama** | 18 | %83 (15/18) | ✅ Aktif (200) | 🔴 3 Hata |
+| **WioDrama** | 19 | %84 (16/19) | ✅ Aktif (200) | 🔴 3 Hata |
 | **WioKids** | 10 | %50 (5/10) | ✅ Aktif (200) | 🔴 5 Hata |
 | **WioCinema** | 14 | %100 (14/14) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAsya** | 7 | %14 (1/7) | ✅ Aktif (200) | 🔴 6 Hata |
-| **TurkSinema** | 121 | %100 (121/121) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **TurkSinema** | 120 | %100 (120/120) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioSpor** | 29 | %100 (29/29) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **test** | 34 | %100 (34/34) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **test** | 1 | %100 (1/1) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioKitap** | 8 | %100 (8/8) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 
 ---
