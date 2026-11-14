@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794651140,
+  "timestamp": 1794675423,
   "repos": [
     {
       "name": "WioSinema",
@@ -20,9 +20,13 @@
     {
       "name": "WioDrama",
       "total": 18,
-      "healthy": 18,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 15,
+      "mismatches": 3,
+      "errors": [
+        "DramaDizilerim: Hash/Boyut farkı (Katalog: 116366B / Gerçek: 116873B)",
+        "WioShort: Hash/Boyut farkı (Katalog: 111339B / Gerçek: 111686B)",
+        "TryDrama: Hash/Boyut farkı (Katalog: 110429B / Gerçek: 110740B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -53,8 +57,8 @@
       "healthy": 1,
       "mismatches": 6,
       "errors": [
-        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)",
-        "DiziKorea: Hash/Boyut farkı (Katalog: 119855B / Gerçek: 121186B)",
+        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139017B)",
+        "DiziKorea: Hash/Boyut farkı (Katalog: 119855B / Gerçek: 121563B)",
         "TRasyalog: Hash/Boyut farkı (Katalog: 107434B / Gerçek: 109206B)",
         "AsyaWatch: Hash/Boyut farkı (Katalog: 92239B / Gerçek: 121700B)",
         "WebDramaTurkey: Hash/Boyut farkı (Katalog: 109598B / Gerçek: 140524B)",
