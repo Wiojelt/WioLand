@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `15.11.2026 09:07:26 (TSİ)`  
+**Son Güncelleme:** `15.11.2026 16:56:03 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
-**Toplam Eklenti:** `260` | **Sağlıklı:** `245` | **Uyuşmazlık:** `15`
+**Toplam Eklenti:** `260` | **Sağlıklı:** `243` | **Uyuşmazlık:** `17`
 
 ---
 
@@ -12,7 +12,7 @@
 | :--- | :---: | :---: | :---: | :---: |
 | **WioSinema** | 42 | %100 (42/42) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAnime** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioDrama** | 19 | %79 (15/19) | ✅ Aktif (200) | 🔴 4 Hata |
+| **WioDrama** | 19 | %68 (13/19) | ✅ Aktif (200) | 🔴 6 Hata |
 | **WioKids** | 10 | %50 (5/10) | ✅ Aktif (200) | 🔴 5 Hata |
 | **WioCinema** | 14 | %100 (14/14) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAsya** | 7 | %14 (1/7) | ✅ Aktif (200) | 🔴 6 Hata |
@@ -38,7 +38,7 @@
 | **inattv** | `https://inattv1328.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **taraftarium24** | `https://taraftarium24.io/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **selcuksports** | `https://www.selcuksportshd14e17ba2ad.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟡 Uyarı | Beklenmeyen yanıt (HTTP 401) |
+| **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **zbahistv** | `https://101baywintv.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **intersportv** | `https://intersportv1.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **beyazelma** | `https://beyazelma78.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
@@ -59,4 +59,4 @@
 ## 🚨 Aktif Uyarılar & Çözüm Önerileri
 
 - **PAPAZSPORTS Cloudflare Korumasında:** `https://www.papazsports1031.pro/` adresinde Cloudflare Managed Challenge (Turnstile 403) aktif. İstemciler doğrudan kanal listesi çekemez. **Çözüm:** Kanal listesi `/domains.json` veya GitHub Raw önbellek yansısından beslenmeli.
-- **Paket Hash Uyuşmazlığı:** `15` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
+- **Paket Hash Uyuşmazlığı:** `17` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
