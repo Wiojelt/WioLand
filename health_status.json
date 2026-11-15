@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794691195,
+  "timestamp": 1794707038,
   "repos": [
     {
       "name": "WioSinema",
@@ -20,12 +20,13 @@
     {
       "name": "WioDrama",
       "total": 19,
-      "healthy": 16,
-      "mismatches": 3,
+      "healthy": 15,
+      "mismatches": 4,
       "errors": [
         "DramaDizilerim: Hash/Boyut farkı (Katalog: 116366B / Gerçek: 116873B)",
         "WioShort: Hash/Boyut farkı (Katalog: 111339B / Gerçek: 111689B)",
-        "TryDrama: Hash/Boyut farkı (Katalog: 110429B / Gerçek: 110740B)"
+        "TryDrama: Hash/Boyut farkı (Katalog: 110429B / Gerçek: 110740B)",
+        "DramaBox: Hash/Boyut farkı (Katalog: 104515B / Gerçek: 110963B)"
       ],
       "icon_status": "Aktif (200)"
     },

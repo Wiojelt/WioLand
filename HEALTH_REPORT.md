@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `14.11.2026 21:19:55 (TSİ)`  
+**Son Güncelleme:** `15.11.2026 01:43:58 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
-**Toplam Eklenti:** `260` | **Sağlıklı:** `246` | **Uyuşmazlık:** `14`
+**Toplam Eklenti:** `260` | **Sağlıklı:** `245` | **Uyuşmazlık:** `15`
 
 ---
 
@@ -12,7 +12,7 @@
 | :--- | :---: | :---: | :---: | :---: |
 | **WioSinema** | 42 | %100 (42/42) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAnime** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioDrama** | 19 | %84 (16/19) | ✅ Aktif (200) | 🔴 3 Hata |
+| **WioDrama** | 19 | %79 (15/19) | ✅ Aktif (200) | 🔴 4 Hata |
 | **WioKids** | 10 | %50 (5/10) | ✅ Aktif (200) | 🔴 5 Hata |
 | **WioCinema** | 14 | %100 (14/14) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAsya** | 7 | %14 (1/7) | ✅ Aktif (200) | 🔴 6 Hata |
@@ -59,4 +59,4 @@
 ## 🚨 Aktif Uyarılar & Çözüm Önerileri
 
 - **PAPAZSPORTS Cloudflare Korumasında:** `https://www.papazsports1031.pro/` adresinde Cloudflare Managed Challenge (Turnstile 403) aktif. İstemciler doğrudan kanal listesi çekemez. **Çözüm:** Kanal listesi `/domains.json` veya GitHub Raw önbellek yansısından beslenmeli.
-- **Paket Hash Uyuşmazlığı:** `14` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
+- **Paket Hash Uyuşmazlığı:** `15` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
