@@ -1,5 +1,5 @@
 {
-  "timestamp": 1794860137,
+  "timestamp": 1794886744,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,9 +12,11 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 10,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 9,
+      "mismatches": 1,
+      "errors": [
+        "TrAnimeİzle: Hash/Boyut farkı (Katalog: 119361B / Gerçek: 111020B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -26,7 +28,7 @@
         "DramaDizilerim: Hash/Boyut farkı (Katalog: 116366B / Gerçek: 116873B)",
         "WioShort: Hash/Boyut farkı (Katalog: 111339B / Gerçek: 111732B)",
         "TryDrama: Hash/Boyut farkı (Katalog: 110429B / Gerçek: 118050B)",
-        "DramaBox: Hash/Boyut farkı (Katalog: 104515B / Gerçek: 115177B)",
+        "DramaBox: Hash/Boyut farkı (Katalog: 104515B / Gerçek: 115363B)",
         "MinuteDrama: Hash/Boyut farkı (Katalog: 111134B / Gerçek: 116348B)",
         "Shot Short: Hash/Boyut farkı (Katalog: 110330B / Gerçek: 116106B)"
       ],
@@ -71,8 +73,8 @@
     },
     {
       "name": "TurkSinema",
-      "total": 120,
-      "healthy": 120,
+      "total": 121,
+      "healthy": 121,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
