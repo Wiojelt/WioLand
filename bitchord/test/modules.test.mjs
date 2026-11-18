@@ -12,7 +12,7 @@ async function load(id, reply, asyncBodies = false) {
   const box = vm.createContext({ module: { exports: {} }, atob: s => Buffer.from(s, 'base64').toString('binary'),
     fetch: async (url, options) => {
       calls.push({ url, options });
-      const r = await reply(String(url));
+      const r = await reply(String(url), options);
       const data = r.data || {};
       return { ok: (r.status || 200) < 400, status: r.status || 200,
         json: () => asyncBodies ? Promise.resolve(data) : data,
@@ -30,8 +30,8 @@ const track = { id: '123/a?b"', title: 'Track', artist: 'Artist', album: 'Album'
 
 test('module index has no headphone gate, backend routes or Workers URLs', () => {
   assert.equal(manifest.checkValidLossless, 0);
-  assert.equal(manifest['category:music'].length, 10);
-  assert.equal(new Set(manifest['category:music'].map(m => m.id)).size, 10);
+  assert.equal(manifest['category:music'].length, 11);
+  assert.equal(new Set(manifest['category:music'].map(m => m.id)).size, 11);
   assert.ok(!manifest.resources);
   assert.ok(!JSON.stringify(manifest).includes('workers.dev'));
   for (const m of manifest['category:music']) assert.equal(m.type, 'MODULE');
@@ -56,6 +56,35 @@ for (const asyncBodies of [false, true]) {
     assert.equal(requested.searchParams.get('quality'), 'hi_res_lossless');
     assert.equal(requested.searchParams.get('atmos'), 'auto');
     assert.ok(calls[0].options.headers['User-Agent'].startsWith('BitChord/'));
+  });
+
+  test(`Dial Monochrome embedded source search and stream with ${asyncBodies ? 'async' : 'QuickJS sync'} response bodies`, async () => {
+    const sampleTracks = [
+      { id: '155102871061270528', trackId: '155102871061270528', title: 'One More Time', artistNames: ['Daft Punk'], artwork: 'https://tracks.monochrome.st/proxy/mi/1.jpg', duration: 320357, playable: true },
+      { id: '155102871061270999', trackId: '155102871061270999', title: 'Unplayable Song', artistNames: ['Daft Punk'], artwork: 'https://tracks.monochrome.st/proxy/mi/2.jpg', duration: 180000, playable: false },
+    ];
+    const { api, calls } = await load('dial-monochrome', (url) => {
+      if (url.includes('/search/tracks')) {
+        return { data: { tracks: sampleTracks } };
+      }
+      return { status: 200, data: {} };
+    }, asyncBodies);
+
+    const search = await api.searchTracks('Daft Punk', 5, {});
+    assert.equal(search.tracks.length, 1);
+    assert.equal(search.tracks[0].id, '155102871061270528');
+    assert.equal(search.tracks[0].title, 'One More Time');
+    assert.equal(search.tracks[0].artist, 'Daft Punk');
+    assert.equal(search.tracks[0].duration, 320);
+    assert.equal(search.tracks[0].albumCover, 'https://tracks.monochrome.st/proxy/mi/1.jpg');
+    assert.equal(search.tracks[0].audioQuality, 'LOSSLESS');
+    assert.equal(search.tracks[0].format, 'flac');
+    assert.match(calls[0].options.headers['User-Agent'], /Chrome\//);
+
+    const stream = await api.getTrackStreamUrl('155102871061270528', 'LOSSLESS', {});
+    assert.equal(stream.streamUrl, 'https://tracks.monochrome.st/track/155102871061270528');
+    assert.equal(stream.track.audioQuality, 'LOSSLESS');
+    assert.equal(stream.track.mimeType, 'audio/flac');
   });
 }
 test('unavailable source yields a miss and does not prevent later retry', async () => {

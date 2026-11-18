@@ -4,15 +4,15 @@
 
 Lossless and Hi-Res music sources in one addon.
 
-**[Manifest URL](https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json)** · **[Website](https://wiojelt.github.io/#bitchord)** · **[BitChord](https://github.com/kushagrasinghx/BitChord)**
+**[Manifest URL](https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json)** · **[Website](https://wiojelt.github.io/#bitchord)** · **[BitChord](https://github.com/kushagrasinghx/BitChord)** · **[Dial (Fork)](https://github.com/steeben/Dial)**
 
 </div>
 
 ## Installation
 
 1. Remove any older Wioland source, if installed.
-2. In BitChord, open **Settings → Sources → Add an addon**.
-3. Paste the manifest URL below and save. BitChord detects it as a module index.
+2. In BitChord or Dial, open **Settings → Sources → Add an addon**.
+3. Paste the manifest URL below and save. Detected as a module index.
 
 ```text
 https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json
@@ -20,11 +20,11 @@ https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json
 
 ## Sources
 
-Monochrome · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · Tido · gglos · Qobuz · LastBabe · Internet Archive
+Dial Monochrome (tracks.monochrome.st) · Monochrome FLAC · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · Tido · gglos · Qobuz · LastBabe · Internet Archive
 
 Source availability depends on the upstream services.
 
-Modules run inside BitChord and connect directly to providers.
+Modules run inside BitChord / Dial and connect directly to providers.
 
 ### Eljohnzc Addon
 

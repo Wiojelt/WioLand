@@ -26,23 +26,23 @@ PltStream is kept as an archive entry; its content plugin has closed.
 
 **[CloudStream releases](https://github.com/recloudstream/cloudstream/releases)** · **[Repository health](HEALTH_REPORT.md)**
 
-## BitChord
+## BitChord & Dial
 
-**Wioland** brings lossless and Hi-Res music sources together in BitChord.
+**Wioland** brings lossless and Hi-Res music sources together in BitChord and Dial.
 
 1. Remove any older Wioland music source.
-2. Open **Settings → Sources → Add an addon** in BitChord.
+2. Open **Settings → Sources → Add an addon** in BitChord or Dial.
 3. Paste this manifest URL and save:
 
 ```text
 https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json
 ```
 
-**[Copy/open manifest](https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json)** · **[BitChord repository](https://github.com/kushagrasinghx/BitChord)** · **[Music modules](bitchord/)**
+**[Copy/open manifest](https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json)** · **[BitChord](https://github.com/kushagrasinghx/BitChord)** · **[Dial (Fork)](https://github.com/steeben/Dial)** · **[Music modules](bitchord/)**
 
-Monochrome · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · Tido · gglos · Qobuz · LastBabe · Internet Archive
+Dial Monochrome (tracks.monochrome.st) · Monochrome FLAC · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · Tido · gglos · Qobuz · LastBabe · Internet Archive
 
-Modules run inside BitChord and connect directly to providers. No WioLand Worker or headphone requirement. Source availability and audio quality depend on each provider.
+Modules run inside BitChord / Dial and connect directly to providers. No WioLand Worker or headphone requirement. Source availability and audio quality depend on each provider.
 
 ---
 

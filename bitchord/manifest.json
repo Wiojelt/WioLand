@@ -16,6 +16,16 @@
       "trusted": false
     },
     {
+      "id": "wiojelt-dial-monochrome",
+      "name": "Dial Monochrome FLAC",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/dial-monochrome.js",
+      "trusted": false
+    },
+    {
       "id": "wiojelt-juanjob",
       "name": "juanjob Hi-Res",
       "author": "WioJelt",

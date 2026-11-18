@@ -13,8 +13,13 @@ function query(path, values) {
   });
   return path + (path.indexOf('?') < 0 ? '?' : '&') + pairs.join('&');
 }
-async function json(url) {
-  var response = await fetch(url, { headers: { Accept: 'application/json', 'User-Agent': 'BitChord/v1.8.1 WioJelt/0.2' } });
+var UA = config.type === 'monochrome'
+  ? 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
+  : 'BitChord/v1.8.1 WioJelt/0.2';
+async function json(url, headers) {
+  var h = { Accept: 'application/json', 'User-Agent': UA };
+  if (headers) for (var k in headers) h[k] = headers[k];
+  var response = await fetch(url, { headers: h });
   if (!response.ok) throw new Error('HTTP ' + response.status);
   return await response.json();
 }
@@ -45,17 +50,23 @@ async function addonParams(quality, context) {
   return params;
 }
 function track(t) {
-  var artist = t.artistNames ? t.artistNames.join(', ') : t.artist;
+  var artist = t.artistNames ? (Array.isArray(t.artistNames) ? t.artistNames.join(', ') : String(t.artistNames)) : t.artist;
   if (artist && typeof artist === 'object') artist = artist.name;
   if (!artist && t.artists) artist = t.artists.map(function (a) { return a.name; }).join(', ');
   var album = t.album && typeof t.album === 'object' ? t.album.title : t.album;
   var image = t.artworkURL || t.albumArtworkURL || t.artwork;
   if (!image && t.album && t.album.cover) image = 'https://resources.tidal.com/images/' + t.album.cover.replace(/-/g, '/') + '/640x640.jpg';
+  var dur = Number(t.duration) || 0;
+  if (dur > 10000) dur = Math.round(dur / 1000);
   return {
     id: encodeURIComponent(String(t.id == null ? t.trackId : t.id)),
-    title: String(t.title || t.name || ''), artist: String(artist || ''), album: String(album || ''),
-    albumCover: image || null, duration: Math.max(0, Math.round(Number(t.duration) || 0)),
-    audioQuality: String(t.audioQuality || ''), format: String(t.format || ''),
+    title: String(t.title || t.name || ''),
+    artist: String(artist || ''),
+    album: String(album || ''),
+    albumCover: image || null,
+    duration: Math.max(0, Math.round(dur)),
+    audioQuality: String(t.audioQuality || 'LOSSLESS'),
+    format: String(t.format || 'flac'),
   };
 }
 var poolCursor = 0;
@@ -98,7 +109,10 @@ function streamResult(s, id) {
 async function searchTracks(text, limit, context) {
   try {
     var response;
-    if (config.type === 'hifi') {
+    if (config.type === 'monochrome') {
+      var searchLimit = Math.max(1, Math.min(30, limit || 15));
+      response = await json(query(config.url + '/search/tracks', { q: text, limit: searchLimit }));
+    } else if (config.type === 'hifi') {
       response = await pool('/search/', { s: text });
       response = { tracks: response.data && response.data.items || response.items || [] };
     } else {
@@ -107,23 +121,35 @@ async function searchTracks(text, limit, context) {
     }
     var rows = response.tracks || response.data && response.data.tracks || [];
     if (!Array.isArray(rows)) rows = [];
-    var tracks = rows.filter(function (t) { return t && t.id != null && t.title; }).slice(0, Math.max(1, Math.min(30, limit || 15))).map(track);
+    var tracks = rows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, Math.max(1, Math.min(30, limit || 15))).map(track);
     return { tracks: tracks, total: tracks.length };
   } catch (_) { return { tracks: [], total: 0 }; }
 }
 async function getTrackStreamUrl(id, quality, context) {
   try {
     var original = decodeURIComponent(String(id)), result;
-    if (config.type === 'hifi') {
+    if (config.type === 'monochrome') {
+      var streamUrl = config.url + '/track/' + encodeURIComponent(original);
+      return {
+        streamUrl: streamUrl,
+        track: {
+          id: String(id),
+          audioQuality: 'LOSSLESS',
+          mimeType: 'audio/flac',
+          audioModes: ['STEREO']
+        }
+      };
+    } else if (config.type === 'hifi') {
       var tier = String(quality || setting(context, 'quality', 'LOSSLESS')).toUpperCase();
       try { result = decodeHiFi(await pool('/track/', { id: original, quality: tier === 'LOSSLESS' ? 'HI_RES_LOSSLESS' : tier })); }
       catch (_) { result = decodeHiFi(await pool('/track/', { id: original, quality: 'LOSSLESS' })); }
+      return streamResult(result, id);
     } else {
       var params = await addonParams(quality, context);
       result = await json(query(config.url + '/stream/' + encodeURIComponent(original), params));
       result = result.stream || result.data || result;
+      return streamResult(result, id);
     }
-    return streamResult(result, id);
   } catch (_) { return { streamUrl: null }; }
 }
 module.exports = { searchTracks: searchTracks, getTrackStreamUrl: getTrackStreamUrl };

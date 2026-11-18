@@ -1,4 +1,5 @@
 [
+  {"id":"dial-monochrome","name":"Dial Monochrome FLAC","type":"monochrome","url":"https://tracks.monochrome.st"},
   {"id":"juanjob","name":"juanjob Hi-Res","type":"addon","url":"https://bitchord-hires-addon.vercel.app"},
   {"id":"losslessbridge","name":"Lossless Bridge","type":"addon","url":"https://losslessbridge.de.deplexo.com"},
   {"id":"eljohn-mono","name":"Eljohnzc Monochrome","type":"addon","url":"https://eljohnzc-mono.de.deplexo.com"},
