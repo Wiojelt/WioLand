@@ -107,6 +107,35 @@ test('QQDL inline DASH falls back to direct lossless BTS', async () => {
   assert.equal(stream.track.sampleRate, 44100);
   assert.equal(new URL(calls.at(-1).url).searchParams.get('quality'), 'LOSSLESS');
 });
+test('Lossless Bridge auto-enrolls 15-day token and uses dynamic base URL', async () => {
+  const token = 'tpg000.abc123mock.xyz456mock';
+  const mockHtml = '<code id="manifest-url">https://losslessbridge.de.deplexo.com/u/' + token + '/manifest.json</code>';
+  const { api, calls } = await load('losslessbridge', url => {
+    if (url === 'https://losslessbridge.de.deplexo.com/') {
+      return { data: mockHtml };
+    }
+    if (url.includes(token + '/manifest.json')) {
+      return { data: addon };
+    }
+    if (url.includes(token + '/search')) {
+      return { data: { tracks: [track] } };
+    }
+    if (url.includes(token + '/stream/')) {
+      return { data: { url: 'https://cdn.example/song.flac', codec: 'flac', sampleRate: 96000, bitDepth: 24, encrypted: false } };
+    }
+    return { status: 404, data: {} };
+  });
+
+  const search = await api.searchTracks('Queen', 5, {});
+  assert.equal(search.tracks.length, 1);
+  assert.equal(search.tracks[0].title, 'Track');
+  assert.ok(calls.some(c => c.url.includes('/u/' + token + '/search')));
+
+  const stream = await api.getTrackStreamUrl(search.tracks[0].id, 'LOSSLESS', {});
+  assert.equal(stream.streamUrl, 'https://cdn.example/song.flac');
+  assert.equal(stream.track.sampleRate, 96000);
+});
+
 test('both requested Oreo providers are included and pinned', () => {
   const entries = manifest['category:music'].filter(x => x.download.startsWith('https://'));
   assert.deepEqual(entries.map(e => e.id).sort(), ['archive-flac', 'bitchord-tidal-flac']);

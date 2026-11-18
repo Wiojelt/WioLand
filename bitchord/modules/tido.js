@@ -13,7 +13,7 @@ function query(path, values) {
   });
   return path + (path.indexOf('?') < 0 ? '?' : '&') + pairs.join('&');
 }
-var UA = config.type === 'monochrome'
+var UA = (config.type === 'monochrome' || config.type === 'losslessbridge' || config.id === 'losslessbridge')
   ? 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
   : 'BitChord/v1.8.1 WioJelt/0.2';
 async function json(url, headers) {
@@ -24,16 +24,40 @@ async function json(url, headers) {
   return await response.json();
 }
 var manifestPromise;
-async function addonManifest() {
-  if (!manifestPromise) manifestPromise = json(config.url + '/manifest.json').then(function (m) {
+var resolvedBaseUrl = null;
+async function resolveBaseUrl(context) {
+  if (config.type === 'losslessbridge' || config.id === 'losslessbridge') {
+    var custom = setting(context, 'manifestUrl') || setting(context, 'token');
+    if (custom) {
+      if (String(custom).indexOf('http') === 0) return String(custom).replace(/\/manifest\.json$/, '').replace(/\/+$/, '');
+      return 'https://losslessbridge.de.deplexo.com/u/' + String(custom).trim();
+    }
+    if (resolvedBaseUrl) return resolvedBaseUrl;
+    try {
+      var resp = await fetch(config.url + '/', {
+        headers: { 'User-Agent': UA, 'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8' }
+      });
+      var html = await resp.text();
+      var match = html.match(/https:\/\/losslessbridge\.de\.deplexo\.com\/u\/([a-zA-Z0-9._-]+)/);
+      if (match) {
+        resolvedBaseUrl = 'https://losslessbridge.de.deplexo.com/u/' + match[1];
+        return resolvedBaseUrl;
+      }
+    } catch (_) {}
+  }
+  return config.url;
+}
+async function addonManifest(context) {
+  var base = await resolveBaseUrl(context);
+  if (!manifestPromise) manifestPromise = json(base + '/manifest.json').then(function (m) {
     if (!m.id) throw new Error('Invalid addon manifest');
     if ([0, false, '0', 'false'].indexOf(m.allowDownloads) >= 0) throw new Error('Streaming-only addon');
     return m;
-  }).catch(function (error) { manifestPromise = null; throw error; });
+  }).catch(function (error) { manifestPromise = null; resolvedBaseUrl = null; throw error; });
   return await manifestPromise;
 }
 async function addonParams(quality, context) {
-  var m = await addonManifest(), params = {};
+  var m = await addonManifest(context), params = {};
   (m.settings || []).forEach(function (s) {
     if (['string', 'number', 'boolean'].indexOf(typeof s.default) >= 0) params[s.key] = s.default;
   });
@@ -117,7 +141,8 @@ async function searchTracks(text, limit, context) {
       response = { tracks: response.data && response.data.items || response.items || [] };
     } else {
       var params = await addonParams(null, context); params.q = text;
-      response = await json(query(config.url + '/search', params));
+      var base = await resolveBaseUrl(context);
+      response = await json(query(base + '/search', params));
     }
     var rows = response.tracks || response.data && response.data.tracks || [];
     if (!Array.isArray(rows)) rows = [];
@@ -146,7 +171,8 @@ async function getTrackStreamUrl(id, quality, context) {
       return streamResult(result, id);
     } else {
       var params = await addonParams(quality, context);
-      result = await json(query(config.url + '/stream/' + encodeURIComponent(original), params));
+      var base = await resolveBaseUrl(context);
+      result = await json(query(base + '/stream/' + encodeURIComponent(original), params));
       result = result.stream || result.data || result;
       return streamResult(result, id);
     }
