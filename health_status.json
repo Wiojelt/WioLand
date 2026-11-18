@@ -1,10 +1,10 @@
 {
-  "timestamp": 1793041735,
+  "timestamp": 1795009591,
   "repos": [
     {
       "name": "WioSinema",
-      "total": 36,
-      "healthy": 36,
+      "total": 42,
+      "healthy": 42,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -12,25 +12,40 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 10,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 9,
+      "mismatches": 1,
+      "errors": [
+        "TrAnimeİzle: Hash/Boyut farkı (Katalog: 119361B / Gerçek: 111020B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioDrama",
-      "total": 15,
-      "healthy": 15,
-      "mismatches": 0,
-      "errors": [],
+      "total": 19,
+      "healthy": 13,
+      "mismatches": 6,
+      "errors": [
+        "DramaDizilerim: Hash/Boyut farkı (Katalog: 116366B / Gerçek: 116873B)",
+        "WioShort: Hash/Boyut farkı (Katalog: 111339B / Gerçek: 111732B)",
+        "TryDrama: Hash/Boyut farkı (Katalog: 110429B / Gerçek: 118050B)",
+        "DramaBox: Hash/Boyut farkı (Katalog: 104515B / Gerçek: 118007B)",
+        "MinuteDrama: Hash/Boyut farkı (Katalog: 111134B / Gerçek: 116348B)",
+        "Shot Short: Hash/Boyut farkı (Katalog: 110330B / Gerçek: 116106B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioKids",
       "total": 10,
-      "healthy": 10,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 5,
+      "mismatches": 5,
+      "errors": [
+        "CizgiVeDizi: Hash/Boyut farkı (Katalog: 134882B / Gerçek: 133521B)",
+        "CizgiPortal: Hash/Boyut farkı (Katalog: 108572B / Gerçek: 107088B)",
+        "CizgiFilmIzleInfo: Hash/Boyut farkı (Katalog: 108218B / Gerçek: 108219B)",
+        "CizgiDiziNet: Hash/Boyut farkı (Katalog: 113843B / Gerçek: 113835B)",
+        "CizgiSite: Hash/Boyut farkı (Katalog: 106602B / Gerçek: 106616B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -44,43 +59,46 @@
     {
       "name": "WioAsya",
       "total": 7,
-      "healthy": 6,
-      "mismatches": 1,
+      "healthy": 1,
+      "mismatches": 6,
       "errors": [
-        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139160B)"
+        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139017B)",
+        "DiziKorea: Hash/Boyut farkı (Katalog: 119855B / Gerçek: 121563B)",
+        "TRasyalog: Hash/Boyut farkı (Katalog: 107434B / Gerçek: 109206B)",
+        "AsyaWatch: Hash/Boyut farkı (Katalog: 92239B / Gerçek: 121700B)",
+        "WebDramaTurkey: Hash/Boyut farkı (Katalog: 109598B / Gerçek: 140524B)",
+        "HintFilmİzle: Hash/Boyut farkı (Katalog: 163198B / Gerçek: 166127B)"
       ],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "TurkSinema",
-      "total": 68,
-      "healthy": 68,
-      "mismatches": 0,
-      "errors": [],
-      "icon_status": "Aktif (200)"
-    },
-    {
-      "name": "TurkSpor",
-      "total": 45,
-      "healthy": 45,
+      "total": 121,
+      "healthy": 121,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioSpor",
-      "total": 27,
-      "healthy": 26,
-      "mismatches": 1,
-      "errors": [
-        "SelcukSports: Hash/Boyut farkı (Katalog: 174361B / Gerçek: 174357B)"
-      ],
+      "total": 29,
+      "healthy": 29,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "test",
-      "total": 14,
-      "healthy": 14,
+      "total": 1,
+      "healthy": 1,
+      "mismatches": 0,
+      "errors": [],
+      "icon_status": "Aktif (200)"
+    },
+    {
+      "name": "WioKitap",
+      "total": 8,
+      "healthy": 8,
       "mismatches": 0,
       "errors": [],
       "icon_status": "Aktif (200)"
@@ -97,7 +115,7 @@
     },
     {
       "key": "ntvs",
-      "url": "https://www.ntvs.cx/matches/kobra/",
+      "url": "https://www.ntvs.cx/matches/raptor/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -105,7 +123,7 @@
     },
     {
       "key": "daddylive",
-      "url": "https://thedaddy.pk/",
+      "url": "https://thedaddy.li/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -153,7 +171,7 @@
     },
     {
       "key": "inattv",
-      "url": "https://inattv1327.xyz/",
+      "url": "https://inattv1328.xyz/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -178,9 +196,9 @@
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
@@ -209,7 +227,7 @@
     },
     {
       "key": "kralsportshd",
-      "url": "https://kralsportshd.com/",
+      "url": "https://kralsportshd.com/giris2/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
@@ -217,7 +235,7 @@
     },
     {
       "key": "atomspor",
-      "url": "https://atomsportv519.top/",
+      "url": "https://www.atomsportv520.top/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
