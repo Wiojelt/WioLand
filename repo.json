@@ -4,6 +4,9 @@
   "manifestVersion": 1,
   "iconUrl": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/assets/logo-20261004.png?rev=2",
   "pluginLists": [
-    "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/catalogs/plugins.json?t=1794518513"
-  ]
+    "https://raw.githubusercontent.com/Wiojelt/WioLand/main/catalogs/plugins.json?t=1795034368",
+    "https://raw.githubusercontent.com/Wiojelt/WioLand/builds/catalogs/plugins.json?t=1795034368"
+  ],
+  "timestamp": 1795034368,
+  "lastUpdated": 1795034368
 }
