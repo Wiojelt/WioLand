@@ -1,6 +1,6 @@
 (function () {
 'use strict';
-var config = {"id":"dial-monochrome","name":"Dial Monochrome FLAC","type":"monochrome","url":"https://tracks.monochrome.st"};
+var config = {"id":"dial-monochrome","name":"Dial Monochrome FLAC","type":"monochrome","url":"https://tracks.monochrome.st","speed":"⚡ 904ms"};
 function setting(context, key, fallback) {
   var value = context && context.settings && context.settings[key];
   if (value && typeof value === 'object') value = value.value;

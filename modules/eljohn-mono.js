@@ -1,6 +1,6 @@
 (function () {
 'use strict';
-var config = {"id":"eljohn-mono","name":"Eljohnzc Monochrome","type":"addon","url":"https://eljohnzc-mono.de.deplexo.com"};
+var config = {"id":"eljohn-mono","name":"Eljohnzc Monochrome","type":"addon","url":"https://eljohnzc-mono.de.deplexo.com","speed":"Stream Only"};
 function setting(context, key, fallback) {
   var value = context && context.settings && context.settings[key];
   if (value && typeof value === 'object') value = value.value;
