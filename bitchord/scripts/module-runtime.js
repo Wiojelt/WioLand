@@ -10,7 +10,7 @@ function query(path, values) {
   });
   return path + (path.indexOf('?') < 0 ? '?' : '&') + pairs.join('&');
 }
-var UA = (config.type === 'monochrome' || config.type === 'losslessbridge' || config.id === 'losslessbridge')
+var UA = (config.type === 'monochrome' || config.type === 'wiochord-lossless' || config.type === 'losslessbridge' || config.id === 'losslessbridge')
   ? 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36'
   : 'BitChord/v1.8.1 WioJelt/0.2';
 async function json(url, headers) {
@@ -130,7 +130,53 @@ function streamResult(s, id) {
 async function searchTracks(text, limit, context) {
   try {
     var response;
-    if (config.type === 'monochrome') {
+    if (config.type === 'wiochord-lossless') {
+      var searchLimit = Math.max(1, Math.min(30, limit || 15));
+      var primary = (config.endpoints && config.endpoints.monochrome) || config.url || 'https://tracks.monochrome.st';
+      try {
+        response = await json(query(primary + '/search/tracks', { q: text, limit: searchLimit }));
+        var mRows = response.tracks || (response.data && response.data.tracks) || [];
+        if (Array.isArray(mRows) && mRows.length > 0) {
+          var tList = mRows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
+          if (tList.length > 0) return { tracks: tList, total: tList.length };
+        }
+      } catch (_) {}
+
+      // Cascading fallback 1: Qobuz addon
+      var qobuzUrl = (config.endpoints && config.endpoints.qobuz) || 'https://qobuz-addon.vercel.app';
+      try {
+        response = await json(query(qobuzUrl + '/search', { q: text }));
+        var qRows = response.tracks || (response.data && response.data.tracks) || [];
+        if (Array.isArray(qRows) && qRows.length > 0) {
+          var qList = qRows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
+          if (qList.length > 0) return { tracks: qList, total: qList.length };
+        }
+      } catch (_) {}
+
+      // Cascading fallback 2: Confih addon
+      var confihUrl = (config.endpoints && config.endpoints.confih) || 'https://bitchord.confih.tech';
+      try {
+        response = await json(query(confihUrl + '/search', { q: text, quality: 'lossless' }));
+        var cRows = response.tracks || (response.data && response.data.tracks) || [];
+        if (Array.isArray(cRows) && cRows.length > 0) {
+          var cList = cRows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
+          if (cList.length > 0) return { tracks: cList, total: cList.length };
+        }
+      } catch (_) {}
+
+      // Cascading fallback 3: Juanjob addon
+      var juanjobUrl = (config.endpoints && config.endpoints.juanjob) || 'https://bitchord-hires-addon.de.deplexo.com';
+      try {
+        response = await json(query(juanjobUrl + '/search', { q: text, quality: 'lossless' }));
+        var jRows = response.tracks || (response.data && response.data.tracks) || [];
+        if (Array.isArray(jRows) && jRows.length > 0) {
+          var jList = jRows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
+          if (jList.length > 0) return { tracks: jList, total: jList.length };
+        }
+      } catch (_) {}
+
+      return { tracks: [], total: 0 };
+    } else if (config.type === 'monochrome') {
       var searchLimit = Math.max(1, Math.min(30, limit || 15));
       response = await json(query(config.url + '/search/tracks', { q: text, limit: searchLimit }));
     } else if (config.type === 'hifi') {
@@ -150,7 +196,31 @@ async function searchTracks(text, limit, context) {
 async function getTrackStreamUrl(id, quality, context) {
   try {
     var original = decodeURIComponent(String(id)), result;
-    if (config.type === 'monochrome') {
+    if (config.type === 'wiochord-lossless') {
+      var trackId = String(original);
+      if (trackId.indexOf('qobuz_') === 0) {
+        var qobuzBase = (config.endpoints && config.endpoints.qobuz) || 'https://qobuz-addon.vercel.app';
+        try {
+          var qRes = await json(qobuzBase + '/stream/' + encodeURIComponent(trackId));
+          var qStream = qRes.stream || qRes.data || qRes;
+          if (qStream && qStream.url) return streamResult(qStream, id);
+        } catch (_) {}
+      }
+
+      var monoBase = (config.endpoints && config.endpoints.monochrome) || config.url || 'https://tracks.monochrome.st';
+      var streamUrl = monoBase + '/track/' + encodeURIComponent(trackId.replace(/^mono::/, ''));
+      return {
+        streamUrl: streamUrl,
+        track: {
+          id: String(id),
+          audioQuality: 'LOSSLESS',
+          mimeType: 'audio/flac',
+          bitDepth: 16,
+          sampleRate: 44100,
+          audioModes: ['STEREO']
+        }
+      };
+    } else if (config.type === 'monochrome') {
       var streamUrl = config.url + '/track/' + encodeURIComponent(original);
       return {
         streamUrl: streamUrl,

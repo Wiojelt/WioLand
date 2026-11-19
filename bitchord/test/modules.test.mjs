@@ -30,8 +30,8 @@ const track = { id: '123/a?b"', title: 'Track', artist: 'Artist', album: 'Album'
 
 test('module index has no headphone gate, backend routes or Workers URLs', () => {
   assert.equal(manifest.checkValidLossless, 0);
-  assert.equal(manifest['category:music'].length, 12);
-  assert.equal(new Set(manifest['category:music'].map(m => m.id)).size, 12);
+  assert.equal(manifest['category:music'].length, 13);
+  assert.equal(new Set(manifest['category:music'].map(m => m.id)).size, 13);
   assert.ok(!manifest.resources);
   assert.ok(!JSON.stringify(manifest).includes('workers.dev'));
   for (const m of manifest['category:music']) assert.equal(m.type, 'MODULE');
@@ -85,6 +85,59 @@ for (const asyncBodies of [false, true]) {
     assert.equal(stream.streamUrl, 'https://tracks.monochrome.st/track/155102871061270528');
     assert.equal(stream.track.audioQuality, 'LOSSLESS');
     assert.equal(stream.track.mimeType, 'audio/flac');
+  });
+
+  test(`Wiochord Lossless primary search and direct stream with ${asyncBodies ? 'async' : 'QuickJS sync'} response bodies`, async () => {
+    const sampleTracks = [
+      { id: '156929735690203136', trackId: '156929735690203136', title: 'Bohemian Rhapsody', artistNames: ['Queen'], artwork: 'https://tracks.monochrome.st/proxy/mi/q.jpg', duration: 354000, playable: true },
+    ];
+    const { api, calls } = await load('wiochord-lossless', (url) => {
+      if (url.includes('/search/tracks')) {
+        return { data: { tracks: sampleTracks } };
+      }
+      return { status: 200, data: {} };
+    }, asyncBodies);
+
+    const search = await api.searchTracks('Queen Bohemian Rhapsody', 5, {});
+    assert.equal(search.tracks.length, 1);
+    assert.equal(search.tracks[0].id, '156929735690203136');
+    assert.equal(search.tracks[0].title, 'Bohemian Rhapsody');
+    assert.equal(search.tracks[0].artist, 'Queen');
+    assert.equal(search.tracks[0].duration, 354);
+    assert.equal(search.tracks[0].audioQuality, 'LOSSLESS');
+    assert.equal(search.tracks[0].format, 'flac');
+    assert.match(calls[0].options.headers['User-Agent'], /Chrome\//);
+
+    const stream = await api.getTrackStreamUrl('156929735690203136', 'LOSSLESS', {});
+    assert.equal(stream.streamUrl, 'https://tracks.monochrome.st/track/156929735690203136');
+    assert.equal(stream.track.audioQuality, 'LOSSLESS');
+    assert.equal(stream.track.mimeType, 'audio/flac');
+  });
+
+  test(`Wiochord Lossless cascading fallback to Qobuz Addon with ${asyncBodies ? 'async' : 'QuickJS sync'} response bodies`, async () => {
+    const qobuzTrack = { id: 'qobuz_12345', title: 'Bohemian Rhapsody (Qobuz)', artist: 'Queen', album: 'A Night At The Opera', duration: 354, artworkURL: 'https://img.example/q.jpg' };
+    const { api, calls } = await load('wiochord-lossless', (url) => {
+      if (url.includes('tracks.monochrome.st/search/tracks')) {
+        return { status: 500, data: { error: 'upstream failure' } };
+      }
+      if (url.includes('qobuz-addon.vercel.app/search')) {
+        return { status: 200, data: { tracks: [qobuzTrack] } };
+      }
+      if (url.includes('qobuz-addon.vercel.app/stream/qobuz_12345')) {
+        return { status: 200, data: { url: 'https://cdn.example/qobuz.flac', codec: 'flac', sampleRate: 96000, bitDepth: 24, encrypted: false } };
+      }
+      return { status: 404, data: {} };
+    }, asyncBodies);
+
+    const search = await api.searchTracks('Queen Bohemian Rhapsody', 5, {});
+    assert.equal(search.tracks.length, 1);
+    assert.equal(search.tracks[0].id, 'qobuz_12345');
+    assert.equal(search.tracks[0].title, 'Bohemian Rhapsody (Qobuz)');
+
+    const stream = await api.getTrackStreamUrl('qobuz_12345', 'LOSSLESS', {});
+    assert.equal(stream.streamUrl, 'https://cdn.example/qobuz.flac');
+    assert.equal(stream.track.sampleRate, 96000);
+    assert.equal(stream.track.bitDepth, 24);
   });
 }
 test('unavailable source yields a miss and does not prevent later retry', async () => {

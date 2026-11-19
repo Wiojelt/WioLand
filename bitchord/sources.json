@@ -1,10 +1,49 @@
 [
+  {
+    "id": "wiochord-lossless",
+    "name": "Wiochord Lossless FLAC",
+    "type": "wiochord-lossless",
+    "url": "https://tracks.monochrome.st",
+    "endpoints": {
+      "monochrome": "https://tracks.monochrome.st",
+      "qobuz": "https://qobuz-addon.vercel.app",
+      "confih": "https://bitchord.confih.tech",
+      "juanjob": "https://bitchord-hires-addon.de.deplexo.com",
+      "losslessbridge": "https://losslessbridge.de.deplexo.com"
+    }
+  },
   {"id":"dial-monochrome","name":"Dial Monochrome FLAC","type":"monochrome","url":"https://tracks.monochrome.st"},
   {"id":"losslessbridge","name":"Lossless Bridge","type":"losslessbridge","url":"https://losslessbridge.de.deplexo.com"},
   {"id":"confih","name":"Confih Hi-Res","type":"addon","url":"https://bitchord.confih.tech"},
   {"id":"juanjob","name":"juanjob Hi-Res","type":"addon","url":"https://bitchord-hires-addon.de.deplexo.com"},
   {"id":"eljohn-mono","name":"Eljohnzc Monochrome","type":"addon","url":"https://eljohnzc-mono.de.deplexo.com"},
-  {"id":"qqdl","name":"QQDL / Lucida","type":"hifi","urls":["https://wolf.qqdl.site","https://maus.qqdl.site","https://vogel.qqdl.site","https://katze.qqdl.site","https://hund.qqdl.site"]},
+  {
+    "id": "qqdl",
+    "name": "QQDL / Lucida",
+    "type": "hifi",
+    "urls": [
+      "https://wolf.qqdl.site",
+      "https://maus.qqdl.site",
+      "https://vogel.qqdl.site",
+      "https://katze.qqdl.site",
+      "https://hund.qqdl.site",
+      "https://baer.qqdl.site",
+      "https://fuchs.qqdl.site",
+      "https://igel.qqdl.site",
+      "https://loewe.qqdl.site",
+      "https://falke.qqdl.site",
+      "https://hirsch.qqdl.site",
+      "https://elch.qqdl.site",
+      "https://biber.qqdl.site",
+      "https://dachs.qqdl.site",
+      "https://otter.qqdl.site",
+      "https://schaf.qqdl.site",
+      "https://pferd.qqdl.site",
+      "https://ente.qqdl.site",
+      "https://fisch.qqdl.site",
+      "https://tiger.qqdl.site"
+    ]
+  },
   {"id":"tido","name":"Tido","type":"addon","url":"https://tido.tido.tido.dpdns.org"},
   {"id":"gglos","name":"gglos","type":"addon","url":"https://gglos.geisselgottes.cfd"},
   {"id":"qobuz-addon","name":"Qobuz Addon","type":"addon","url":"https://qobuz-addon.vercel.app"},
