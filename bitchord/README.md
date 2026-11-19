@@ -4,27 +4,37 @@
 
 Lossless and Hi-Res music sources in one addon.
 
-**[Manifest URL](https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json)** · **[Website](https://wiojelt.github.io/#bitchord)** · **[BitChord](https://github.com/kushagrasinghx/BitChord)**
+**[Manifest URL](https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json)** · **[Website](https://wiojelt.github.io/#bitchord)** · **[BitChord](https://github.com/kushagrasinghx/BitChord)** · **[Dial (Fork)](https://github.com/steeben/Dial)**
 
 </div>
 
 ## Installation
 
 1. Remove any older Wioland source, if installed.
-2. In BitChord, open **Settings → Sources → Add an addon**.
-3. Paste the manifest URL below and save. BitChord detects it as a module index.
+2. In BitChord or Dial, open **Settings → Sources → Add an addon**.
+3. Paste the manifest URL below and save. Detected as a module index.
 
 ```text
 https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json
 ```
 
-## Sources
+## Sources (Sorted by Speed / En Hızlıdan Yavaşa)
 
-Monochrome · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · Tido · gglos · Qobuz · LastBabe · Internet Archive
+1. **Wiochord Lossless FLAC** `~600ms` (Multi-source auto-speed & cascading failover)
+2. **juanjob Hi-Res** `635ms` (24-bit 96kHz Hi-Res FLAC)
+3. **Dial Monochrome FLAC** `904ms` (Direct uncompressed FLAC, tokenless)
+4. **Confih Hi-Res** `1100ms` (24-bit Hi-Res FLAC)
+5. **Qobuz Addon** `1600ms` (Direct tokenless bridge)
+6. **Lossless Bridge** `2100ms` (Dynamic 15-day token)
+7. **Eljohnzc Monochrome** `~700ms` (Streaming only)
+8. **Monochrome FLAC (Community)**
+9. **QQDL / Lucida** (Parked backup pool)
+10. **gglos · LastBabe · Tido** (Alternatives)
+11. **Internet Archive FLAC** (Archive)
 
 Source availability depends on the upstream services.
 
-Modules run inside BitChord and connect directly to providers.
+Modules run inside BitChord / Dial and connect directly to providers.
 
 ### Eljohnzc Addon
 
