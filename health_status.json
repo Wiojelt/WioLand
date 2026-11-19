@@ -1,5 +1,5 @@
 {
-  "timestamp": 1795009591,
+  "timestamp": 1795092419,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,11 +12,9 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 9,
-      "mismatches": 1,
-      "errors": [
-        "TrAnimeİzle: Hash/Boyut farkı (Katalog: 119361B / Gerçek: 111020B)"
-      ],
+      "healthy": 10,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -28,7 +26,7 @@
         "DramaDizilerim: Hash/Boyut farkı (Katalog: 116366B / Gerçek: 116873B)",
         "WioShort: Hash/Boyut farkı (Katalog: 111339B / Gerçek: 111732B)",
         "TryDrama: Hash/Boyut farkı (Katalog: 110429B / Gerçek: 118050B)",
-        "DramaBox: Hash/Boyut farkı (Katalog: 104515B / Gerçek: 118007B)",
+        "DramaBox: Hash/Boyut farkı (Katalog: 104515B / Gerçek: 121426B)",
         "MinuteDrama: Hash/Boyut farkı (Katalog: 111134B / Gerçek: 116348B)",
         "Shot Short: Hash/Boyut farkı (Katalog: 110330B / Gerçek: 116106B)"
       ],
@@ -171,7 +169,7 @@
     },
     {
       "key": "inattv",
-      "url": "https://inattv1328.xyz/",
+      "url": "https://inattv1329.xyz/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
