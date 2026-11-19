@@ -39,23 +39,23 @@ REPOS = [
     {
         "name": "WioAnime",
         "local_path": BASE_LOCAL_DIR / "WioAnime",
-        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioAnime/main/plugins.json",
+        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioAnime/main/catalogs/plugins.json",
         "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioAnime/main/repo.json",
         "branch": "main",
     },
     {
         "name": "WioDrama",
         "local_path": BASE_LOCAL_DIR / "WioDrama",
-        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioDrama/main/plugins.json",
-        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioDrama/main/repo.json",
-        "branch": "main",
+        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioDrama/builds/plugins.json",
+        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioDrama/builds/repo.json",
+        "branch": "builds",
     },
     {
         "name": "WioKids",
         "local_path": BASE_LOCAL_DIR / "WioKids",
-        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioKids/main/plugins.json",
-        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioKids/main/repo.json",
-        "branch": "main",
+        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioKids/builds/plugins.json",
+        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioKids/builds/repo.json",
+        "branch": "builds",
     },
     {
         "name": "WioCinema",
@@ -67,9 +67,9 @@ REPOS = [
     {
         "name": "WioAsya",
         "local_path": BASE_LOCAL_DIR / "WioAsya",
-        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioAsya/main/plugins.json",
-        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioAsya/main/repo.json",
-        "branch": "main",
+        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioAsya/builds/plugins.json",
+        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioAsya/builds/repo.json",
+        "branch": "builds",
     },
     {
         "name": "TurkSinema",
