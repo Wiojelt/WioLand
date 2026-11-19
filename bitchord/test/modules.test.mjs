@@ -30,8 +30,8 @@ const track = { id: '123/a?b"', title: 'Track', artist: 'Artist', album: 'Album'
 
 test('module index has no headphone gate, backend routes or Workers URLs', () => {
   assert.equal(manifest.checkValidLossless, 0);
-  assert.equal(manifest['category:music'].length, 11);
-  assert.equal(new Set(manifest['category:music'].map(m => m.id)).size, 11);
+  assert.equal(manifest['category:music'].length, 12);
+  assert.equal(new Set(manifest['category:music'].map(m => m.id)).size, 12);
   assert.ok(!manifest.resources);
   assert.ok(!JSON.stringify(manifest).includes('workers.dev'));
   for (const m of manifest['category:music']) assert.equal(m.type, 'MODULE');
