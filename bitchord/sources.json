@@ -4,6 +4,8 @@
     "name": "Wiochord Lossless FLAC",
     "type": "wiochord-lossless",
     "url": "https://tracks.monochrome.st",
+    "speed": "⚡ En Hızlı (Otomatik Seçim)",
+    "latency": "~600ms",
     "endpoints": {
       "monochrome": "https://tracks.monochrome.st",
       "qobuz": "https://qobuz-addon.vercel.app",
@@ -12,11 +14,48 @@
       "losslessbridge": "https://losslessbridge.de.deplexo.com"
     }
   },
-  {"id":"dial-monochrome","name":"Dial Monochrome FLAC","type":"monochrome","url":"https://tracks.monochrome.st"},
-  {"id":"losslessbridge","name":"Lossless Bridge","type":"losslessbridge","url":"https://losslessbridge.de.deplexo.com"},
-  {"id":"confih","name":"Confih Hi-Res","type":"addon","url":"https://bitchord.confih.tech"},
-  {"id":"juanjob","name":"juanjob Hi-Res","type":"addon","url":"https://bitchord-hires-addon.de.deplexo.com"},
-  {"id":"eljohn-mono","name":"Eljohnzc Monochrome","type":"addon","url":"https://eljohnzc-mono.de.deplexo.com"},
+  {
+    "id": "juanjob",
+    "name": "juanjob Hi-Res",
+    "type": "addon",
+    "url": "https://bitchord-hires-addon.de.deplexo.com",
+    "speed": "⚡ 635ms"
+  },
+  {
+    "id": "dial-monochrome",
+    "name": "Dial Monochrome FLAC",
+    "type": "monochrome",
+    "url": "https://tracks.monochrome.st",
+    "speed": "⚡ 904ms"
+  },
+  {
+    "id": "confih",
+    "name": "Confih Hi-Res",
+    "type": "addon",
+    "url": "https://bitchord.confih.tech",
+    "speed": "🚀 1100ms"
+  },
+  {
+    "id": "qobuz-addon",
+    "name": "Qobuz Addon",
+    "type": "addon",
+    "url": "https://qobuz-addon.vercel.app",
+    "speed": "🚀 1600ms"
+  },
+  {
+    "id": "losslessbridge",
+    "name": "Lossless Bridge",
+    "type": "losslessbridge",
+    "url": "https://losslessbridge.de.deplexo.com",
+    "speed": "🔄 2100ms"
+  },
+  {
+    "id": "eljohn-mono",
+    "name": "Eljohnzc Monochrome",
+    "type": "addon",
+    "url": "https://eljohnzc-mono.de.deplexo.com",
+    "speed": "Stream Only"
+  },
   {
     "id": "qqdl",
     "name": "QQDL / Lucida",
@@ -42,10 +81,25 @@
       "https://ente.qqdl.site",
       "https://fisch.qqdl.site",
       "https://tiger.qqdl.site"
-    ]
+    ],
+    "speed": "Parked Backup"
   },
-  {"id":"tido","name":"Tido","type":"addon","url":"https://tido.tido.tido.dpdns.org"},
-  {"id":"gglos","name":"gglos","type":"addon","url":"https://gglos.geisselgottes.cfd"},
-  {"id":"qobuz-addon","name":"Qobuz Addon","type":"addon","url":"https://qobuz-addon.vercel.app"},
-  {"id":"lastbabe","name":"LastBabe","type":"addon","url":"https://lastbabe-addon.de.deplexo.com"}
+  {
+    "id": "gglos",
+    "name": "gglos",
+    "type": "addon",
+    "url": "https://gglos.geisselgottes.cfd"
+  },
+  {
+    "id": "lastbabe",
+    "name": "LastBabe",
+    "type": "addon",
+    "url": "https://lastbabe-addon.de.deplexo.com"
+  },
+  {
+    "id": "tido",
+    "name": "Tido",
+    "type": "addon",
+    "url": "https://tido.tido.tido.dpdns.org"
+  }
 ]

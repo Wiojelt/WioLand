@@ -1,6 +1,6 @@
 (function () {
 'use strict';
-var config = {"id":"qqdl","name":"QQDL / Lucida","type":"hifi","urls":["https://wolf.qqdl.site","https://maus.qqdl.site","https://vogel.qqdl.site","https://katze.qqdl.site","https://hund.qqdl.site","https://baer.qqdl.site","https://fuchs.qqdl.site","https://igel.qqdl.site","https://loewe.qqdl.site","https://falke.qqdl.site","https://hirsch.qqdl.site","https://elch.qqdl.site","https://biber.qqdl.site","https://dachs.qqdl.site","https://otter.qqdl.site","https://schaf.qqdl.site","https://pferd.qqdl.site","https://ente.qqdl.site","https://fisch.qqdl.site","https://tiger.qqdl.site"]};
+var config = {"id":"qqdl","name":"QQDL / Lucida","type":"hifi","urls":["https://wolf.qqdl.site","https://maus.qqdl.site","https://vogel.qqdl.site","https://katze.qqdl.site","https://hund.qqdl.site","https://baer.qqdl.site","https://fuchs.qqdl.site","https://igel.qqdl.site","https://loewe.qqdl.site","https://falke.qqdl.site","https://hirsch.qqdl.site","https://elch.qqdl.site","https://biber.qqdl.site","https://dachs.qqdl.site","https://otter.qqdl.site","https://schaf.qqdl.site","https://pferd.qqdl.site","https://ente.qqdl.site","https://fisch.qqdl.site","https://tiger.qqdl.site"],"speed":"Parked Backup"};
 function setting(context, key, fallback) {
   var value = context && context.settings && context.settings[key];
   if (value && typeof value === 'object') value = value.value;

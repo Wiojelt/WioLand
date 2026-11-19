@@ -1,6 +1,6 @@
 (function () {
 'use strict';
-var config = {"id":"qobuz-addon","name":"Qobuz Addon","type":"addon","url":"https://qobuz-addon.vercel.app"};
+var config = {"id":"qobuz-addon","name":"Qobuz Addon","type":"addon","url":"https://qobuz-addon.vercel.app","speed":"🚀 1600ms"};
 function setting(context, key, fallback) {
   var value = context && context.settings && context.settings[key];
   if (value && typeof value === 'object') value = value.value;

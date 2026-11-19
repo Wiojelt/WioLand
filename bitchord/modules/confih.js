@@ -1,6 +1,6 @@
 (function () {
 'use strict';
-var config = {"id":"confih","name":"Confih Hi-Res","type":"addon","url":"https://bitchord.confih.tech"};
+var config = {"id":"confih","name":"Confih Hi-Res","type":"addon","url":"https://bitchord.confih.tech","speed":"🚀 1100ms"};
 function setting(context, key, fallback) {
   var value = context && context.settings && context.settings[key];
   if (value && typeof value === 'object') value = value.value;

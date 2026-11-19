@@ -1,6 +1,6 @@
 (function () {
 'use strict';
-var config = {"id":"losslessbridge","name":"Lossless Bridge","type":"losslessbridge","url":"https://losslessbridge.de.deplexo.com"};
+var config = {"id":"losslessbridge","name":"Lossless Bridge","type":"losslessbridge","url":"https://losslessbridge.de.deplexo.com","speed":"🔄 2100ms"};
 function setting(context, key, fallback) {
   var value = context && context.settings && context.settings[key];
   if (value && typeof value === 'object') value = value.value;

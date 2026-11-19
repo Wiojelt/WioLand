@@ -1,6 +1,6 @@
 (function () {
 'use strict';
-var config = {"id":"juanjob","name":"juanjob Hi-Res","type":"addon","url":"https://bitchord-hires-addon.de.deplexo.com"};
+var config = {"id":"juanjob","name":"juanjob Hi-Res","type":"addon","url":"https://bitchord-hires-addon.de.deplexo.com","speed":"⚡ 635ms"};
 function setting(context, key, fallback) {
   var value = context && context.settings && context.settings[key];
   if (value && typeof value === 'object') value = value.value;

@@ -6,8 +6,18 @@
   "allowDownloads": 1,
   "category:music": [
     {
+      "id": "wiojelt-wiochord-lossless",
+      "name": "Wiochord Lossless FLAC",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/wiochord-lossless.js",
+      "trusted": false
+    },
+    {
       "id": "bitchord-tidal-flac",
-      "name": "Monochrome FLAC",
+      "name": "Monochrome FLAC (Community)",
       "author": "community",
       "version": "0.4.0",
       "code": 4,
@@ -16,13 +26,13 @@
       "trusted": false
     },
     {
-      "id": "wiojelt-wiochord-lossless",
-      "name": "Wiochord Lossless FLAC",
+      "id": "wiojelt-juanjob",
+      "name": "juanjob Hi-Res",
       "author": "WioJelt",
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/wiochord-lossless.js",
+      "download": "modules/juanjob.js",
       "trusted": false
     },
     {
@@ -36,16 +46,6 @@
       "trusted": false
     },
     {
-      "id": "wiojelt-losslessbridge",
-      "name": "Lossless Bridge",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/losslessbridge.js",
-      "trusted": false
-    },
-    {
       "id": "wiojelt-confih",
       "name": "Confih Hi-Res",
       "author": "WioJelt",
@@ -56,13 +56,23 @@
       "trusted": false
     },
     {
-      "id": "wiojelt-juanjob",
-      "name": "juanjob Hi-Res",
+      "id": "wiojelt-qobuz-addon",
+      "name": "Qobuz Addon",
       "author": "WioJelt",
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/juanjob.js",
+      "download": "modules/qobuz-addon.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-losslessbridge",
+      "name": "Lossless Bridge",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/losslessbridge.js",
       "trusted": false
     },
     {
@@ -86,16 +96,6 @@
       "trusted": false
     },
     {
-      "id": "wiojelt-tido",
-      "name": "Tido",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/tido.js",
-      "trusted": false
-    },
-    {
       "id": "wiojelt-gglos",
       "name": "gglos",
       "author": "WioJelt",
@@ -106,16 +106,6 @@
       "trusted": false
     },
     {
-      "id": "wiojelt-qobuz-addon",
-      "name": "Qobuz Addon",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/qobuz-addon.js",
-      "trusted": false
-    },
-    {
       "id": "wiojelt-lastbabe",
       "name": "LastBabe",
       "author": "WioJelt",
@@ -123,6 +113,16 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/lastbabe.js",
+      "trusted": false
+    },
+    {
+      "id": "wiojelt-tido",
+      "name": "Tido",
+      "author": "WioJelt",
+      "version": "0.2.0",
+      "code": 4,
+      "type": "MODULE",
+      "download": "modules/tido.js",
       "trusted": false
     },
     {

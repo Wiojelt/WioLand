@@ -28,7 +28,7 @@ PltStream is kept as an archive entry; its content plugin has closed.
 
 ## BitChord & Dial
 
-**Wioland** brings lossless and Hi-Res music sources together in BitChord and Dial.
+**Wioland & Wiochord Lossless** brings lossless and Hi-Res music sources together in BitChord and Dial, sorted from fastest to slowest with automatic cascading failover.
 
 1. Remove any older Wioland music source.
 2. Open **Settings → Sources → Add an addon** in BitChord or Dial.
@@ -40,9 +40,23 @@ https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json
 
 **[Copy/open manifest](https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json)** · **[BitChord](https://github.com/kushagrasinghx/BitChord)** · **[Dial (Fork)](https://github.com/steeben/Dial)** · **[Music modules](bitchord/)**
 
-Dial Monochrome (tracks.monochrome.st) · Monochrome FLAC · QQDL / Lucida · juanjob Hi-Res · Lossless Bridge · Eljohnzc · Tido · gglos · Qobuz · LastBabe · Internet Archive
+### Kaynak Sıralaması (Hız Benchmark / Latency)
 
-Modules run inside BitChord / Dial and connect directly to providers. No WioLand Worker or headphone requirement. Source availability and audio quality depend on each provider.
+| Sıra | Kaynak Adı | Gecikme (Latency) | Tür / Kalite | Durum |
+| :--- | :--- | :--- | :--- | :--- |
+| **01** | **Wiochord Lossless FLAC** | `~600ms` (Akıllı Seçim) | Çoklu Otomatik Yedeklemeli FLAC | ⚡ Aktif |
+| **02** | **Monochrome FLAC (Community)** | `~900ms` | 16/24-bit 44.1kHz FLAC | ⚡ Aktif |
+| **03** | **juanjob Hi-Res** | `635ms` | 24-bit 96kHz Hi-Res FLAC | ⚡ Aktif |
+| **04** | **Dial Monochrome FLAC** | `904ms` (Doğrudan Akış) | 16/24-bit FLAC (Doğrudan / Jeton Gerektirmez) | ⚡ Aktif |
+| **05** | **Confih Hi-Res** | `1100ms` | 24-bit Hi-Res FLAC | 🚀 Aktif |
+| **06** | **Qobuz Addon** | `1600ms` | Tokensiz Doğrudan FLAC | 🚀 Aktif |
+| **07** | **Lossless Bridge** | `2100ms` | 15 Günlük Dinamik Jeton Yenilemeli Hi-Res | 🔄 Aktif |
+| **08** | **Eljohnzc Monochrome** | `~700ms` | Sadece Dinleme | 🎧 Aktif |
+| **09** | **QQDL / Lucida** | N/A | Parked (Yedek Havuz) | 💤 Parked |
+| **10** | **gglos · LastBabe · Tido** | Değişken | Alternatif Eklentiler | 🔄 Yedek |
+| **11** | **Internet Archive FLAC** | `~1200ms` | Arşiv Koleksiyonu | 🏛️ Aktif |
+
+Modüller doğrudan BitChord / Dial QuickJS motorunda çalışır, dış aracı sunucu veya kulaklık şartı gerektirmez.
 
 ---
 
