@@ -1,5 +1,5 @@
 {
-  "timestamp": 1795092419,
+  "timestamp": 1795107290,
   "repos": [
     {
       "name": "WioSinema",
@@ -19,31 +19,18 @@
     },
     {
       "name": "WioDrama",
-      "total": 19,
-      "healthy": 13,
-      "mismatches": 6,
-      "errors": [
-        "DramaDizilerim: Hash/Boyut farkı (Katalog: 116366B / Gerçek: 116873B)",
-        "WioShort: Hash/Boyut farkı (Katalog: 111339B / Gerçek: 111732B)",
-        "TryDrama: Hash/Boyut farkı (Katalog: 110429B / Gerçek: 118050B)",
-        "DramaBox: Hash/Boyut farkı (Katalog: 104515B / Gerçek: 121426B)",
-        "MinuteDrama: Hash/Boyut farkı (Katalog: 111134B / Gerçek: 116348B)",
-        "Shot Short: Hash/Boyut farkı (Katalog: 110330B / Gerçek: 116106B)"
-      ],
+      "total": 20,
+      "healthy": 20,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
       "name": "WioKids",
-      "total": 10,
-      "healthy": 5,
-      "mismatches": 5,
-      "errors": [
-        "CizgiVeDizi: Hash/Boyut farkı (Katalog: 134882B / Gerçek: 133521B)",
-        "CizgiPortal: Hash/Boyut farkı (Katalog: 108572B / Gerçek: 107088B)",
-        "CizgiFilmIzleInfo: Hash/Boyut farkı (Katalog: 108218B / Gerçek: 108219B)",
-        "CizgiDiziNet: Hash/Boyut farkı (Katalog: 113843B / Gerçek: 113835B)",
-        "CizgiSite: Hash/Boyut farkı (Katalog: 106602B / Gerçek: 106616B)"
-      ],
+      "total": 11,
+      "healthy": 11,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -57,16 +44,9 @@
     {
       "name": "WioAsya",
       "total": 7,
-      "healthy": 1,
-      "mismatches": 6,
-      "errors": [
-        "DiziAsya: Hash/Boyut farkı (Katalog: 129830B / Gerçek: 139017B)",
-        "DiziKorea: Hash/Boyut farkı (Katalog: 119855B / Gerçek: 121563B)",
-        "TRasyalog: Hash/Boyut farkı (Katalog: 107434B / Gerçek: 109206B)",
-        "AsyaWatch: Hash/Boyut farkı (Katalog: 92239B / Gerçek: 121700B)",
-        "WebDramaTurkey: Hash/Boyut farkı (Katalog: 109598B / Gerçek: 140524B)",
-        "HintFilmİzle: Hash/Boyut farkı (Katalog: 163198B / Gerçek: 166127B)"
-      ],
+      "healthy": 7,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -137,26 +117,26 @@
     },
     {
       "key": "papazsports",
-      "url": "https://www.papazsports1031.pro/",
-      "status_code": 403,
-      "state": "Korumada (Turnstile 403)",
-      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
-      "cf_challenge": true
+      "url": "https://www.papazsports1033.pro/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
     },
     {
       "key": "ardaspor",
-      "url": "https://ardaspor.live/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "url": "https://ardaspor39.top/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
       "key": "mahsunsports",
       "url": "https://mahsunsports.xyz/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
@@ -169,34 +149,34 @@
     },
     {
       "key": "inattv",
-      "url": "https://inattv1329.xyz/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "url": "https://inattv1328.xyz/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
       "key": "taraftarium24",
-      "url": "https://taraftarium24.io/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "url": "https://inattv1328.xyz/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
       "key": "selcuksports",
       "url": "https://www.selcuksportshd14e17ba2ad.xyz/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
@@ -210,30 +190,38 @@
     {
       "key": "intersportv",
       "url": "https://intersportv1.live/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
       "key": "beyazelma",
       "url": "https://beyazelma78.com/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
       "key": "kralsportshd",
-      "url": "https://kralsportshd.com/giris2/",
-      "status_code": 200,
-      "state": "Sağlıklı",
-      "detail": "Kanal/Yayın erişimi aktif",
+      "url": "https://kralsportshd.com/giris1/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
       "cf_challenge": false
     },
     {
       "key": "atomspor",
-      "url": "https://www.atomsportv520.top/",
+      "url": "https://atomsportv519.top/",
+      "status_code": 0,
+      "state": "Ulaşılamıyor",
+      "detail": "DNS / Bağlantı zaman aşımı",
+      "cf_challenge": false
+    },
+    {
+      "key": "leotv",
+      "url": "https://leograndtv11.com/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
