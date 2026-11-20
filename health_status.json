@@ -1,5 +1,5 @@
 {
-  "timestamp": 1795124787,
+  "timestamp": 1795143415,
   "repos": [
     {
       "name": "WioSinema",
@@ -117,26 +117,26 @@
     },
     {
       "key": "papazsports",
-      "url": "https://www.papazsports1033.pro/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
-      "cf_challenge": false
+      "url": "https://www.papazsports1031.pro/",
+      "status_code": 403,
+      "state": "Korumada (Turnstile 403)",
+      "detail": "Cloudflare Challenge Devrede — İstemci doğrudan bağlanamaz",
+      "cf_challenge": true
     },
     {
       "key": "ardaspor",
-      "url": "https://ardaspor39.top/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "url": "https://ardaspor.live/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
       "key": "mahsunsports",
       "url": "https://mahsunsports.xyz/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
@@ -149,34 +149,34 @@
     },
     {
       "key": "inattv",
-      "url": "https://inattv1328.xyz/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "url": "https://inattv1329.xyz/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
       "key": "taraftarium24",
-      "url": "https://inattv1328.xyz/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "url": "https://taraftarium24.io/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
       "key": "selcuksports",
-      "url": "https://www.selcuksportshd14e17ba2ad.xyz/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "url": "https://www.selcuksportshd34d51bc052.xyz/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
       "key": "mackeyfi",
       "url": "https://www.mackeyfi605.sbs/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
@@ -190,38 +190,30 @@
     {
       "key": "intersportv",
       "url": "https://intersportv1.live/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
       "key": "beyazelma",
       "url": "https://beyazelma78.com/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
       "key": "kralsportshd",
-      "url": "https://kralsportshd.com/giris1/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
+      "url": "https://kralsportshd.com/giris2/",
+      "status_code": 200,
+      "state": "Sağlıklı",
+      "detail": "Kanal/Yayın erişimi aktif",
       "cf_challenge": false
     },
     {
       "key": "atomspor",
-      "url": "https://atomsportv519.top/",
-      "status_code": 0,
-      "state": "Ulaşılamıyor",
-      "detail": "DNS / Bağlantı zaman aşımı",
-      "cf_challenge": false
-    },
-    {
-      "key": "leotv",
-      "url": "https://leograndtv11.com/",
+      "url": "https://www.atomsportv520.top/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
