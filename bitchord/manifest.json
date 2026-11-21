@@ -1,13 +1,16 @@
 {
-  "id": "art.wiojelt.bitchord.modules",
-  "name": "Wioland",
-  "version": "0.2.0",
+  "id": "art.wiochord.lossless",
+  "name": "⚡ Wiochord Lossless ⚡",
+  "title": "⚡ Wiochord Lossless ⚡",
+  "displayName": "⚡ Wiochord Lossless ⚡",
+  "description": "Multi-source lossless music module index with automatic failover",
+  "version": "1.0.0",
   "checkValidLossless": 0,
   "allowDownloads": 1,
   "category:music": [
     {
       "id": "wiojelt-wiochord-lossless",
-      "name": "Wiochord Lossless FLAC",
+      "name": "⚡ Wiochord Lossless ⚡",
       "author": "WioJelt",
       "version": "0.2.0",
       "code": 4,

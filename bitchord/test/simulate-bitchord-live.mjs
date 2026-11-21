@@ -143,8 +143,8 @@ async function runLiveSimulation() {
       }
     });
     if (audioRes.status !== 429) break;
-    console.log(`   [ExoPlayer retry] 429 received, backing off 1500ms (attempt ${attempt}/3)...`);
-    await new Promise(r => setTimeout(r, 1500));
+    console.log(`   [ExoPlayer retry] 429 received, backing off 2500ms (attempt ${attempt}/3)...`);
+    await new Promise(r => setTimeout(r, 2500));
   }
 
   console.log(`   • HTTP Status:     ${audioRes.status}`);

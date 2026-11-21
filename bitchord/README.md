@@ -1,6 +1,6 @@
 <div align="center">
 
-# Wioland
+# ⚡ Wiochord Lossless ⚡
 
 Lossless and Hi-Res music sources in one addon.
 
@@ -20,7 +20,7 @@ https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json
 
 ## Sources (Sorted by Speed / En Hızlıdan Yavaşa)
 
-1. **Wiochord Lossless FLAC** `~600ms` (Multi-source auto-speed & cascading failover)
+1. **⚡ Wiochord Lossless ⚡** `~600ms` (Multi-source auto-speed & cascading failover)
 2. **juanjob Hi-Res** `635ms` (24-bit 96kHz Hi-Res FLAC)
 3. **Dial Monochrome FLAC** `904ms` (Direct uncompressed FLAC, tokenless)
 4. **Confih Hi-Res** `1100ms` (24-bit Hi-Res FLAC)
