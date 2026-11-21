@@ -20,7 +20,7 @@ Add the repository in **Settings → Extensions → Add repository**:
 
 Or use the [repository URL](https://raw.githubusercontent.com/Wiojelt/WioLand/builds/repo.json).
 
-Install **MegaWio** to add the WioSinema, WioSpor, WioAnime, WioAsya, WioDrama, WioCinema, WioKids and CloudStream Live Hub repositories. Then install the plugins you want.
+Install **MegaWio** to add the WioSinema, WioSpor, WioAnime, WioAsya, ArcanaDrama, WioCinema, WioKids and CloudStream Live Hub repositories. Then install the plugins you want.
 
 PltStream is kept as an archive entry; its content plugin has closed.
 
