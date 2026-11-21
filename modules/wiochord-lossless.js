@@ -1,6 +1,6 @@
 (function () {
 'use strict';
-var config = {"id":"wiochord-lossless","name":"Wiochord Lossless FLAC","type":"wiochord-lossless","url":"https://tracks.monochrome.st","speed":"⚡ En Hızlı (Otomatik Seçim)","latency":"~600ms","endpoints":{"monochrome":"https://tracks.monochrome.st","qobuz":"https://qobuz-addon.vercel.app","confih":"https://bitchord.confih.tech","juanjob":"https://bitchord-hires-addon.de.deplexo.com","losslessbridge":"https://losslessbridge.de.deplexo.com"}};
+var config = {"id":"wiochord-lossless","name":"⚡ Wiochord Lossless ⚡","type":"wiochord-lossless","url":"https://tracks.monochrome.st","speed":"⚡ En Hızlı (Otomatik Seçim)","latency":"~600ms","endpoints":{"monochrome":"https://tracks.monochrome.st","qobuz":"https://qobuz-addon.vercel.app","confih":"https://bitchord.confih.tech","juanjob":"https://bitchord-hires-addon.de.deplexo.com","losslessbridge":"https://losslessbridge.de.deplexo.com"}};
 function setting(context, key, fallback) {
   var value = context && context.settings && context.settings[key];
   if (value && typeof value === 'object') value = value.value;
