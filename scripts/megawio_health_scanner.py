@@ -44,10 +44,10 @@ REPOS = [
         "branch": "main",
     },
     {
-        "name": "WioDrama",
+        "name": "ArcanaDrama",
         "local_path": BASE_LOCAL_DIR / "WioDrama",
-        "raw_plugins": "https://raw.githubusercontent.com/Wiojelt/WioDrama/builds/plugins.json",
-        "raw_repo": "https://raw.githubusercontent.com/Wiojelt/WioDrama/builds/repo.json",
+        "raw_plugins": "https://raw.githubusercontent.com/banadabi/arcanadrama-addons/builds/plugins.json",
+        "raw_repo": "https://raw.githubusercontent.com/banadabi/arcanadrama-addons/main/repo.json",
         "branch": "builds",
     },
     {
