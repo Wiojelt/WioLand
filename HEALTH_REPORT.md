@@ -1,8 +1,8 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `21.11.2026 17:17:43 (TSİ)`  
-**Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
-**Toplam Eklenti:** `263` | **Sağlıklı:** `263` | **Uyuşmazlık:** `0`
+**Son Güncelleme:** `21.11.2026 22:59:44 (TSİ)`  
+**Genel Sağlık Durumu:** ![Durum: Düzeltme Gerekli](https://img.shields.io/badge/Durum-D%C3%BCzeltme_Gerekli-red)  
+**Toplam Eklenti:** `258` | **Sağlıklı:** `256` | **Uyuşmazlık:** `2`
 
 ---
 
@@ -12,11 +12,11 @@
 | :--- | :---: | :---: | :---: | :---: |
 | **WioSinema** | 42 | %100 (42/42) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAnime** | 10 | %100 (10/10) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **WioDrama** | 20 | %100 (20/20) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **ArcanaDrama** | 15 | %100 (15/15) | ⚠️ Eksik | 🟢 %100 Sağlıklı |
 | **WioKids** | 11 | %100 (11/11) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioCinema** | 14 | %100 (14/14) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioAsya** | 7 | %100 (7/7) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
-| **TurkSinema** | 121 | %100 (121/121) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
+| **TurkSinema** | 121 | %98 (119/121) | ✅ Aktif (200) | 🔴 2 Hata |
 | **WioSpor** | 29 | %100 (29/29) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **test** | 1 | %100 (1/1) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
 | **WioKitap** | 8 | %100 (8/8) | ✅ Aktif (200) | 🟢 %100 Sağlıklı |
@@ -59,3 +59,4 @@
 ## 🚨 Aktif Uyarılar & Çözüm Önerileri
 
 - **PAPAZSPORTS Cloudflare Korumasında:** `https://www.papazsports1031.pro/` adresinde Cloudflare Managed Challenge (Turnstile 403) aktif. İstemciler doğrudan kanal listesi çekemez. **Çözüm:** Kanal listesi `/domains.json` veya GitHub Raw önbellek yansısından beslenmeli.
+- **Paket Hash Uyuşmazlığı:** `2` eklentinin hash/boyutu plugins.json ile eşleşmedi. `auto_heal_all_repos.py --fix --push` çalıştırılarak düzeltildi.
