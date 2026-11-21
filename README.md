@@ -4,20 +4,19 @@
 
 Lossless and Hi-Res music sources in one addon.
 
-**[Addon URL](https://wiochord-lossless.hdf-worker.workers.dev)** · **[Website](https://wiojelt.github.io/#bitchord)** · **[BitChord](https://github.com/kushagrasinghx/BitChord)** · **[Dial (Fork)](https://github.com/steeben/Dial)**
+**[Manifest URL](https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json)** · **[Website](https://wiojelt.github.io/#bitchord)** · **[BitChord](https://github.com/kushagrasinghx/BitChord)** · **[Dial (Fork)](https://github.com/steeben/Dial)**
 
 </div>
 
 ## Installation
 
-1. In BitChord or Dial, open **Settings → Sources → Add an addon**.
-2. Paste the URL below and save (Instantly detected as Addon with full name `⚡ Wiochord Lossless ⚡`):
+1. Remove any older Wioland source, if installed.
+2. In BitChord or Dial, open **Settings → Sources → Add an addon**.
+3. Paste the manifest URL below and save. Detected as a module index.
 
 ```text
-https://wiochord-lossless.hdf-worker.workers.dev
+https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json
 ```
-
-*(Alternative QuickJS Module Index: `https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json`)*
 
 ## Sources (Sorted by Speed / En Hızlıdan Yavaşa)
 
