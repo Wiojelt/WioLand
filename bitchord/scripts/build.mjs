@@ -4,11 +4,12 @@ const sources = JSON.parse(await readFile(new URL('sources.json', root), 'utf8')
 const runtime = await readFile(new URL('scripts/module-runtime.js', root), 'utf8');
 const modules = [];
 await mkdir(new URL('modules/', root), { recursive: true });
+const logoUrl = 'https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg';
 for (const s of sources) {
   const file = `modules/${s.id}.js`;
   const code = `(function () {\n'use strict';\nvar config = ${JSON.stringify(s)};\n${runtime}\n})();\n`;
   await writeFile(new URL(file, root), code);
-  modules.push({ id: `wiojelt-${s.id}`, name: s.name, author: 'WioJelt', version: '0.2.0', code: 4, type: 'MODULE', download: file, trusted: false });
+  modules.push({ id: `wiojelt-${s.id}`, name: s.name, author: 'WioJelt', version: '0.2.0', code: 4, type: 'MODULE', download: file, trusted: false, logo: logoUrl, icon: logoUrl });
 }
 const externalBase = 'https://raw.githubusercontent.com/OreoMuncher45/bitchord-streaming-modules/df97c0ca349fbf63007ad48199bf389004b3e1a9/modules/';
 // Insert community modules into appropriate fallback slots
@@ -21,6 +22,8 @@ const manifest = {
   displayName: '⚡ Wiochord Lossless ⚡',
   description: 'Multi-source lossless music module index with automatic failover',
   version: '1.0.0',
+  logo: logoUrl,
+  icon: logoUrl,
   checkValidLossless: 0,
   allowDownloads: 1,
   'category:music': modules

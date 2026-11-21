@@ -1,0 +1,63 @@
+<svg width="512" height="512" viewBox="0 0 1024 1024" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="wioGrad" x1="512" y1="0" x2="512" y2="1024" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FB5C74" />
+      <stop offset="1" stop-color="#FA233B" />
+    </linearGradient>
+
+    <clipPath id="iconClip">
+      <rect width="1024" height="1024" rx="220" />
+    </clipPath>
+
+    <style>
+      .wave {
+        fill: none;
+        stroke: #FFFFFF;
+        stroke-width: 58;
+        stroke-linecap: round;
+        stroke-linejoin: round;
+        transform-origin: center;
+      }
+
+      .wave-1 {
+        animation: pulseWave 1.8s ease-in-out infinite;
+        animation-delay: 0s;
+      }
+
+      .wave-2 {
+        animation: pulseWave 1.8s ease-in-out infinite;
+        animation-delay: 0.2s;
+      }
+
+      .wave-3 {
+        animation: pulseWave 1.8s ease-in-out infinite;
+        animation-delay: 0.4s;
+      }
+
+      @keyframes pulseWave {
+        0%, 100% {
+          transform: translateY(0px) scaleY(1);
+          opacity: 1;
+        }
+        50% {
+          transform: translateY(-28px) scaleY(1.06);
+          opacity: 0.88;
+        }
+      }
+    </style>
+  </defs>
+
+  <g clip-path="url(#iconClip)">
+    
+    <rect width="1024" height="1024" rx="220" fill="url(#wioGrad)" />
+
+    
+    <path class="wave wave-1" d="M -40 310 C 120 310, 180 610, 290 610 C 370 610, 410 340, 512 340 C 614 340, 654 610, 734 610 C 844 610, 904 310, 1064 310" />
+
+    
+    <path class="wave wave-2" d="M -40 420 C 120 420, 180 720, 290 720 C 370 720, 410 450, 512 450 C 614 450, 654 720, 734 720 C 844 720, 904 420, 1064 420" />
+
+    
+    <path class="wave wave-3" d="M -40 530 C 120 530, 180 830, 290 830 C 370 830, 410 560, 512 560 C 614 560, 654 830, 734 830 C 844 830, 904 530, 1064 530" />
+  </g>
+</svg>

@@ -1,5 +1,7 @@
 <div align="center">
 
+<img src="logo.svg" width="130" alt="⚡ Wiochord Lossless ⚡">
+
 # ⚡ Wiochord Lossless ⚡
 
 Lossless and Hi-Res music sources in one addon.

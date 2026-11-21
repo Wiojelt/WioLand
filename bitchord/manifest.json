@@ -5,6 +5,8 @@
   "displayName": "⚡ Wiochord Lossless ⚡",
   "description": "Multi-source lossless music module index with automatic failover",
   "version": "1.0.0",
+  "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+  "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
   "checkValidLossless": 0,
   "allowDownloads": 1,
   "category:music": [
@@ -16,7 +18,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/wiochord-lossless.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "bitchord-tidal-flac",
@@ -36,7 +40,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/juanjob.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "wiojelt-dial-monochrome",
@@ -46,7 +52,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/dial-monochrome.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "wiojelt-confih",
@@ -56,7 +64,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/confih.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "wiojelt-qobuz-addon",
@@ -66,7 +76,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/qobuz-addon.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "wiojelt-losslessbridge",
@@ -76,7 +88,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/losslessbridge.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "wiojelt-eljohn-mono",
@@ -86,7 +100,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/eljohn-mono.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "wiojelt-qqdl",
@@ -96,7 +112,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/qqdl.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "wiojelt-gglos",
@@ -106,7 +124,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/gglos.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "wiojelt-lastbabe",
@@ -116,7 +136,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/lastbabe.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "wiojelt-tido",
@@ -126,7 +148,9 @@
       "code": 4,
       "type": "MODULE",
       "download": "modules/tido.js",
-      "trusted": false
+      "trusted": false,
+      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
     },
     {
       "id": "archive-flac",

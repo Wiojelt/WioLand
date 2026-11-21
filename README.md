@@ -28,7 +28,11 @@ PltStream is kept as an archive entry; its content plugin has closed.
 
 ## BitChord & Dial
 
-**Wioland & Wiochord Lossless** brings lossless and Hi-Res music sources together in BitChord and Dial, sorted from fastest to slowest with automatic cascading failover.
+<div align="center">
+  <img src="bitchord/logo.svg" width="110" alt="⚡ Wiochord Lossless ⚡">
+</div>
+
+**Wioland & ⚡ Wiochord Lossless ⚡** brings lossless and Hi-Res music sources together in BitChord and Dial, sorted from fastest to slowest with automatic cascading failover.
 
 1. Remove any older Wioland music source.
 2. Open **Settings → Sources → Add an addon** in BitChord or Dial.
