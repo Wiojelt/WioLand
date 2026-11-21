@@ -1,6 +1,6 @@
 # 🛡️ MegaWio Saatlik Sağlık & Bütünlük Raporu
 
-**Son Güncelleme:** `21.11.2026 09:32:36 (TSİ)`  
+**Son Güncelleme:** `21.11.2026 17:17:43 (TSİ)`  
 **Genel Sağlık Durumu:** ![Durum: Mükemmel](https://img.shields.io/badge/Durum-M%C3%BCkemmel-brightgreen)  
 **Toplam Eklenti:** `263` | **Sağlıklı:** `263` | **Uyuşmazlık:** `0`
 
@@ -35,7 +35,7 @@
 | **ardaspor** | `https://ardaspor.live/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **mahsunsports** | `https://mahsunsports.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **crex** | `https://crex.com/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
-| **inattv** | `https://inattv1329.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
+| **inattv** | `https://inattv1330.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **taraftarium24** | `https://taraftarium24.io/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **selcuksports** | `https://www.selcuksportshd34d51bc052.xyz/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
 | **mackeyfi** | `https://www.mackeyfi605.sbs/` | 🟢 Sağlıklı | Kanal/Yayın erişimi aktif |
