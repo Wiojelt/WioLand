@@ -1,5 +1,5 @@
 {
-  "timestamp": 1795350382,
+  "timestamp": 1795378566,
   "repos": [
     {
       "name": "WioSinema",
@@ -60,11 +60,9 @@
     {
       "name": "WioSpor",
       "total": 29,
-      "healthy": 28,
-      "mismatches": 1,
-      "errors": [
-        "Mien TV: Hash/Boyut farkı (Katalog: 157481B / Gerçek: 159169B)"
-      ],
+      "healthy": 29,
+      "mismatches": 0,
+      "errors": [],
       "icon_status": "Aktif (200)"
     },
     {
@@ -151,7 +149,7 @@
     },
     {
       "key": "inattv",
-      "url": "https://inattv1330.xyz/",
+      "url": "https://inattvgiris.co/",
       "status_code": 200,
       "state": "Sağlıklı",
       "detail": "Kanal/Yayın erişimi aktif",
