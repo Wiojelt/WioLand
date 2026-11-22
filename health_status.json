@@ -1,5 +1,5 @@
 {
-  "timestamp": 1795316473,
+  "timestamp": 1795350382,
   "repos": [
     {
       "name": "WioSinema",
@@ -60,9 +60,11 @@
     {
       "name": "WioSpor",
       "total": 29,
-      "healthy": 29,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 28,
+      "mismatches": 1,
+      "errors": [
+        "Mien TV: Hash/Boyut farkı (Katalog: 157481B / Gerçek: 159169B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
