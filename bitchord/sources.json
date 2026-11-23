@@ -4,26 +4,31 @@
     "name": "⚡ Wiochord Lossless ⚡",
     "type": "wiochord-lossless",
     "url": "https://tracks.monochrome.st",
-    "speed": "⚡ En Hızlı (Otomatik Yük Dengeleme)",
-    "latency": "~500ms",
-    "endpoints": {
-      "monochrome": "https://tracks.monochrome.st"
-    }
+    "speed": "⚡ En Hızlı (Tidal + Telegram Hi-Res Akıllı Seçim)",
+    "latency": "~350ms"
   },
   {
     "id": "dial-monochrome",
     "name": "Dial Monochrome FLAC",
     "type": "monochrome",
     "url": "https://tracks.monochrome.st",
-    "speed": "⚡ Doğrudan Kayıpsız FLAC",
-    "latency": "~700ms"
+    "speed": "⚡ Doğrudan Tidal Kayıpsız FLAC",
+    "latency": "~500ms"
   },
   {
-    "id": "wio-hires-backup",
-    "name": "Wio Hi-Res (Yedek Hat)",
-    "type": "monochrome",
-    "url": "https://tracks.monochrome.st",
-    "speed": "🚀 Failover Yedek Akış",
+    "id": "pencarimusic",
+    "name": "PencariMusic Hi-Res 24-bit",
+    "type": "pencarimusic",
+    "url": "https://stream.pencarimovie.com/66ff097863dedb7ccd8401d5ffe616f3/music",
+    "speed": "🚀 24-bit 96kHz / 192kHz Master FLAC",
+    "latency": "~600ms"
+  },
+  {
+    "id": "archive-flac",
+    "name": "Internet Archive FLAC",
+    "type": "archive",
+    "url": "https://archive.org",
+    "speed": "🌐 960k+ Albüm & Canlı Konser Kaydı",
     "latency": "~800ms"
   }
 ]
