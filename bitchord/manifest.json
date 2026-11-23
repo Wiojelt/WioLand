@@ -33,28 +33,6 @@
       ]
     },
     {
-      "id": "wiojelt-juanjob",
-      "name": "juanjob Hi-Res",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/juanjob.js",
-      "trusted": false,
-      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "tags": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ],
-      "labels": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ]
-    },
-    {
       "id": "wiojelt-dial-monochrome",
       "name": "Dial Monochrome FLAC",
       "author": "WioJelt",
@@ -77,167 +55,13 @@
       ]
     },
     {
-      "id": "wiojelt-confih",
-      "name": "Confih Hi-Res",
+      "id": "wiojelt-wio-hires-backup",
+      "name": "Wio Hi-Res (Yedek Hat)",
       "author": "WioJelt",
       "version": "0.2.0",
       "code": 4,
       "type": "MODULE",
-      "download": "modules/confih.js",
-      "trusted": false,
-      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "tags": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ],
-      "labels": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ]
-    },
-    {
-      "id": "wiojelt-qobuz-addon",
-      "name": "Qobuz Addon",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/qobuz-addon.js",
-      "trusted": false,
-      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "tags": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ],
-      "labels": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ]
-    },
-    {
-      "id": "wiojelt-losslessbridge",
-      "name": "Lossless Bridge",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/losslessbridge.js",
-      "trusted": false,
-      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "tags": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ],
-      "labels": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ]
-    },
-    {
-      "id": "wiojelt-eljohn-mono",
-      "name": "Eljohnzc Monochrome",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/eljohn-mono.js",
-      "trusted": false,
-      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "tags": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ],
-      "labels": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ]
-    },
-    {
-      "id": "wiojelt-qqdl",
-      "name": "QQDL / Lucida",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/qqdl.js",
-      "trusted": false,
-      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "tags": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ],
-      "labels": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ]
-    },
-    {
-      "id": "wiojelt-gglos",
-      "name": "gglos",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/gglos.js",
-      "trusted": false,
-      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "tags": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ],
-      "labels": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ]
-    },
-    {
-      "id": "wiojelt-lastbabe",
-      "name": "LastBabe",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/lastbabe.js",
-      "trusted": false,
-      "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "tags": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ],
-      "labels": [
-        "lossless",
-        "flac",
-        "hi-res"
-      ]
-    },
-    {
-      "id": "wiojelt-tido",
-      "name": "Tido",
-      "author": "WioJelt",
-      "version": "0.2.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "modules/tido.js",
+      "download": "modules/wio-hires-backup.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
       "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",

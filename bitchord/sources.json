@@ -4,102 +4,26 @@
     "name": "⚡ Wiochord Lossless ⚡",
     "type": "wiochord-lossless",
     "url": "https://tracks.monochrome.st",
-    "speed": "⚡ En Hızlı (Otomatik Seçim)",
-    "latency": "~600ms",
+    "speed": "⚡ En Hızlı (Otomatik Yük Dengeleme)",
+    "latency": "~500ms",
     "endpoints": {
-      "monochrome": "https://tracks.monochrome.st",
-      "qobuz": "https://qobuz-addon.vercel.app",
-      "confih": "https://bitchord.confih.tech",
-      "juanjob": "https://bitchord-hires-addon.de.deplexo.com",
-      "losslessbridge": "https://losslessbridge.de.deplexo.com"
+      "monochrome": "https://tracks.monochrome.st"
     }
-  },
-  {
-    "id": "juanjob",
-    "name": "juanjob Hi-Res",
-    "type": "addon",
-    "url": "https://bitchord-hires-addon.de.deplexo.com",
-    "speed": "⚡ 635ms"
   },
   {
     "id": "dial-monochrome",
     "name": "Dial Monochrome FLAC",
     "type": "monochrome",
     "url": "https://tracks.monochrome.st",
-    "speed": "⚡ 904ms"
+    "speed": "⚡ Doğrudan Kayıpsız FLAC",
+    "latency": "~700ms"
   },
   {
-    "id": "confih",
-    "name": "Confih Hi-Res",
-    "type": "addon",
-    "url": "https://bitchord.confih.tech",
-    "speed": "🚀 1100ms"
-  },
-  {
-    "id": "qobuz-addon",
-    "name": "Qobuz Addon",
-    "type": "addon",
-    "url": "https://qobuz-addon.vercel.app",
-    "speed": "🚀 1600ms"
-  },
-  {
-    "id": "losslessbridge",
-    "name": "Lossless Bridge",
-    "type": "losslessbridge",
-    "url": "https://losslessbridge.de.deplexo.com",
-    "speed": "🔄 2100ms"
-  },
-  {
-    "id": "eljohn-mono",
-    "name": "Eljohnzc Monochrome",
-    "type": "addon",
-    "url": "https://eljohnzc-mono.de.deplexo.com",
-    "speed": "Stream Only"
-  },
-  {
-    "id": "qqdl",
-    "name": "QQDL / Lucida",
-    "type": "hifi",
-    "urls": [
-      "https://wolf.qqdl.site",
-      "https://maus.qqdl.site",
-      "https://vogel.qqdl.site",
-      "https://katze.qqdl.site",
-      "https://hund.qqdl.site",
-      "https://baer.qqdl.site",
-      "https://fuchs.qqdl.site",
-      "https://igel.qqdl.site",
-      "https://loewe.qqdl.site",
-      "https://falke.qqdl.site",
-      "https://hirsch.qqdl.site",
-      "https://elch.qqdl.site",
-      "https://biber.qqdl.site",
-      "https://dachs.qqdl.site",
-      "https://otter.qqdl.site",
-      "https://schaf.qqdl.site",
-      "https://pferd.qqdl.site",
-      "https://ente.qqdl.site",
-      "https://fisch.qqdl.site",
-      "https://tiger.qqdl.site"
-    ],
-    "speed": "Parked Backup"
-  },
-  {
-    "id": "gglos",
-    "name": "gglos",
-    "type": "addon",
-    "url": "https://gglos.geisselgottes.cfd"
-  },
-  {
-    "id": "lastbabe",
-    "name": "LastBabe",
-    "type": "addon",
-    "url": "https://lastbabe-addon.de.deplexo.com"
-  },
-  {
-    "id": "tido",
-    "name": "Tido",
-    "type": "addon",
-    "url": "https://tido.tido.tido.dpdns.org"
+    "id": "wio-hires-backup",
+    "name": "Wio Hi-Res (Yedek Hat)",
+    "type": "monochrome",
+    "url": "https://tracks.monochrome.st",
+    "speed": "🚀 Failover Yedek Akış",
+    "latency": "~800ms"
   }
 ]

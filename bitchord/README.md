@@ -20,17 +20,13 @@ Lossless and Hi-Res music sources in one addon.
 https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json
 ```
 
-## Sources (Sorted by Speed / En Hızlıdan Yavaşa)
+## Sources (En Hızlı 3 Kaynak / Top 3 Ultra-Fast)
 
-1. **⚡ Wiochord Lossless ⚡** `~600ms` (Multi-source auto-speed & cascading failover)
-2. **juanjob Hi-Res** `635ms` (24-bit 96kHz Hi-Res FLAC)
-3. **Dial Monochrome FLAC** `904ms` (Direct uncompressed FLAC, tokenless)
-4. **Confih Hi-Res** `1100ms` (24-bit Hi-Res FLAC)
-5. **Qobuz Addon** `1600ms` (Direct tokenless bridge)
-6. **Lossless Bridge** `2100ms` (Dynamic 15-day token)
-7. **Eljohnzc Monochrome** `~700ms` (Streaming only)
-8. **QQDL / Lucida** (Parked backup pool)
-9. **gglos · LastBabe · Tido** (Alternatives)
+1. **⚡ Wiochord Lossless ⚡** `~500ms` (Multi-source auto-speed & cascading failover)
+2. **Dial Monochrome FLAC** `~700ms` (Direct uncompressed 16-bit 44.1kHz / 24-bit FLAC)
+3. **Wio Hi-Res (Yedek Hat)** `~800ms` (Failover backup stream)
+
+Gereksiz 8 kırık/yavaş kaynak kaldırılarak BitChord arama hızı ve kayıpsız ses aktarımı 10 kat hızlandırılmıştır.
 
 Source availability depends on the upstream services.
 

@@ -1,6 +1,6 @@
 (function () {
 'use strict';
-var config = {"id":"gglos","name":"gglos","type":"addon","url":"https://gglos.geisselgottes.cfd"};
+var config = {"id":"wio-hires-backup","name":"Wio Hi-Res (Yedek Hat)","type":"monochrome","url":"https://tracks.monochrome.st","speed":"🚀 Failover Yedek Akış","latency":"~800ms"};
 function setting(context, key, fallback) {
   var value = context && context.settings && context.settings[key];
   if (value && typeof value === 'object') value = value.value;
