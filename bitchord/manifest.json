@@ -20,17 +20,17 @@
       "download": "modules/wiochord-lossless.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
-    },
-    {
-      "id": "bitchord-tidal-flac",
-      "name": "Monochrome FLAC (Community)",
-      "author": "community",
-      "version": "0.4.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "https://raw.githubusercontent.com/OreoMuncher45/bitchord-streaming-modules/df97c0ca349fbf63007ad48199bf389004b3e1a9/modules/bitchord-tidal-flac.js",
-      "trusted": false
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-juanjob",
@@ -42,7 +42,17 @@
       "download": "modules/juanjob.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-dial-monochrome",
@@ -54,7 +64,17 @@
       "download": "modules/dial-monochrome.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-confih",
@@ -66,7 +86,17 @@
       "download": "modules/confih.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-qobuz-addon",
@@ -78,7 +108,17 @@
       "download": "modules/qobuz-addon.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-losslessbridge",
@@ -90,7 +130,17 @@
       "download": "modules/losslessbridge.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-eljohn-mono",
@@ -102,7 +152,17 @@
       "download": "modules/eljohn-mono.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-qqdl",
@@ -114,7 +174,17 @@
       "download": "modules/qqdl.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-gglos",
@@ -126,7 +196,17 @@
       "download": "modules/gglos.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-lastbabe",
@@ -138,7 +218,17 @@
       "download": "modules/lastbabe.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     },
     {
       "id": "wiojelt-tido",
@@ -150,17 +240,17 @@
       "download": "modules/tido.js",
       "trusted": false,
       "logo": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
-      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg"
-    },
-    {
-      "id": "archive-flac",
-      "name": "Internet Archive FLAC",
-      "author": "community",
-      "version": "1.0.0",
-      "code": 4,
-      "type": "MODULE",
-      "download": "https://raw.githubusercontent.com/OreoMuncher45/bitchord-streaming-modules/df97c0ca349fbf63007ad48199bf389004b3e1a9/modules/archive-flac.js",
-      "trusted": false
+      "icon": "https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/logo.svg",
+      "tags": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ],
+      "labels": [
+        "lossless",
+        "flac",
+        "hi-res"
+      ]
     }
   ]
 }

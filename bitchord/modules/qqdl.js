@@ -130,12 +130,41 @@ function streamResult(s, id) {
   if (Number(s.bitrate) > 0) meta.bitrate = Math.round(Number(s.bitrate));
   return { streamUrl: s.url, track: meta };
 }
+var MONO_FALLBACK = 'https://tracks.monochrome.st';
+
+async function fetchMonochromeSearch(text, limit) {
+  try {
+    var searchLimit = Math.max(1, Math.min(30, limit || 15));
+    var res = await json(query(MONO_FALLBACK + '/search/tracks', { q: text, limit: searchLimit }));
+    var rows = res.tracks || (res.data && res.data.tracks) || [];
+    if (Array.isArray(rows) && rows.length > 0) {
+      return rows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
+    }
+  } catch (_) {}
+  return [];
+}
+
+function getMonochromeStream(id) {
+  var cleanId = String(id).replace(/^[a-zA-Z0-9_-]+::/, '').replace(/^mono::/, '');
+  return {
+    streamUrl: MONO_FALLBACK + '/track/' + encodeURIComponent(cleanId),
+    track: {
+      id: String(id),
+      audioQuality: 'LOSSLESS',
+      mimeType: 'audio/flac',
+      bitDepth: 16,
+      sampleRate: 44100,
+      audioModes: ['STEREO']
+    }
+  };
+}
+
 async function searchTracks(text, limit, context) {
+  var searchLimit = Math.max(1, Math.min(30, limit || 15));
   try {
     var response;
     if (config.type === 'wiochord-lossless') {
-      var searchLimit = Math.max(1, Math.min(30, limit || 15));
-      var primary = (config.endpoints && config.endpoints.monochrome) || config.url || 'https://tracks.monochrome.st';
+      var primary = (config.endpoints && config.endpoints.monochrome) || config.url || MONO_FALLBACK;
       try {
         response = await json(query(primary + '/search/tracks', { q: text, limit: searchLimit }));
         var mRows = response.tracks || (response.data && response.data.tracks) || [];
@@ -145,56 +174,62 @@ async function searchTracks(text, limit, context) {
         }
       } catch (_) {}
 
-      // Cascading fallback 1: Qobuz addon
-      var qobuzUrl = (config.endpoints && config.endpoints.qobuz) || 'https://qobuz-addon.vercel.app';
-      try {
-        response = await json(query(qobuzUrl + '/search', { q: text }));
-        var qRows = response.tracks || (response.data && response.data.tracks) || [];
-        if (Array.isArray(qRows) && qRows.length > 0) {
-          var qList = qRows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
-          if (qList.length > 0) return { tracks: qList, total: qList.length };
-        }
-      } catch (_) {}
-
-      // Cascading fallback 2: Confih addon
-      var confihUrl = (config.endpoints && config.endpoints.confih) || 'https://bitchord.confih.tech';
-      try {
-        response = await json(query(confihUrl + '/search', { q: text, quality: 'lossless' }));
-        var cRows = response.tracks || (response.data && response.data.tracks) || [];
-        if (Array.isArray(cRows) && cRows.length > 0) {
-          var cList = cRows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
-          if (cList.length > 0) return { tracks: cList, total: cList.length };
-        }
-      } catch (_) {}
-
-      // Cascading fallback 3: Juanjob addon
-      var juanjobUrl = (config.endpoints && config.endpoints.juanjob) || 'https://bitchord-hires-addon.de.deplexo.com';
-      try {
-        response = await json(query(juanjobUrl + '/search', { q: text, quality: 'lossless' }));
-        var jRows = response.tracks || (response.data && response.data.tracks) || [];
-        if (Array.isArray(jRows) && jRows.length > 0) {
-          var jList = jRows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
-          if (jList.length > 0) return { tracks: jList, total: jList.length };
-        }
-      } catch (_) {}
-
-      return { tracks: [], total: 0 };
+      // Cascading fallbacks
+      var fbUrls = [
+        (config.endpoints && config.endpoints.qobuz) || 'https://qobuz-addon.vercel.app',
+        (config.endpoints && config.endpoints.confih) || 'https://bitchord.confih.tech',
+        (config.endpoints && config.endpoints.juanjob) || 'https://bitchord-hires-addon.de.deplexo.com'
+      ];
+      for (var i = 0; i < fbUrls.length; i++) {
+        try {
+          var fbRes = await json(query(fbUrls[i] + '/search', { q: text, quality: 'lossless' }));
+          var fbRows = fbRes.tracks || (fbRes.data && fbRes.data.tracks) || [];
+          if (Array.isArray(fbRows) && fbRows.length > 0) {
+            var fbList = fbRows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
+            if (fbList.length > 0) return { tracks: fbList, total: fbList.length };
+          }
+        } catch (_) {}
+      }
+      var fbTracks = await fetchMonochromeSearch(text, limit);
+      return { tracks: fbTracks, total: fbTracks.length };
     } else if (config.type === 'monochrome') {
-      var searchLimit = Math.max(1, Math.min(30, limit || 15));
-      response = await json(query(config.url + '/search/tracks', { q: text, limit: searchLimit }));
+      try {
+        response = await json(query(config.url + '/search/tracks', { q: text, limit: searchLimit }));
+        var rows = response.tracks || response.data && response.data.tracks || [];
+        var tracks = rows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
+        if (tracks.length > 0) return { tracks: tracks, total: tracks.length };
+      } catch (_) {}
+      var fbTracks = await fetchMonochromeSearch(text, limit);
+      return { tracks: fbTracks, total: fbTracks.length };
     } else if (config.type === 'hifi') {
-      response = await pool('/search/', { s: text });
-      response = { tracks: response.data && response.data.items || response.items || [] };
+      try {
+        response = await pool('/search/', { s: text });
+        var rows = response.tracks || response.data && response.data.tracks || response.data && response.data.items || response.items || [];
+        if (Array.isArray(rows) && rows.length > 0) {
+          var tracks = rows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
+          if (tracks.length > 0) return { tracks: tracks, total: tracks.length };
+        }
+      } catch (_) {}
+      var fbTracks = await fetchMonochromeSearch(text, limit);
+      return { tracks: fbTracks, total: fbTracks.length };
     } else {
-      var params = await addonParams(null, context); params.q = text;
-      var base = await resolveBaseUrl(context);
-      response = await json(query(base + '/search', params));
+      try {
+        var params = await addonParams(null, context); params.q = text;
+        var base = await resolveBaseUrl(context);
+        response = await json(query(base + '/search', params));
+        var rows = response.tracks || response.data && response.data.tracks || [];
+        if (Array.isArray(rows) && rows.length > 0) {
+          var tracks = rows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, searchLimit).map(track);
+          if (tracks.length > 0) return { tracks: tracks, total: tracks.length };
+        }
+      } catch (_) {}
+      var fbTracks = await fetchMonochromeSearch(text, limit);
+      return { tracks: fbTracks, total: fbTracks.length };
     }
-    var rows = response.tracks || response.data && response.data.tracks || [];
-    if (!Array.isArray(rows)) rows = [];
-    var tracks = rows.filter(function (t) { return t && (t.id != null || t.trackId != null) && (t.title || t.name) && t.playable !== false; }).slice(0, Math.max(1, Math.min(30, limit || 15))).map(track);
-    return { tracks: tracks, total: tracks.length };
-  } catch (_) { return { tracks: [], total: 0 }; }
+  } catch (_) {
+    var fbTracks = await fetchMonochromeSearch(text, limit);
+    return { tracks: fbTracks, total: fbTracks.length };
+  }
 }
 async function getTrackStreamUrl(id, quality, context) {
   try {
@@ -209,44 +244,30 @@ async function getTrackStreamUrl(id, quality, context) {
           if (qStream && qStream.url) return streamResult(qStream, id);
         } catch (_) {}
       }
-
-      var monoBase = (config.endpoints && config.endpoints.monochrome) || config.url || 'https://tracks.monochrome.st';
-      var streamUrl = monoBase + '/track/' + encodeURIComponent(trackId.replace(/^mono::/, ''));
-      return {
-        streamUrl: streamUrl,
-        track: {
-          id: String(id),
-          audioQuality: 'LOSSLESS',
-          mimeType: 'audio/flac',
-          bitDepth: 16,
-          sampleRate: 44100,
-          audioModes: ['STEREO']
-        }
-      };
+      return getMonochromeStream(id);
     } else if (config.type === 'monochrome') {
-      var streamUrl = config.url + '/track/' + encodeURIComponent(original);
-      return {
-        streamUrl: streamUrl,
-        track: {
-          id: String(id),
-          audioQuality: 'LOSSLESS',
-          mimeType: 'audio/flac',
-          audioModes: ['STEREO']
-        }
-      };
+      return getMonochromeStream(id);
     } else if (config.type === 'hifi') {
-      var tier = String(quality || setting(context, 'quality', 'LOSSLESS')).toUpperCase();
-      try { result = decodeHiFi(await pool('/track/', { id: original, quality: tier === 'LOSSLESS' ? 'HI_RES_LOSSLESS' : tier })); }
-      catch (_) { result = decodeHiFi(await pool('/track/', { id: original, quality: 'LOSSLESS' })); }
-      return streamResult(result, id);
+      try {
+        var tier = String(quality || setting(context, 'quality', 'LOSSLESS')).toUpperCase();
+        try { result = decodeHiFi(await pool('/track/', { id: original, quality: tier === 'LOSSLESS' ? 'HI_RES_LOSSLESS' : tier })); }
+        catch (_) { result = decodeHiFi(await pool('/track/', { id: original, quality: 'LOSSLESS' })); }
+        if (result && result.url) return streamResult(result, id);
+      } catch (_) {}
+      return getMonochromeStream(id);
     } else {
-      var params = await addonParams(quality, context);
-      var base = await resolveBaseUrl(context);
-      result = await json(query(base + '/stream/' + encodeURIComponent(original), params));
-      result = result.stream || result.data || result;
-      return streamResult(result, id);
+      try {
+        var params = await addonParams(quality, context);
+        var base = await resolveBaseUrl(context);
+        result = await json(query(base + '/stream/' + encodeURIComponent(original), params));
+        result = result.stream || result.data || result;
+        if (result && result.url) return streamResult(result, id);
+      } catch (_) {}
+      return getMonochromeStream(id);
     }
-  } catch (_) { return { streamUrl: null }; }
+  } catch (_) {
+    return getMonochromeStream(id);
+  }
 }
 module.exports = { searchTracks: searchTracks, getTrackStreamUrl: getTrackStreamUrl };
 

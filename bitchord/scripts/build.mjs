@@ -9,12 +9,21 @@ for (const s of sources) {
   const file = `modules/${s.id}.js`;
   const code = `(function () {\n'use strict';\nvar config = ${JSON.stringify(s)};\n${runtime}\n})();\n`;
   await writeFile(new URL(file, root), code);
-  modules.push({ id: `wiojelt-${s.id}`, name: s.name, author: 'WioJelt', version: '0.2.0', code: 4, type: 'MODULE', download: file, trusted: false, logo: logoUrl, icon: logoUrl });
+  modules.push({
+    id: `wiojelt-${s.id}`,
+    name: s.name,
+    author: 'WioJelt',
+    version: '0.2.0',
+    code: 4,
+    type: 'MODULE',
+    download: file,
+    trusted: false,
+    logo: logoUrl,
+    icon: logoUrl,
+    tags: ['lossless', 'flac', 'hi-res'],
+    labels: ['lossless', 'flac', 'hi-res']
+  });
 }
-const externalBase = 'https://raw.githubusercontent.com/OreoMuncher45/bitchord-streaming-modules/df97c0ca349fbf63007ad48199bf389004b3e1a9/modules/';
-// Insert community modules into appropriate fallback slots
-modules.splice(1, 0, { id: 'bitchord-tidal-flac', name: 'Monochrome FLAC (Community)', author: 'community', version: '0.4.0', code: 4, type: 'MODULE', download: externalBase + 'bitchord-tidal-flac.js', trusted: false });
-modules.push({ id: 'archive-flac', name: 'Internet Archive FLAC', author: 'community', version: '1.0.0', code: 4, type: 'MODULE', download: externalBase + 'archive-flac.js', trusted: false });
 const manifest = {
   id: 'art.wiochord.lossless',
   name: '⚡ Wiochord Lossless ⚡',

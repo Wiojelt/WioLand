@@ -29,10 +29,8 @@ https://raw.githubusercontent.com/Wiojelt/WioLand/main/bitchord/manifest.json
 5. **Qobuz Addon** `1600ms` (Direct tokenless bridge)
 6. **Lossless Bridge** `2100ms` (Dynamic 15-day token)
 7. **Eljohnzc Monochrome** `~700ms` (Streaming only)
-8. **Monochrome FLAC (Community)**
-9. **QQDL / Lucida** (Parked backup pool)
-10. **gglos · LastBabe · Tido** (Alternatives)
-11. **Internet Archive FLAC** (Archive)
+8. **QQDL / Lucida** (Parked backup pool)
+9. **gglos · LastBabe · Tido** (Alternatives)
 
 Source availability depends on the upstream services.
 
