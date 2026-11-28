@@ -1,5 +1,5 @@
 {
-  "timestamp": 1795802701,
+  "timestamp": 1795830695,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,9 +12,11 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 10,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 9,
+      "mismatches": 1,
+      "errors": [
+        "Anizium: Hash/Boyut farkı (Katalog: 94972B / Gerçek: 132234B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
@@ -36,9 +38,12 @@
     {
       "name": "WioCinema",
       "total": 14,
-      "healthy": 14,
-      "mismatches": 0,
-      "errors": [],
+      "healthy": 12,
+      "mismatches": 2,
+      "errors": [
+        "0 WioCinema: Hash/Boyut farkı (Katalog: 2502910B / Gerçek: 2502887B)",
+        "BingeBang: Hash/Boyut farkı (Katalog: 125514B / Gerçek: 131397B)"
+      ],
       "icon_status": "Aktif (200)"
     },
     {
