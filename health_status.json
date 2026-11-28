@@ -1,5 +1,5 @@
 {
-  "timestamp": 1795830695,
+  "timestamp": 1795860456,
   "repos": [
     {
       "name": "WioSinema",
@@ -12,10 +12,11 @@
     {
       "name": "WioAnime",
       "total": 10,
-      "healthy": 9,
-      "mismatches": 1,
+      "healthy": 8,
+      "mismatches": 2,
       "errors": [
-        "Anizium: Hash/Boyut farkı (Katalog: 94972B / Gerçek: 132234B)"
+        "Anizium: Hash/Boyut farkı (Katalog: 94972B / Gerçek: 132234B)",
+        "TrAnimeİzle: Hash/Boyut farkı (Katalog: 111020B / Gerçek: 117155B)"
       ],
       "icon_status": "Aktif (200)"
     },
